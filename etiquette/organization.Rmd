@@ -1,0 +1,100 @@
+---
+title: "Professional Etiquette"
+subtitle: "Tips for Staying Organized"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+---
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+```
+
+
+# Have a system
+
+- **Must** have some way to keep track of your projects and your many obligations
+- Increasingly important as an assistant professor (teaching, service, research, life)
+- No single system works for all people
+
+---
+# Old school or digital
+
+- Writing things down helps, so good 'ole pen and paper is hard to beat if you can keep it organized. Try a journaling method (e.g., bullet journals) if this is your jam.
+- I prefer always having my lists and "journals" available at all times, which just isn't feasible for me on paper. 
+
+---
+# Main considerations
+
+- Project management/tracking
+- Calendar
+- To-do list
+
+---
+# My system
+
+- Project organization with digital notebooks (OneNote)
+- Calendar management with different calendar types (Google Calendar synced with Outlook Calendar)
+- Student sign-ups with "youcanbook.me", which syncs with my calendars
+- Simple to-do list that I can quickly edit and organize (Google Keep)
+- Use email inbox as to-do list (only move or delete after I've acted on it)
+
+--
+
+It is very rare that I drop the ball without knowing it. 
+
+---
+# Other considerations
+
+- Block out time for yourself (manually in the calendar, forced time in extensions like [freedom](https://freedom.to/))
+- If you are easily drawn to social media, I've heard good things about [freedom](https://freedom.to/)
+- Detailed project management software, like [OmniFocus](https://www.omnigroup.com/omnifocus/web/?pk_vid=81b024e9ccba5d3816087347588d523f).
+
+--
+
+My take: I'm not a huge fan of detailed project management software because it becomes a lot of trouble to update.
