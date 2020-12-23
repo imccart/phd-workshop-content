@@ -1,0 +1,90 @@
+---
+title: "Professional Etiquette"
+subtitle: "Improving the Workplace Culture"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+---
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+```
+
+# Culture
+
+What can you do to help improve the culture?
+- Be professional and treat others with respect (we already know this one)
+- Maintain regular hours and be present
+- Say hi and step out of your office every now and then
+
+---
+# Regular hours
+
+- Typically required for non-academic jobs
+- My opinion: Should be required for academic jobs too
+  - Others should know who you are
+  - Students should be able to stop by outside of office hours (especially close advisees and PhD students)
+  - Faculty should want to help other faculty
+- Try leaving your door open
+
+--
+
+It's super depressing to walk through a whole department and just see closed doors or vacant offices everywhere.
+
+---
+# Interact
+
+This is harder to do for introverts, but...
+
+- Ask people to go to coffee or tea
+- Go for walks
+- Go out to lunch
+
+--
+
+Try to be part of your workplace. It's much more rewarding.
