@@ -55,13 +55,132 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 ```
 
-# Keeping track
+# Naming files
+
+Avoid spaces in file names. Avoid them at all costs. *DO NOT PUT SPACES IN YOUR FILE NAMES.*
+
+>*"A space in a file name is a space in your soul."*
+
 
 ---
+count: false
+
 # Naming files
+
+Avoid things like this...
+
+.pre[
+```
+great-research-idea
+|
+|---analysis
+|   |   final_analysis.R
+|   |   final_final_analysis.R
+|   |   last_analysis.R
+|
+|---data
+|   |   clean_data.Rds (or csv)
+|   |   extra_clean_data.Rds (or csv)
+|
+|---paper
+|   |   draft1.tex
+|   |   final_draft.tex
+|   |   final_final_draft.tex
+```
+]
+
+---
+count: false
+
+# Naming files
+
+- Use dates in your filenames if necessary (YYYYMMDD format)
+- Minimize the use of filename dates and instead try official version control
+- Dates useful in log files and similar output (not under version control)
+
+---
+# Organizing your files
+
+.pre[
+```
+project
+|   README.md
+|   RunRender.Rmd
+|   paper.Rmd
+|   abstract.Rmd
+|   presentation.Rmd
+|   BibTeX.tex (google drive link)
+|
+|---analysis
+|   |   _build-data.R
+|   |   _analysis.R
+|   |   1_data1.R
+|   |   2_data2.R
+|   |   README.md (optional)
+|
+|---data
+|   |   final_dat1.Rds (or csv)
+|   |   final_dat2.Rds (or csv)
+|
+|---tables
+|   |   table1.tex
+|   |   table2.tex
+| 
+|---figures
+|   |   figure1.png
+|   |   figure2.png
+```
+]
+
+
+
+---
+# Data workflow
+
+Some quick thoughts on workflow
+
+1. Never use absolute path names!
+
+<br>
+.center[
+  ![](https://media.giphy.com/media/3oz8xt6aO8l4UjcnXa/giphy.gif)
+]
+
+---
+count: false
+
+# Data workflow
+
+Some quick thoughts on workflow
+
+1. Never use absolute path names!
+
+2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file
+
+
+.center[
+  ![](https://media.giphy.com/media/z8rEcJ6I0hiUM/giphy.gif)
+]
+
+
+
+---
+count: false
+
+# Data workflow
+
+Some quick thoughts on workflow...
+
+1. Never use absolute path names!
+
+2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file
+
+3. Separate your analysis and your markdown (not practical otherwise)
+
 
 ---
 # Version control
+
 
 ---
 # Virtual environments
