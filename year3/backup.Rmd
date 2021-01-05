@@ -57,3 +57,74 @@ pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 
 # Backing up
 
+How do you back up your work? Lots of ways:
+
+1. External hard drives
+
+2. Cloud services
+
+3. Automatic back up services
+
+---
+# External hard drives
+
+.pull-left[
+Pros:
+- Affordable and fully in your control
+- Data remain private
+]
+
+.pull-right[
+Cons:
+- Only backed up at certain intervals
+- Can be slow
+- Data are all in the same physical place
+]
+
+
+--
+Crashes will inevitably happen between backups
+
+---
+# Cloud services
+
+Lots of cloud services like DropBox, Google Drive, OneDrive
+
+.pull-left[
+Pros:
+- Works really well and painlessly
+- Easy to share when needed
+]
+
+.pull-right[
+Cons:
+- Can get expensive over time
+- Can't backup private or restricted data
+]
+
+---
+# Offsite hard drives
+
+Just build your own network!
+
+.pull-left[
+Pros:
+- Data stays with you
+- Backup in real-time
+- Redundancies built-in to network configuration
+]
+
+.pull-right[
+Cons:
+- Expensive to buy
+- Harder to setup
+]
+
+
+---
+# My backup system
+
+- I use a Synology 4-bay NAS DiskStation 
+- "Synology Drive" to sync files across locations
+- Synology Hybrid RAID (because I'm not a network engineer)
+- Sync with Google Drive for some individual files or folders (papers to read, bibtex library)
