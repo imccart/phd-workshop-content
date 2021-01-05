@@ -1,0 +1,118 @@
+---
+title: "3rd Year Workshop"
+subtitle: "Start writing"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+---
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+```
+
+# Getting started
+
+When should you start writing?
+
+1. You have an idea and given it some real thought
+2. Your "scaffolding" is built
+3. Your data are organized and nearly ready
+
+
+--
+**Write your introduction!**
+
+---
+# First draft intro
+
+.pull-left[
+This introduction is NOT:
+- Final
+- Particularly well-informed
+- Accurate
+]
+
+.pull-right[
+This introduction IS:
+- What you **want** to do
+- What you **think** is the contribution
+- How you'd **like** to proceed
+]
+
+
+--
+What would your paper look like if everything works out perfectly?
+
+---
+# Using the first draft intro
+
+This should become your guide to the paper
+
+- What analyses are you going to run?
+- What summary statistics/figures tell a good story?
+- What other work has already been done?
+- What are the weakest parts of your project/analysis?
+
+---
+# Make time
+
+- You have to make time to do it!
+- Some strategies to consider:
+  - Block at least one hour in the mornings to write
+  - Set specific goals (write the data section, add robustness check, etc.)
+
+
+--
+Staring at the screen for 15 minutes without writing? Take a break and come back to it.
+
+---
+# Main point
+
+- No one writes perfectly in the first draft
+- Most of what you write will change
+- Think of writing very early drafts as a more informed and organized brainstorming session
