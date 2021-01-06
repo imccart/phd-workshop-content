@@ -1,6 +1,6 @@
 ---
 title: "3rd Year Workshop"
-subtitle: "Organizing your thoughts"
+subtitle: "Organizing your projects"
 author: Ian McCarthy, Emory University
 date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
 header-includes: 
@@ -55,23 +55,132 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 ```
 
+# Workflow
+
+- Workflow is a system to make it easier on your brain to do your work
+- Don't waste time finding things or trying to remember that great idea you had
+- We'll work toward an organized and systematic workflow that ensures replicability and minimizes mistakes
+- **Keystone habit**: a way to organize all other good habits
+
+---
 # Getting organized
 
-In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research.
+In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Here, we'll cover strategies to organize...
+1. notes for your research project
+2. your project folders
+3. notes on papers you've read
+4. papers you're citing
 
 ---
 # Project notebooks
 
-- Evernote
-- OneNote
+- Organize your projects into notebooks (or folders) of some kind
+- Two popular electronic options: OneNote, Evernote, Notion, just text files in a folder
+- Other options: Bullet journals (pen and paper, gasp!)
 
 ---
-# Citation managers
+count: false
+
+# Project notebooks
+
+Here's my system:
+- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
+- **Pending research** is for ideas
+    - Notes section for quick ideas
+    - After some thought, transition to individual sections
+    - After more thought, transition to **ongoing research** (if viable)
+
+---
+count: false
+
+# Project notebooks
+
+Here's my system:
+- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
+- **Pending research** is for ideas
+- **Ongoing research** is for actual working projects
+    - Section for each project
+    - Subsections for "meeting notes", "drafts", "ideas/thoughts", and "tasks"
+    
+
+---
+count: false
+
+# Project notebooks
+
+Here's my system:
+- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
+- **Pending research** is for ideas
+- **Ongoing research** is for actual working projects
+- **Completed research** is for, you guessed it, completed projects
+    - After paper is officially accepted and all supporting documentation finalized
+
+
+---
+# Project folders
+
+Key is to have a system where files are named appropriately and everything is easily accessible. Basically its a closet for your research.
+
+---
+count: false
+
+# Project folders
+
+.pre[
+```
+project
+|   README.md
+|   RunRender.Rmd
+|   paper.Rmd
+|   abstract.Rmd
+|   presentation.Rmd
+|   BibTeX.tex (google drive link)
+|
+|---analysis
+|   |   _build-data.R
+|   |   _analysis.R
+|   |   1_data1.R
+|   |   2_data2.R
+|   |   README.md (optional)
+|
+|---data
+|   |   final_dat1.Rds (or csv)
+|   |   final_dat2.Rds (or csv)
+|
+|---output
+|   |   table1.tex
+|   |   figure1.png
+```
+]
+
+---
+count: false
+
+# Project folders
+
+- Project need not start out perfectly organized
+- Think of the folder/file structure as your kitchen
+    - It will get dirty
+    - Don't let it get so dirty that you forget stuff
+    - Clean up regularly!
 
 ---
 # Reading papers
 
+- We read lots of papers. That's part of the job and critical to doing good work. 
+- Want to avoid losing our notes on paper's we've already read
+- Lots of ways to store PDFs and handwritten notes
+    - OneNote "learning" notebook (my preference)
+    - Several Mac/iPad options
+    - ReMarkable tablets with Dropbox sync (I think)
+    
+
 ---
-# My system
+# Citation managers
 
-
+- Lots of software options: Zotero, Mendeley, EndNote Web
+- My system: manage on my own
+  - Keep "BibTeX_Library.bib" folder updated on desktop
+  - Sync with Google Drive
+  - Pull down from Google Drive with Overleaf
+  - Symbolic (soft) links in individual project folders

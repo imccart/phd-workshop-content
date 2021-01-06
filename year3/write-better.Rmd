@@ -1,6 +1,6 @@
 ---
 title: "3rd Year Workshop"
-subtitle: "Backing up your work and data"
+subtitle: "Write better"
 author: Ian McCarthy, Emory University
 date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
 header-includes: 
@@ -55,76 +55,31 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 ```
 
-# Backing up
+# How to write?
 
-How do you back up your work? Lots of ways:
-
-1. External hard drives
-
-2. Cloud services
-
-3. Automatic back up services
-
----
-# External hard drives
-
-.pull-left[
-Pros:
-- Affordable and fully in your control
-- Data remain private
-]
-
-.pull-right[
-Cons:
-- Only backed up at certain intervals
-- Can be slow
-- Data are all in the same physical place
-]
-
+I wish I knew!
 
 --
-Crashes will inevitably happen between backups
+But there are some basic rules that might help
 
 ---
-# Cloud services
+# Introduction
 
-Lots of cloud services like DropBox, Google Drive, OneDrive
-
-.pull-left[
-Pros:
-- Works really well and painlessly
-- Easy to share when needed
-]
-
-.pull-right[
-Cons:
-- Can get expensive over time
-- Can't backup private or restricted data
-]
+The introduction is critical. It is the most important thing you'll write for any paper. Make it awesome!
 
 ---
-# Offsite hard drives
+count: false
 
-Just build your own network!
+# Introduction
 
-.pull-left[
-Pros:
-- Data stays with you
-- Backup in real-time
-- Redundancies built-in to network configuration
-]
+A simple [formula](https://www.albany.edu/spatial/training/5-The%20Introduction%20Formula.pdf)
 
-.pull-right[
-Cons:
-- Expensive to buy
-- Harder to setup
-]
+1. **The Hook!** Why should anyone care about this at all? What big issue are you dealing with?
 
+2. **Question.** What are you actually going to do? What is your actual research question?
 
----
-# My backup system
+3. **Context.** What are the key things that other people have done? What literature should a reader know in order to understand your contribution?
 
-- Synology 4-bay NAS DiskStation 
-- "Synology Drive" to sync files across locations
-- Synology Hybrid RAID (because I'm not a network engineer)
-- Sync with Google Drive for some individual files or folders (papers to read, bibtex library)
+4. **Contribution.** What are you doing differently? Your contribution is in the context of the existing literature, but the question (number 2) should stand-alone. You don't need the literature to pose the question in an interesting way.
+
+5. **Expand.** I've added this. Modern applied papers (for better or worse) need to talk about some key additional findings in the intro (mechanisms, robustness, and policy implications, etc.).

@@ -1,6 +1,6 @@
 ---
 title: "3rd Year Workshop"
-subtitle: "Version control and file management"
+subtitle: "Data workflow and version control"
 author: Ian McCarthy, Emory University
 date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
 header-includes: 
@@ -55,12 +55,30 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 ```
 
+# Keeping track
+
+These slides are all about transparency and reproducibility (for your future self and for others). Some other resources...
+
+- [Berkeley Initiative for Transparency in the Social Sciences](https://www.bitss.org/)
+- [Julian Reif's Guide for Replication with Stata](https://reifjulian.github.io/guide/)
+
+
+---
+# Automation
+
+One benefit of good tracking and workflow is that you partially automate your projects...
+
+- No repeating commands in the command line
+- No copying and pasting values into tables
+- No copying and pasting values into the text (harder to do)
+
+
+---
 # Naming files
 
 Avoid spaces in file names. Avoid them at all costs. *DO NOT PUT SPACES IN YOUR FILE NAMES.*
 
 >*"A space in a file name is a space in your soul."*
-
 
 ---
 count: false
@@ -98,39 +116,9 @@ count: false
 - Minimize the use of filename dates and instead try official version control
 - Dates useful in log files and similar output (not under version control)
 
----
-# Organizing your files
 
-.pre[
-```
-project
-|   README.md
-|   RunRender.Rmd
-|   paper.Rmd
-|   abstract.Rmd
-|   presentation.Rmd
-|   BibTeX.tex (google drive link)
-|
-|---analysis
-|   |   _build-data.R
-|   |   _analysis.R
-|   |   1_data1.R
-|   |   2_data2.R
-|   |   README.md (optional)
-|
-|---data
-|   |   final_dat1.Rds (or csv)
-|   |   final_dat2.Rds (or csv)
-|
-|---tables
-|   |   table1.tex
-|   |   table2.tex
-| 
-|---figures
-|   |   figure1.png
-|   |   figure2.png
-```
-]
+--
+Related point...use common sense (but short) variable names without spaces
 
 
 
@@ -139,7 +127,7 @@ project
 
 Some quick thoughts on workflow
 
-1. Never use absolute path names!
+1. Avoid absolute path names!
 
 <br>
 .center[
@@ -153,9 +141,9 @@ count: false
 
 Some quick thoughts on workflow
 
-1. Never use absolute path names!
+1. Avoid absolute path names!
 
-2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file
+2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links `ln -s ~/base_location ~/new_location_with_link`
 
 
 .center[
@@ -171,17 +159,116 @@ count: false
 
 Some quick thoughts on workflow...
 
-1. Never use absolute path names!
+1. Avoid absolute path names!
 
-2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file
+2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links `ln -s ~/base_location ~/new_location_with_link`
 
 3. Separate your analysis and your markdown (not practical otherwise)
 
 
 ---
+count: false
+
+# Data workflow
+
+Some quick thoughts on workflow...
+
+1. Avoid absolute path names!
+
+2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links `ln -s ~/base_location ~/new_location_with_link`
+
+3. Separate your analysis and your markdown (not practical otherwise)
+
+4. **NEVER** delete raw data files
+
+---
 # Version control
 
+Critical for:
+
+1. Internal validity (replicability for your future self)
+2. External validity (replicability for others)
+
+
+--
+**note**: particularly important on the modern job market
 
 
 ---
+count: false
+
+# Version control
+
+How do you track your versions?
+
+- Don't keep two versions of the same thing
+- Dropbox, Google Drive, etc. offer some form of version history (but incomplete)
+- Overleaf has built-in version history
+- Commit fully to Git/GitHub
+
+
+--
+Git is ideal since it is easily shareable, so you get external validity too
+
+---
 # Virtual environments
+
+- Let's assume your code works on your system
+- You (should) also want it to work on other computers
+- How do you get other computers to look like your own?
+
+
+--
+ **Virtual Environments!**
+
+---
+count: false
+
+# Virtual environments
+
+Lots of ways to do this in practice:
+
+1. Use `Docker` to basically mimic your entire machine
+
+2. Use `renv` to make sure you note versions of all packages (in a .lock file)
+
+3. `renv` also works with virtual Python environments `renv::use_python()`
+
+---
+# My basic workflow
+
+  1. Create "empty" GitHub repo online
+
+  2. Clone to my system in `RStudio` as a new project with version control, start `Stata` project in same directory
+
+  3. Initialize my `R` environment with `renv` (more details [here](https://rstudio.github.io/renv/articles/renv.html)), change ado paths in `Stata` to call specific packages folder  
+```
+adopath + "stata_packages"
+net set ado "stata_packages"
+```  
+  4. Create project "scaffolding" with initial directories
+  
+  
+--
+**note:** be sure to add "stata_packages" to gitignore file, and consider [cookiecutter](https://github.com/cookiecutter/cookiecutter) to create project from template
+  
+  
+---
+# My analysis and writing workflow
+
+- I write everything in `R Markdown`
+- With co-authors, I use Overleaf imported from GitHub
+  - Use "Sync with GitHub" option (gives Overleaf read/write privileges)
+  - Edit .Rmd files directly (easier to edit than TeX)
+  - Push changes after edits
+- Tables and figures in output folders (automate results)
+- Compile with `R` (Pandoc)
+
+---
+# Alternative analysis and writing workflow
+
+- Write in LaTeX
+- Use Overleaf imported from Github
+- Compile with Overleaf using output folder (tables and figures)
+- Sync bibliography via Google Drive 
+    - Upload from URL, `https://drive.google.com/uc?export=download&id=name`, where name is the alphanumeric string from Google Drive link

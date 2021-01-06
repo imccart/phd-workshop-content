@@ -14,7 +14,7 @@
 class: center, middle, inverse, title-slide
 
 # 3rd Year Workshop
-## Organizing your projects
+## Backing up your work and data
 ### Ian McCarthy, Emory University
 ### Economics PhD Professionalism Workshop
 
@@ -36,135 +36,79 @@ class: center, middle, inverse, title-slide
 &lt;!-- Set R options for how code chunks are displayed and load packages --&gt;
 
 
-# Workflow
+# Backing up
 
-- Workflow is a system to make it easier on your brain to do your work
-- Don't waste time finding things or trying to remember that great idea you had
-- We'll work toward an organized and systematic workflow that ensures replicability and minimizes mistakes
-- **Keystone habit**: a way to organize all other good habits
+How do you back up your work? Lots of ways:
 
----
-# Getting organized
+1. External hard drives
 
-In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Here, we'll cover strategies to organize...
-1. notes for your research project
-2. your project folders
-3. notes on papers you've read
-4. papers you're citing
+2. Cloud services
+
+3. Automatic back up services
 
 ---
-# Project notebooks
+# External hard drives
 
-- Organize your projects into notebooks (or folders) of some kind
-- Two popular electronic options: OneNote, Evernote, Notion, just text files in a folder
-- Other options: Bullet journals (pen and paper, gasp!)
+.pull-left[
+Pros:
+- Affordable and fully in your control
+- Data remain private
+]
 
----
-count: false
+.pull-right[
+Cons:
+- Only backed up at certain intervals
+- Can be slow
+- Data are all in the same physical place
+]
 
-# Project notebooks
 
-Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
-- **Pending research** is for ideas
-    - Notes section for quick ideas
-    - After some thought, transition to individual sections
-    - After more thought, transition to **ongoing research** (if viable)
-
----
-count: false
-
-# Project notebooks
-
-Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
-- **Pending research** is for ideas
-- **Ongoing research** is for actual working projects
-    - Section for each project
-    - Subsections for "meeting notes", "drafts", "ideas/thoughts", and "tasks"
-    
+--
+Crashes will inevitably happen between backups
 
 ---
-count: false
+# Cloud services
 
-# Project notebooks
+Lots of cloud services like DropBox, Google Drive, OneDrive
 
-Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
-- **Pending research** is for ideas
-- **Ongoing research** is for actual working projects
-- **Completed research** is for, you guessed it, completed projects
-    - After paper is officially accepted and all supporting documentation finalized
+.pull-left[
+Pros:
+- Works really well and painlessly
+- Easy to share when needed
+]
 
-
----
-# Project folders
-
-Key is to have a system where files are named appropriately and everything is easily accessible. Basically its a closet for your research.
-
----
-count: false
-
-# Project folders
-
-.pre[
-```
-project
-|   README.md
-|   RunRender.Rmd
-|   paper.Rmd
-|   abstract.Rmd
-|   presentation.Rmd
-|   BibTeX.tex (google drive link)
-|
-|---analysis
-|   |   _build-data.R
-|   |   _analysis.R
-|   |   1_data1.R
-|   |   2_data2.R
-|   |   README.md (optional)
-|
-|---data
-|   |   final_dat1.Rds (or csv)
-|   |   final_dat2.Rds (or csv)
-|
-|---output
-|   |   table1.tex
-|   |   figure1.png
-```
+.pull-right[
+Cons:
+- Can get expensive over time
+- Can't backup private or restricted data
 ]
 
 ---
-count: false
+# Offsite hard drives
 
-# Project folders
+Just build your own network!
 
-- Project need not start out perfectly organized
-- Think of the folder/file structure as your kitchen
-    - It will get dirty
-    - Don't let it get so dirty that you forget stuff
-    - Clean up regularly!
+.pull-left[
+Pros:
+- Data stays with you
+- Backup in real-time
+- Redundancies built-in to network configuration
+]
 
----
-# Reading papers
+.pull-right[
+Cons:
+- Expensive to buy
+- Harder to setup
+]
 
-- We read lots of papers. That's part of the job and critical to doing good work. 
-- Want to avoid losing our notes on paper's we've already read
-- Lots of ways to store PDFs and handwritten notes
-    - OneNote "learning" notebook (my preference)
-    - Several Mac/iPad options
-    - ReMarkable tablets with Dropbox sync (I think)
-    
 
 ---
-# Citation managers
+# My backup system
 
-- Lots of software options: Zotero, Mendeley, EndNote Web
-- My system: manage on my own
-  - Keep "BibTeX_Library.bib" folder updated on desktop
-  - Sync with Google Drive
-  - Pull down from Google Drive with Overleaf
-  - Symbolic (soft) links in individual project folders
+- Synology 4-bay NAS DiskStation 
+- "Synology Drive" to sync files across locations
+- Synology Hybrid RAID (because I'm not a network engineer)
+- Sync with Google Drive for some individual files or folders (papers to read, bibtex library)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
