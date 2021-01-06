@@ -135,7 +135,7 @@ project
 
 
 ---
-# Data workflow
+# File structure
 
 Some quick thoughts on workflow
 
@@ -149,7 +149,7 @@ Some quick thoughts on workflow
 ---
 count: false
 
-# Data workflow
+# File structure
 
 Some quick thoughts on workflow
 
@@ -167,7 +167,7 @@ Some quick thoughts on workflow
 ---
 count: false
 
-# Data workflow
+# File structure
 
 Some quick thoughts on workflow...
 
@@ -180,6 +180,7 @@ Some quick thoughts on workflow...
 
 ---
 # Version control
+
 
 
 ---
