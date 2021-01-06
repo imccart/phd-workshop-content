@@ -67,19 +67,61 @@ But there are some basic rules that might help
 
 The introduction is critical. It is the most important thing you'll write for any paper. Make it awesome!
 
+
 ---
 count: false
 
-# Introduction
-
-A simple [formula](https://www.albany.edu/spatial/training/5-The%20Introduction%20Formula.pdf)
+# Introduction [formula](https://www.albany.edu/spatial/training/5-The%20Introduction%20Formula.pdf)
 
 1. **The Hook!** Why should anyone care about this at all? What big issue are you dealing with?
-
-2. **Question.** What are you actually going to do? What is your actual research question?
-
-3. **Context.** What are the key things that other people have done? What literature should a reader know in order to understand your contribution?
-
-4. **Contribution.** What are you doing differently? Your contribution is in the context of the existing literature, but the question (number 2) should stand-alone. You don't need the literature to pose the question in an interesting way.
-
+2. **Question.** What are you actually going to do? What is your actual research question? Doesn't need context.
+3. **Context.** What are the key things that other people have done? What literature should a reader know in order to understand your contribution? 
+4. **Contribution.** What are you doing differently? Should be in context of the existing literature.
 5. **Expand.** I've added this. Modern applied papers (for better or worse) need to talk about some key additional findings in the intro (mechanisms, robustness, and policy implications, etc.).
+
+
+---
+# Paper structure
+
+We've all seen the "standard" applied econ paper structure:
+
+.pull-left[
+1. Introduction
+2. Theoretical motivation or institutional details
+3. Data
+4. Estimation
+5. Results
+6. Conclusion
+]
+
+---
+count: false
+
+# Paper structure
+
+We've all seen the "standard" applied econ paper structure:
+
+.pull-left[
+1. Introduction
+2. Theoretical motivation or institutional details
+3. Data
+4. Estimation
+5. Results
+6. Conclusion
+]
+
+.pull-right[
+I **do not** like this formula...
+- Fine as outline
+- Too rigid and boring
+- Need better **story**
+]
+
+---
+count: false
+
+# Paper structure
+
+- Take a look at any good applied paper in the last several years
+- Most will start similarly (intro, theory/policy details, maybe data)
+- Then deviate based on relevant analyses and estimation strategies
