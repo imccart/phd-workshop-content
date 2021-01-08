@@ -337,6 +337,7 @@ What does this example highlight:
 - Take out superfluous Beamer stuff
 - Cut out text whenever possible
 - Figures and pictures much, much better than text
+- See Paul Goldsmith-Pinkham's [Beamer tips](https://github.com/paulgp/beamer-tips/blob/master/slides.pdf)
 
 ---
 count: false
@@ -357,3 +358,60 @@ count: false
 - The slides are for the audience, **not you**
 - Practice, practice, practice
 - You really shouldn't need the slides
+
+
+---
+# Presentation: Major no-no's
+
+Now for some things that you absolutely should not do in a presentation...
+
+1. "I'm running out of time, so I'll talk fast"
+
+
+--
+Then I'll stop listening. Plan better and adjust with content, not with speed of your voice.
+
+
+---
+count: false
+
+# Presentation: Major no-no's
+
+Now for some things that you absolutely should not do in a presentation...
+
+1. "I'm running out of time, so I'll talk fast"
+2. "Sorry this table is so small"
+
+
+--
+I'm sorry I no longer care about your paper.
+
+
+---
+count: false
+
+# Presentation: Major no-no's
+
+Now for some things that you absolutely should not do in a presentation...
+
+1. "I'm running out of time, so I'll talk fast"
+2. "Sorry this table is so small"
+3. "I'm not sure why this is so blurry"
+
+
+--
+It's blurry because you were lazy and just copied something from your paper into your presentation!
+
+
+
+---
+count: false
+
+# Presentation: Major no-no's
+
+Now for some things that you absolutely should not do in a presentation...
+
+1. "I'm running out of time, so I'll talk fast"
+2. "Sorry this table is so small"
+3. "I'm not sure why this is so blurry"
+4. ...let me continue to argue with you over this while the rest of the audience checks twitter
