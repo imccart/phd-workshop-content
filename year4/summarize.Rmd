@@ -1,0 +1,198 @@
+---
+title: "4th Year Workshop"
+subtitle: "Simple summaries of your work"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+---
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+```
+
+# Quick summaries
+
+- Writing a paper is great. 
+- Presenting papers in conferences can be really fun. 
+- But this is all "academic facing" work for your field/subfield.
+- How can you get other people to read it? 
+
+
+
+---
+# Quick summaries
+
+So how do we do this?
+
+- **Not** op-eds. I mean an accurate summary of your work but easy and quick to consume.
+- Visual abstracts
+- Short videos
+- Twitter threads
+
+---
+# Visual abstracts
+
+- Really just a slide to summarize your work
+- Concise but fair to your main point
+
+
+---
+count: false
+
+# Visual abstracts
+
+.center[
+  ![](../pics/visual-abstract.jpg)
+]
+
+
+---
+# Short videos
+
+- Everybody's doing it!
+- Our own Santi's [JMP](https://www.smontoyablandon.com/#jmp)
+
+
+---
+# Twitter threads
+
+- Everbody's doing it!
+- Too many examples to list...[bestofecontwitter](https://bestofecontwitter.substack.com/)
+
+
+---
+# Twitter
+
+Most people share all of this, including links to papers, on Twitter...
+
+- Join #econtwitter
+- Relatively inclusive community with lots of shared papers and info
+- I've learned a lot and seen many papers that I wouldn't have otherwise seen
+- Follow Academic Sequitur, @AcademicSeq
+- Follow NBER and journals (in and out of your field)
+
+
+---
+# Twitter etiquette
+
+While we're on it, let's talk Twitter etiquette...
+
+1. **Tone**: Be kind. 
+
+
+--
+This is not the setting for criticism. Jokes also don't tend to land well through tweets.
+
+
+
+---
+count: false
+
+# Twitter etiquette
+
+While we're on it, let's talk Twitter etiquette...
+
+1. **Tone**: Be kind. 
+2. **Blocking**: #econtwitter is generally very kind and inclusive. But #twitter is not. Feel free to block people that are rude.
+
+
+--
+Unfollowing and muting are also options, but blocking is generally recommended.
+
+
+---
+count: false
+
+# Twitter etiquette
+
+While we're on it, let's talk Twitter etiquette...
+
+1. **Tone**: Be kind. 
+2. **Blocking**: #econtwitter is generally very kind and inclusive. But #twitter is not. Feel free to block people that are rude.
+3. **Replies**: Two ways to respond...reply or retweet.
+
+
+--
+Respond if you want to have a conversation. Retweet with comment if it's standalone. Poor taste to retweet with comment if you're discussing the content of the original tweet.
+
+---
+count: false
+
+# Twitter etiquette
+
+While we're on it, let's talk Twitter etiquette...
+
+1. **Tone**: Be kind. 
+2. **Blocking**: #econtwitter is generally very kind and inclusive. But #twitter is not. Feel free to block people that are rude.
+3. **Replies**: Two ways to respond...reply or retweet.
+4. **Tagging**: Tag people when relevant. 
+
+
+--
+For example, positive comments about some work, or a retweet where you add an author. 
+
+
+---
+count: false
+
+# Twitter etiquette
+
+While we're on it, let's talk Twitter etiquette...
+
+1. **Tone**: Be kind. 
+2. **Blocking**: #econtwitter is generally very kind and inclusive. But #twitter is not. Feel free to block people that are rude.
+3. **Replies**: Two ways to respond...reply or retweet.
+4. **Tagging**: Tag people when relevant.
+5. **Identity**: Start professional and add personality over time. Especially when first getting started, try to focus on where you can add value.
+
+---
+# Other Twitter things
+
+- Professional [guide](https://drive.google.com/file/d/1cUoW_4SUl5u5NUydKZnNH2oPo08kEEP_/view) by Sarah Jacobson
+- Another [guide](https://annemburton.com/assets/burton_econtwitter_slides.pdf) for grad students by Anne Burton
+
