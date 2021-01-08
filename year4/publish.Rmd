@@ -1,6 +1,6 @@
 ---
 title: "4th Year Workshop"
-subtitle: "Conferences and presentations"
+subtitle: "Publishing"
 author: Ian McCarthy, Emory University
 date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
 header-includes: 
@@ -55,305 +55,55 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 ```
 
-# Presentations
+# Publishing
 
-Discussing and presenting your work at conferences (and just with other people) is very different than writing the paper. In these slides, we'll talk about how conferences work, and we'll talk about some best practices for presenting.
-
----
-# Conferences
-
-So how do conferences work? 
-
-- Different submission rules/norms for different conferences
-- Split into "smaller" and "larger" conferences
+The publication process, particularly in economics, is crazy. We'll go over some basics in these slides.
 
 ---
-# Smaller conferences
+# The Steps
 
-- Usually 1-2 days
-- Often 30-45 minutes to present
-- Submit a full draft (or close to it) for consideration
-- Call for papers can be hard to find, not widely circulated - check with advisers in your field
+A successful publication journey looks something like...
+
+1. Do all the work.
+2. Submit
+3. Editor review
+4. Referee review
+5. Comments to author for revise and resubmit
+6. Review again
+7. Conditionally accept (minor typos etc.)
+8. Accept
 
 
 --
-**great** way to meet new people and network
+If only life were this simple!
 
 ---
-# Larger conferences
+# Step 2: Submit
 
-- Think AEAs or major field conferences (American Society of Health Economists, Econometric Society, etc.)
-- Conference organized around "sessions", each with a few papers
-- Short presentation time (10-20 minutes max)
-- Call for papers usually widely circulated
-- Unwritten rule: **much** better chance of acceptance if you organize an entire session or submit as part of someone else's session
+- Formatting: Look at the journal's formatting guidelines
+- Adopt where it is easy to do so
+- Pay attention to page/word limits
+- Don't worry about very specific formatting (save it for publication)
+- Include all required elements (disclosure statements, etc.)
+
+---
+# Step 3: Editor review
+
+- After quick review for basics, paper goes to an editor
+- May sit at editor's desk for several weeks
+- Be patient and vow to **not** do that once you are an editor!
+- Editor can reject unilaterally without reviews (desk rejection)
+
+---
+# Step 4: Referee review
+
+If you "made it past the desk", the it goes to peer review
+
+- May sit at reviwers' desks for many months
+- Remember this feeling and vow to **not** do that once you are a reviewer!
+- **Do not** check the status of your paper constantly
 
 
 --
-good opportunity to strengthen existing relationships
+Nothing good can come from this. It's like checking EJMR. 
 
-
----
-# The "conference circuit"
-
-- Critical to building your network
-- Critical for people to see your work
-- Who do you see here? 
-  - potential referees
-  - potential editors
-  - potential letter writers
-  - potential co-authors
-  
----
-# Seminars
-
-- Not a concern right now...
-- More informal process
-- If you have a reason to go somewhere, consider initiating the invite yourself
-- Great place for comments on your work and networking
-
----
-# Submitting to a conference
-
-.pull-left[
-**Do** use conferences/seminars for
-- networking
-- "pre-review"
-- learning
-- fun!
-]
-
-.pull-right[
-**Don't** use conferences/seminars for
-- creating deadlines for preliminary work
-- publicly criticizing others' work
-- free booze
-]
-
-
----
-# Presenting
-
-OK - so you've made it into a conference or seminar of some kind. Now you need to present your paper. This can be a little scary...
-
-<br>
-.center[
-  ![](https://media.giphy.com/media/4hg2NN9Nj4CTqAA3xn/giphy.gif)
-]
-
----
-count: false
-
-# Presenting: Introduction
-
-Some [rules](https://www.brown.edu/Research/Shapiro/pdfs/applied_micro_slides.pdf) for starting your presentation:
-
-1. **Motivation**: Quickly convince your audience on the value of your topic
-
-
---
-I mean really quickly...like 1-2 slides. Use fun anecdotes and stories. You **do** enjoy this, right!?
-
-
----
-count: false
-
-# Presenting: Introduction
-
-Some rules for starting your presentation:
-
-1. **Motivation**: Quickly convince your audience on the value of your topic
-2. **Question**: Clearly state your research question
-
-
---
-As Jesse Shapiro writes in his rules, "research questions are motivated by economics and not by the economics literature"
-
-
----
-count: false
-
-# Presenting: Introduction
-
-Some rules for starting your presentation:
-
-1. **Motivation**: Quickly convince your audience on the value of your topic
-2. **Question**: Clearly state your research question
-3. **This paper**: What do you do that's different and relevant? What are you adding?
-
-
---
-Again, be quick here.
-
-
-
----
-count: false
-
-# Presenting: Introduction
-
-Some rules for starting your presentation:
-
-1. **Motivation**: Quickly convince your audience on the value of your topic
-2. **Question**: Clearly state your research question
-3. **This paper**: What do you do that's different and relevant? What are you adding?
-4. **Preview**: 1-2 main takeaways before everyone leaves!
-
-
---
-Be specific but not too granular. Consider skipping this step for a short presentation format.
-
-
-
----
-# Presenting: Main Paper
-
-Let's assume you killed the first 5-10 minutes. Your audience is hooked. Now...
-
---
-How to you effectively deliver the main content of your paper?
-
----
-count: false
-
-# Presenting: Main Paper
-
-Please, please, please, please...
-
-
---
-- Don't just recite the paper in the same order
-- Use the presentation format to offer something new
-- Need not be linear like a paper
-
-
----
-# Simple example
-
-$$\begin{align}
-Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
-                   & + \beta_{2} Y_{t} + \beta_{3} Y_{t} \times F_{it} \\
-                   & + \beta_{4} \text{FPMarket}_{it} + \beta_{5} F_{it} \times \text{FPMarket}_{it} \\
-                   & + \beta_{6} Y_{t} \times F_{it} \times \text{FPMarket}_{it} + \beta_{7} H_{it}  \\
-                   & + \beta_{8} D_{it} + \beta_{9} HMO_{it} + \beta_{10} HHI_{it})
-\end{align}$$
-
-
----
-count: false
-
-# Simple example
-
-$$\begin{align}
-\color{red}{Pr(\text{Service})_{it}} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
-                   & + \beta_{2} Y_{t} + \beta_{3} Y_{t} \times F_{it} \\
-                   & + \beta_{4} \text{FPMarket}_{it} + \beta_{5} F_{it} \times \text{FPMarket}_{it} \\
-                   & + \beta_{6} Y_{t} \times F_{it} \times \text{FPMarket}_{it} + \beta_{7} H_{it}  \\
-                   & + \beta_{8} D_{it} + \beta_{9} HMO_{it} + \beta_{10} HHI_{it})
-\end{align}$$
-
-- High versus low profitable service offering
-- Determined in Horwitz (2005), based on interviews, MedPAC and ProPAC reports, and literature
-
-
----
-count: false
-
-# Simple example
-
-$$\begin{align}
-Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} \color{red}{F_{it}} \\
-                   & + \beta_{2} Y_{t} + \beta_{3} Y_{t} \times F_{it} \\
-                   & + \beta_{4} \text{FPMarket}_{it} + \beta_{5} F_{it} \times \text{FPMarket}_{it} \\
-                   & + \beta_{6} Y_{t} \times F_{it} \times \text{FPMarket}_{it} + \beta_{7} H_{it}  \\
-                   & + \beta_{8} D_{it} + \beta_{9} HMO_{it} + \beta_{10} HHI_{it})
-\end{align}$$
-
-- Ownership type (for-profit, not-for-profit, government)
-
-
----
-count: false
-
-# Simple example
-
-$$\begin{align}
-Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
-                   & + \beta_{2} Y_{t} + \beta_{3} Y_{t} \times F_{it} \\
-                   & + \beta_{4} \color{red}{\text{FPMarket}_{it}} + \beta_{5} F_{it} \times \color{red}{\text{FPMarket}_{it}} \\
-                   & + \beta_{6} Y_{t} \times F_{it} \times \color{red}{\text{FPMarket}_{it}} + \beta_{7} H_{it}  \\
-                   & + \beta_{8} D_{it} + \beta_{9} HMO_{it} + \beta_{10} HHI_{it})
-\end{align}$$
-
-- Indicator for high share of patients going to for-profit hospitals ($\geq$ 15%)
-- Construct share of for-profit patients using "distance-weighted" measure of hospital markets:
-
---
-
-$$w_{ij} = \frac{N_{j}}{\left(1+a \times d_{ij}^{2} \right)^{2}}$$
-
-
----
-count: false
-
-# Simple example
-
-$$\begin{align}
-Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
-                   & + \beta_{2} Y_{t} + \beta_{3} Y_{t} \times F_{it} \\
-                   & + \beta_{4} \text{FPMarket}_{it} + \beta_{5} F_{it} \times \text{FPMarket}_{it} \\
-                   & + \beta_{6} Y_{t} \times F_{it} \times \text{FPMarket}_{it} + \beta_{7} H_{it}  \\
-                   & + \beta_{8} D_{it} + \beta_{9} HMO_{it} + \beta_{10} \color{red}{HHI_{it}})
-\end{align}$$
-
-- Herfindahl-Hirschman Index (sum of square market shares)
-
----
-count: false
-
-# Simple example
-
-What does this example highlight:
-
-- Discussion of data and methods simultaneously
-- Much clearer than an equation first then lots of slides of content, or vice versa
-
-
----
-# Presentation: Results
-
-- Show with figures whenever possible
-- Do not discuss every result and every robustness check and every sensitivity analysis
-- OK to discuss some of the biggest vulnerabilities and how you deal with them
-- Have a final takeaway to wrap up your story
-
-
----
-# Presentation: Other rules
-
-**Slide design**
-
-- Minimalist design
-- Take out superfluous Beamer stuff
-- Cut out text whenever possible
-- Figures and pictures much, much better than text
-
----
-count: false
-
-# Presentation: Other rules
-
-**Slide content**
-
-- People look at the slides while you talk...slides should aid your talk, not replace your presence
-- They are complements, not substitutes
-- Slides **are not** a stand-alone, self-contained document
-
----
-count: false
-
-# Presentation: Other rules
-
-- The slides are for the audience, **not you**
-- Practice, practice, practice
-- You really shouldn't need the slides
