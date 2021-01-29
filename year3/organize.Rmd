@@ -100,7 +100,7 @@ Here's my system:
 - **Pending research** is for ideas
 - **Ongoing research** is for actual working projects
     - Section for each project
-    - Subsections for "meeting notes", "drafts", "ideas/thoughts", and "tasks"
+    - Subsections for "meeting notes", "drafts", and "ideas/thoughts"
     
 
 ---
