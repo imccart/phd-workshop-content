@@ -123,9 +123,9 @@ Related point...use common sense (but short) variable names without spaces
 
 
 ---
-# File structure
+# Data workflow
 
-Some quick thoughts on workflow
+Some quick thoughts on workflow...
 
 1. Avoid absolute path names!
 
@@ -137,9 +137,9 @@ Some quick thoughts on workflow
 ---
 count: false
 
-# File structure
+# Data workflow
 
-Some quick thoughts on workflow
+Some quick thoughts on workflow...
 
 1. Avoid absolute path names!
 
@@ -155,7 +155,7 @@ Some quick thoughts on workflow
 ---
 count: false
 
-# File structure
+# Data workflow
 
 Some quick thoughts on workflow...
 
@@ -179,7 +179,7 @@ Some quick thoughts on workflow...
 
 3. Separate your analysis and your markdown (not practical otherwise)
 
-4. **NEVER** delete raw data files
+4. **NEVER** delete or directly change raw data files
 
 ---
 # Version control
