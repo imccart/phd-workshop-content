@@ -130,5 +130,5 @@ Some things to keep in mind...
 - It is a **two-sided** matching problem...you need to assess fit as well
 - Be kind and patient with others and with yourself
 - There exists (for worse) a trickle down component of the academic market
-- You **will** leave the PhD with a job (0.9\% unemployment rate among doctoral programs)
+- You **will** leave the PhD with a job (0.9% unemployment rate among doctoral programs)
 - You **can** be happy in any job you choose
