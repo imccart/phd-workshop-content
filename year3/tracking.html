@@ -4,6 +4,7 @@
     <title>3rd Year Workshop</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ian McCarthy, Emory University" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
@@ -45,6 +46,24 @@ These slides are all about transparency and reproducibility (for your future sel
 
 
 ---
+class: inverse, center, middle
+name: why
+
+# Why Bother with Workflow?
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
+
+
+---
+# Reproducibility
+
+- You'll need to come back to this one day!
+- Others will (hopefully) ask you about this
+- "I lost my hard drive" is unacceptable!
+
+
+
+---
 # Automation
 
 One benefit of good tracking and workflow is that you partially automate your projects...
@@ -52,6 +71,19 @@ One benefit of good tracking and workflow is that you partially automate your pr
 - No repeating commands in the command line
 - No copying and pasting values into tables
 - No copying and pasting values into the text (harder to do)
+
+
+--
+**hint: consider [pytask](https://econ-project-templates.readthedocs.io/en/stable/index.html) for efficient automation**
+
+
+---
+class: inverse, center, middle
+name: basic
+
+# Some Basic Tips
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
 
 
 ---
@@ -163,9 +195,17 @@ Some quick thoughts on workflow...
 4. **NEVER** delete or directly change raw data files
 
 ---
-# Version control
+class: inverse, center, middle
+name: version-control
 
-Critical for:
+# Version Control
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
+
+
+---
+# Why bother with version control?
+
 
 1. Internal validity (replicability for your future self)
 2. External validity (replicability for others)
@@ -214,6 +254,15 @@ Lots of ways to do this in practice:
 2. Use `renv` to make sure you note versions of all packages (in a .lock file)
 
 3. `renv` also works with virtual Python environments `renv::use_python()`
+
+---
+class: inverse, center, middle
+name: example
+
+# My Workflow
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
+
 
 ---
 # My basic workflow
