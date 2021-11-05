@@ -128,3 +128,11 @@ Cons:
 - "Synology Drive" to sync files across locations
 - Synology Hybrid RAID (because I'm not a network engineer)
 - Sync with Google Drive for some individual files or folders (papers to read, bibtex library)
+
+---
+# My future system
+
+- Cloud-based system with AWS
+- PostgreSQL on attached cloud drive
+- Elastic IP 
+- Access from anywhere on almost any device
