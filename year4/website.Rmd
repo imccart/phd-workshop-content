@@ -1,0 +1,143 @@
+---
+title: "4th Year Workshop"
+subtitle: "Preparing your website"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+---
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+```
+
+# Academic Website
+
+You've got to make your materials easily accessible, and a website is the easiest way to do that. This is a necessity for job market candidates at this point.
+
+
+---
+# Basic pointers
+
+- Simple, easy-to-navigate design
+- Professional with personal flair
+
+
+.center[
+  ![](https://media.giphy.com/media/ZMvG5L7Di4AgM/giphy.gif)
+]
+
+
+---
+# Basic pointers
+
+- Simple, easy-to-navigate design
+- Professional with personal flair
+- Keep documents accessible
+    - GitHub
+    - Built-in server space (SquareSpace, etc.)
+    - **Not** Google Drive, Dropbox, etc.
+    
+    
+---
+# Getting started
+
+Lots of options to get a decent website up and running
+
+- Google Sites
+- SquareSpace
+- [Hugo](https://gohugo.io/) with selected theme...
+
+
+---
+# What is Hugo?
+
+Hugo is a static site generator written in Go.
+
+- Takes your content (text, md, Rmd, etc.) and template info as input
+- Creates final static website
+
+
+---
+# Using Hugo
+
+- Can use from the command line
+- Generate "public" directory that you can publish directly
+- Or, host on GitHub and deploy on Netlify
+
+
+---
+# Using GitHub/Netlify
+
+- It's free!
+- Netlify deploys site, don't version the "/public/" directory
+- Allows semi-customized domain names
+- Note: may need to change environment variable, `HUGO_VERSION = 0.74.3`
+
+
+---
+# Themes
+
+Lots of good Hugo themes available
+
+- I use the "coder" theme on [my site](https://ianmccarthyecon.netlify.app/)
+- "Academic" theme is extremely popular. That's on [David's site](https://www.davidjachochavez.org/).
+
+
+---
+# Managing content
+
+- No web developer, html, or css expertise required
+- Can use with Jupyter Notebooks and Rmarkdown
+
+
+---
+# Caveat
+
+- Getting started with Hugo can be cumbersome
+- Lots of "built in" features that you'll want to drop
+- "Academic" theme has changed to "Wowchemy", which sounds fake almost

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>3rd Year Workshop</title>
+    <title>4th Year Workshop</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ian McCarthy, Emory University" />
-    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
@@ -14,19 +13,12 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# 3rd Year Workshop
-## Organizing your projects
+# 4th Year Workshop
+## Preparing your website
 ### Ian McCarthy, Emory University
 ### Economics PhD Professionalism Workshop
 
 ---
-
-class: inverse, center, middle
-name: workflow
-
-# Workflow
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
 
 
 &lt;!-- Adjust some CSS code for font size, maintain R code font size --&gt;
@@ -44,165 +36,92 @@ name: workflow
 &lt;!-- Set R options for how code chunks are displayed and load packages --&gt;
 
 
+# Academic Website
 
----
-# Workflow
-
-- Workflow is a system to make it easier on your brain to do your work
-- Don't waste time finding things or trying to remember that great idea you had
-- We'll work toward an organized and systematic workflow that ensures replicability and minimizes mistakes
-- **Keystone habit**: a way to organize all other good habits
-
----
-# Getting organized
-
-In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Here, we'll cover strategies to organize...
-1. notes for your research project
-2. your project folders
-3. notes on papers you've read
-4. papers you're citing
-
----
-class: inverse, center, middle
-name: high-level
-
-# Organizing Your Research
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
+You've got to make your materials easily accessible, and a website is the easiest way to do that. This is a necessity for job market candidates at this point.
 
 
 ---
-# Project notebooks
+# Basic pointers
 
-- Organize your projects into notebooks (or folders) of some kind
-- Digital options: OneNote, Evernote, Notion, just text files in a folder
-- Other options: Bullet journals (pen and paper, gasp!)
-
----
-count: false
-
-# Project notebooks
-
-Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
-- **Pending research** is for ideas
-    - Notes section for quick ideas
-    - After some thought, transition to individual sections
-    - After more thought, transition to **ongoing research** (if viable)
-
----
-count: false
-
-# Project notebooks
-
-Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
-- **Pending research** is for ideas
-- **Ongoing research** is for actual working projects
-    - Section for each project
-    - Subsections for "meeting notes", "drafts", and "ideas/thoughts"
-    
-
----
-count: false
-
-# Project notebooks
-
-Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
-- **Pending research** is for ideas
-- **Ongoing research** is for actual working projects
-- **Completed research** is for, you guessed it, completed projects
-    - After paper is officially accepted and all supporting documentation finalized
+- Simple, easy-to-navigate design
+- Professional with personal flair
 
 
----
-class: inverse, center, middle
-name: low-level
-
-# Organizing One Project
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
-
-
----
-# Project folders
-
-Key is to have a system where files are named appropriately and everything is easily accessible. Basically it's a closet for your research.
-
----
-count: false
-
-# Project folders
-
-.pre[
-```
-project
-|   README.md
-|   RunRender.Rmd
-|   paper.Rmd
-|   abstract.Rmd
-|   presentation.Rmd
-|   BibTeX.tex (symbolic link)
-|
-|---analysis
-|   |   _build-data.R
-|   |   _analysis.R
-|   |   1_data1.R
-|   |   2_data2.R
-|   |   README.md (optional)
-|
-|---data
-|   |   final_dat1.Rds (or csv)
-|   |   final_dat2.Rds (or csv)
-|
-|---output
-|   |   table1.tex
-|   |   figure1.png
-```
+.center[
+  ![](https://media.giphy.com/media/ZMvG5L7Di4AgM/giphy.gif)
 ]
 
----
-count: false
-
-# Project folders
-
-- Project need not start out perfectly organized
-- Think of the folder/file structure as your kitchen
-    - It will get dirty
-    - Don't let it get so dirty that you forget stuff
-    - Clean up regularly!
 
 ---
-class: inverse, center, middle
-name: other-papers
+# Basic pointers
 
-# Organizing Others' Research
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=1055px&gt;&lt;/html&gt;
-
-
----
-# Reading papers
-
-- We read lots of papers. That's part of the job and critical to doing good work. 
-- Want to avoid losing our notes on papers we've already read
-- Lots of ways to store PDFs and handwritten notes
-    - OneNote "learning" notebook (my preference)
-    - Several Mac/iPad options
-    - ReMarkable tablets with Dropbox sync (I think)
+- Simple, easy-to-navigate design
+- Professional with personal flair
+- Keep documents accessible
+    - GitHub
+    - Built-in server space (SquareSpace, etc.)
+    - **Not** Google Drive, Dropbox, etc.
     
+    
+---
+# Getting started
+
+Lots of options to get a decent website up and running
+
+- Google Sites
+- SquareSpace
+- [Hugo](https://gohugo.io/) with selected theme...
+
 
 ---
-# Citation managers
+# What is Hugo?
 
-- Lots of software options: Zotero, Mendeley, EndNote Web
-- My system: manage on my own
-  - Keep "BibTeX_Library.bib" folder updated on desktop
-  - Sync with Google Drive
-  - Pull down from Google Drive with Overleaf
-  - Symbolic (soft) links in individual project folders
-  - In Linux, `ln -s [OPTIONS] FILE LINK`
+Hugo is a static site generator written in Go.
+
+- Takes your content (text, md, Rmd, etc.) and template info as input
+- Creates final static website
+
+
+---
+# Using Hugo
+
+- Can use from the command line
+- Generate "public" directory that you can publish directly
+- Or, host on GitHub and deploy on Netlify
+
+
+---
+# Using GitHub/Netlify
+
+- It's free!
+- Netlify deploys site, don't version the "/public/" directory
+- Allows semi-customized domain names
+- Note: may need to change environment variable, `HUGO_VERSION = 0.74.3`
+
+
+---
+# Themes
+
+Lots of good Hugo themes available
+
+- I use the "coder" theme on [my site](https://ianmccarthyecon.netlify.app/)
+- "Academic" theme is extremely popular. That's on [David's site](https://www.davidjachochavez.org/).
+
+
+---
+# Managing content
+
+- No web developer, html, or css expertise required
+- Can use with Jupyter Notebooks and Rmarkdown
+
+
+---
+# Caveat
+
+- Getting started with Hugo can be cumbersome
+- Lots of "built in" features that you'll want to drop
+- "Academic" theme has changed to "Wowchemy", which sounds fake almost
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

@@ -57,7 +57,6 @@ pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 
 # Emails
 
-<br>
 .center[
   ![](https://media.giphy.com/media/zfPBG2S8acnss/giphy.gif)
 ]

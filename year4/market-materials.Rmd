@@ -1,0 +1,125 @@
+---
+title: "4th Year Workshop"
+subtitle: "Preparing your materials"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+---
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+```
+
+# Job Market Materials
+
+Now is the time to start gathering and organizing your materials. The goal should be to have everything together and on your website before you submit your first application. When you say, "I'm on the market", you should be ready for people to see your stuff.
+
+
+--
+The job market will take a ton of your time! Save yourself some stress by having **all** of your materials ready in advance.
+
+---
+# Materials: Bio
+
+Think about... 
+- Why did you decide to study economics?
+- What fields are you most interested in?
+- Can you relate your work to those fields?
+- Where is your comparative advantage?
+
+
+--
+These will be important parts of your interviews and will help guide a lot of your other materials
+
+
+---
+# Materials: CV
+
+- You need a complete CV on the market
+- Should be in PDF and easily accessible on website
+- Academic CV: contact info, education, field(s) of interest, professional experience, teaching experience, any publications, any awards, current/ongoing work, and committee info
+- Non-academic CV: add any specific skills or experiences that may be relevant, consider removing teaching
+- Should be 1 page, or at least have a 1 page version ready
+- See resources page for some templates
+
+
+--
+Keep track of everything you do...some may not end up on CV, but it's good practice.
+
+---
+# Materials: Research
+
+- Have an abstract to display on your website for all completed papers
+- Should list completed papers/drafts and maybe working papers (with actual work done)
+- **Do not** list "ideas" as working papers or projects
+
+
+---
+# Materials: Teaching
+
+- Show that you've given your teaching some real thought
+- Consider creating a course website if you're teaching in the 5th year
+- Non-academic jobs will look at teaching as a way to gauge your communication skills
+- Liberal arts schools care greatly about teaching
+- See resources page for some good teaching websites as potential templates
+
+
+---
+# Your JMP
+
+- Most important part of your application and job search
+- Present wherever you can, as much as you can (see conferences in last set of slides)
+- Practice, practice, practice
+- Organize informal workshop with other graduate students
+
+
+---
+# Materials: Letters
+
+- Should already have list of letter writers approved
+- Keep letter writers apprised of job market and research progress

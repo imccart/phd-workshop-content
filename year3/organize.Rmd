@@ -118,7 +118,7 @@ Here's my system:
 - **Pending research** is for ideas
 - **Ongoing research** is for actual working projects
     - Section for each project
-    - Subsections for "meeting notes", "drafts", "ideas/thoughts", and "tasks"
+    - Subsections for "meeting notes", "drafts", and "ideas/thoughts"
     
 
 ---
@@ -146,7 +146,7 @@ name: low-level
 ---
 # Project folders
 
-Key is to have a system where files are named appropriately and everything is easily accessible. Basically its a closet for your research.
+Key is to have a system where files are named appropriately and everything is easily accessible. Basically it's a closet for your research.
 
 ---
 count: false
@@ -161,7 +161,7 @@ project
 |   paper.Rmd
 |   abstract.Rmd
 |   presentation.Rmd
-|   BibTeX.tex (google drive link)
+|   BibTeX.tex (symbolic link)
 |
 |---analysis
 |   |   _build-data.R
@@ -204,7 +204,7 @@ name: other-papers
 # Reading papers
 
 - We read lots of papers. That's part of the job and critical to doing good work. 
-- Want to avoid losing our notes on paper's we've already read
+- Want to avoid losing our notes on papers we've already read
 - Lots of ways to store PDFs and handwritten notes
     - OneNote "learning" notebook (my preference)
     - Several Mac/iPad options
