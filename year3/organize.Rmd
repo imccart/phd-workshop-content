@@ -18,6 +18,13 @@ output:
       ratio: "16:9"
       beforeInit: "macros.js"
 ---
+class: inverse, center, middle
+name: workflow
+
+# Workflow
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=1055px></html>
+
 
 <!-- Adjust some CSS code for font size, maintain R code font size -->
 <style type="text/css">
@@ -55,6 +62,8 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 ```
 
+
+---
 # Workflow
 
 - Workflow is a system to make it easier on your brain to do your work
@@ -72,10 +81,19 @@ In the etiquette section, we talked about some very general tips for staying org
 4. papers you're citing
 
 ---
+class: inverse, center, middle
+name: high-level
+
+# Organizing Your Research
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=1055px></html>
+
+
+---
 # Project notebooks
 
 - Organize your projects into notebooks (or folders) of some kind
-- Two popular electronic options: OneNote, Evernote, Notion, just text files in a folder
+- Digital options: OneNote, Evernote, Notion, just text files in a folder
 - Other options: Bullet journals (pen and paper, gasp!)
 
 ---
@@ -114,6 +132,15 @@ Here's my system:
 - **Ongoing research** is for actual working projects
 - **Completed research** is for, you guessed it, completed projects
     - After paper is officially accepted and all supporting documentation finalized
+
+
+---
+class: inverse, center, middle
+name: low-level
+
+# Organizing One Project
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=1055px></html>
 
 
 ---
@@ -165,6 +192,15 @@ count: false
     - Clean up regularly!
 
 ---
+class: inverse, center, middle
+name: other-papers
+
+# Organizing Others' Research
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=1055px></html>
+
+
+---
 # Reading papers
 
 - We read lots of papers. That's part of the job and critical to doing good work. 
@@ -184,3 +220,4 @@ count: false
   - Sync with Google Drive
   - Pull down from Google Drive with Overleaf
   - Symbolic (soft) links in individual project folders
+  - In Linux, `ln -s [OPTIONS] FILE LINK`
