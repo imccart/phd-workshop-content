@@ -6,6 +6,7 @@ date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')
 header-includes: 
   - \usepackage{graphicx}
   - \usepackage{amsmath}
+  - \usepackage{includepdf}  
 output:
 #  html_document: default (toggle on for "simplified" view)
   xaringan::moon_reader:
@@ -16,7 +17,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-      beforeInit: "macros.js"
+      beforeInit: ["macros.js","https://platform.twitter.com/widgets.js"]
 ---
 class: inverse, center, middle
 name: stay
@@ -59,9 +60,14 @@ knitr::opts_hooks$set(fig.callout = function(options) {
 })
 
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate, readr, readxl, hrbrthemes,
+               scales, gganimate, gapminder, gifski, png, tufte, plotly, OECD,
+               ggrepel, xaringanExtra, webshot)
 ```
 
+```{r xaringan-scribble, echo=FALSE}
+xaringanExtra::use_scribble(rgb(0.9, 0.5, 0.5))
+```
 
 ---
 # How to stay?
@@ -105,8 +111,9 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 
 
 ---
-class: clear
+# A pep talk
 
 .center[
-<iframe width="800" height="500" src=""https://www.youtube.com/embed/l-gQLqv9f4o?start=5&end=147" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/l-gQLqv9f4o?controls=0&amp;start=0&end=147" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
+
