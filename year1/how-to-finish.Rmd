@@ -95,6 +95,13 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 - Celebrate each others' successes
 - Think and talk about research ideas together
 
+---
+# 4. Do...stay organized
+
+- Develop a study system and schedule
+- Respond to emails
+- Show up on time and be present
+
 
 ---
 # 1. Don't...isolate yourself
@@ -109,6 +116,13 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 - The first year is challenging and imposter syndrome is real
 - You absolutely, 100%, **DESERVE TO BE HERE**
 
+---
+# 3. Don't...think academia is zero-sum
+
+> "It's not enough that I should succeed. 
+> Other's must fail"
+>
+> `r tufte::quote_footer('--- Ghengis Khan')`
 
 ---
 # A pep talk
