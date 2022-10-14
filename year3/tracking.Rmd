@@ -258,6 +258,7 @@ Git is ideal since it is easily shareable, so you get external validity too
 
 
 --
+<br>
  **Virtual Environments!**
 
 ---
@@ -287,9 +288,9 @@ name: example
 
   1. Create "empty" GitHub repo online
 
-  2. Clone to my system in `RStudio` as a new project with version control, start `Stata` project in same directory
+  2. Clone to my system in `RStudio` as a new project with version control
 
-  3. Initialize my `R` environment with `renv` (more details [here](https://rstudio.github.io/renv/articles/renv.html)), change ado paths in `Stata` to call specific packages folder  
+  3. Initialize my `R` environment with `renv` (more details [here](https://rstudio.github.io/renv/articles/renv.html)), if using stata...change ado paths in `Stata` to call specific packages folder  
 ```
 adopath + "stata_packages"
 net set ado "stata_packages"
@@ -297,26 +298,36 @@ net set ado "stata_packages"
   4. Create project "scaffolding" with initial directories
   
   
---
-**note:** be sure to add "stata_packages" to gitignore file, and consider [cookiecutter](https://github.com/cookiecutter/cookiecutter) to create project from template
+---
+# My basic workflow
+
+- Be sure to add "stata_packages" to gitignore file
+- Consider [cookiecutter](https://github.com/cookiecutter/cookiecutter) to create project from template
+- I have a template on Github if you want to use it: [R research template](https://github.com/imccart/research-template)
   
+
+---
+# Analysis workflow
+
+- Shared Google Doc with co-authors
+- Acts as a shared scratch notebook
+- Basic headers a lists...but minimal formatting (no one else will ever see this)
+- To-do lists and other goals go here, removed after completing
+
+
   
 ---
-# My analysis and writing workflow
+# My solo-author analysis and writing workflow
 
-- I write everything in `R Markdown`
-- With co-authors, I use Overleaf imported from GitHub
-  - Use "Sync with GitHub" option (gives Overleaf read/write privileges)
-  - Edit .Rmd files directly (easier to edit than TeX)
-  - Push changes after edits
+- I write everything in `R Markdown`, including paper and presentations
 - Tables and figures in output folders (automate results)
 - Compile with `R` (Pandoc)
 
 ---
-# Alternative analysis and writing workflow
+# My co-authored analysis and writing workflow
 
-- Write in LaTeX
-- Use Overleaf imported from Github
-- Compile with Overleaf using output folder (tables and figures)
+- Write in LaTeX with Overleaf
+- Compile with Overleaf using output folders (tables and figures)
 - Sync bibliography via Google Drive 
     - Upload from URL, `https://drive.google.com/uc?export=download&id=name`, where name is the alphanumeric string from Google Drive link
+- Template on Overleaf: [Overleaf template](https://www.overleaf.com/read/tfnkdhnndxck)

@@ -127,10 +127,10 @@ Cons:
 - Synology 4-bay NAS DiskStation 
 - "Synology Drive" to sync files across locations
 - Synology Hybrid RAID (because I'm not a network engineer)
-- Sync with Google Drive for some individual files or folders (papers to read, bibtex library)
+- Sync with Google Drive for some individual files or folders (bibtex library)
 
 ---
-# My future system
+# My attempted system
 
 - Cloud-based system with AWS
 - PostgreSQL on attached cloud drive

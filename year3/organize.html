@@ -14,10 +14,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # 3rd Year Workshop
+]
+.subtitle[
 ## Organizing your projects
+]
+.author[
 ### Ian McCarthy, Emory University
+]
+.date[
 ### Economics PhD Professionalism Workshop
+]
 
 ---
 
@@ -75,7 +83,7 @@ name: high-level
 # Project notebooks
 
 - Organize your projects into notebooks (or folders) of some kind
-- Digital options: OneNote, Evernote, Notion, just text files in a folder
+- Digital options: OneNote, Evernote, Notion, Google Keep, just text files in a folder
 - Other options: Bullet journals (pen and paper, gasp!)
 
 ---
@@ -84,10 +92,10 @@ count: false
 # Project notebooks
 
 Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
+- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
 - **Pending research** is for ideas
-    - Notes section for quick ideas
-    - After some thought, transition to individual sections
+    - Google Keep note
+    - After some thought, transition to individual notebook/folder (ReMarkable)
     - After more thought, transition to **ongoing research** (if viable)
 
 ---
@@ -96,11 +104,11 @@ count: false
 # Project notebooks
 
 Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
+- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
 - **Pending research** is for ideas
 - **Ongoing research** is for actual working projects
     - Section for each project
-    - Subsections for "meeting notes", "drafts", and "ideas/thoughts"
+    - Subsections for "meeting notes" (if co-authored) and "ideas/thoughts"
     
 
 ---
@@ -109,7 +117,7 @@ count: false
 # Project notebooks
 
 Here's my system:
-- Three main research notebooks: 1) ongoing research; 2) pending research; and 3) completed research
+- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
 - **Pending research** is for ideas
 - **Ongoing research** is for actual working projects
 - **Completed research** is for, you guessed it, completed projects
@@ -146,17 +154,22 @@ project
 |   BibTeX.tex (symbolic link)
 |
 |---analysis
-|   |   _build-data.R
 |   |   _analysis.R
+|   |   1_sumstats.R
+|   |   2_awesome-stuff.R
+|
+|---data-code
+|   |   _build-data.R
 |   |   1_data1.R
 |   |   2_data2.R
-|   |   README.md (optional)
-|
-|---data
 |   |   final_dat1.Rds (or csv)
 |   |   final_dat2.Rds (or csv)
 |
-|---output
+|---data
+|   |   input (symbolic links)
+|   |   output (analytic data sets)
+|
+|---results
 |   |   table1.tex
 |   |   figure1.png
 ```
@@ -188,21 +201,21 @@ name: other-papers
 - We read lots of papers. That's part of the job and critical to doing good work. 
 - Want to avoid losing our notes on papers we've already read
 - Lots of ways to store PDFs and handwritten notes
-    - OneNote "learning" notebook (my preference)
+    - OneNote "learning" notebook
     - Several Mac/iPad options
-    - ReMarkable tablets with Dropbox sync (I think)
+    - Research Rabbit
+    - ReMarkable tablets (my strategy)
     
 
 ---
 # Citation managers
 
 - Lots of software options: Zotero, Mendeley, EndNote Web
-- My system: manage on my own
-  - Keep "BibTeX_Library.bib" folder updated on desktop
+- My system: Zotero
+  - Cloud backup with papers linked to citations
+  - Export to "BibTeX_Library.bib" folder updated on desktop
   - Sync with Google Drive
-  - Pull down from Google Drive with Overleaf
-  - Symbolic (soft) links in individual project folders
-  - In Linux, `ln -s [OPTIONS] FILE LINK`
+  - Pull down from Google Drive with Overleaf or RMarkdown
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -252,6 +265,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
