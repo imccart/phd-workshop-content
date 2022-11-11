@@ -105,6 +105,7 @@ This should become your guide to the paper
 - Some strategies to consider:
   - Block at least one hour in the mornings to write
   - Set specific goals (write the data section, add robustness check, etc.)
+  - Organize writing sessions or retreats
 
 
 --

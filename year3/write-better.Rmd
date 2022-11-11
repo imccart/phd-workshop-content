@@ -60,7 +60,7 @@ pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 I wish I knew!
 
 --
-But there are some basic rules that might help
+But there are some basic rules that might help.
 
 ---
 # Introduction
@@ -200,3 +200,11 @@ I'll add a few to these...
 --
 Seriously, don't copy and paste your own words from another paper. Be more creative than that. And definitely don't copy someone else's words.
 
+---
+# Some examples
+
+Below are a few links to papers that are generally thought to be extremely well-written:
+- [Chay and Greenstone (2005), JPE](https://www.jstor.org/stable/10.1086/427462)
+- [Gentzkow and Shapiro (2008), QJE](https://web.stanford.edu/~gentzkow/research/TV_QJE_2008.pdf)
+- [Einav, Finkelstein, and Cullen (2010), QJE](https://academic.oup.com/qje/article/125/3/877/1903679)
+- [Weitzman (2009), ReStat](https://scholar.harvard.edu/weitzman/publications/modeling-and-interpreting-economics-catastrophic-climate-change)

@@ -4,6 +4,7 @@
     <title>3rd Year Workshop</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ian McCarthy, Emory University" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
@@ -13,10 +14,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # 3rd Year Workshop
+]
+.subtitle[
 ## Write better
+]
+.author[
 ### Ian McCarthy, Emory University
+]
+.date[
 ### Economics PhD Professionalism Workshop
+]
 
 ---
 
@@ -41,7 +50,7 @@ class: center, middle, inverse, title-slide
 I wish I knew!
 
 --
-But there are some basic rules that might help
+But there are some basic rules that might help.
 
 ---
 # Introduction
@@ -180,6 +189,15 @@ I'll add a few to these...
 
 --
 Seriously, don't copy and paste your own words from another paper. Be more creative than that. And definitely don't copy someone else's words.
+
+---
+# Some examples
+
+Below are a few links to papers that are generally thought to be extremely well-written:
+- [Chay and Greenstone (2005), JPE](https://www.jstor.org/stable/10.1086/427462)
+- [Gentzkow and Shapiro (2008), QJE](https://web.stanford.edu/~gentzkow/research/TV_QJE_2008.pdf)
+- [Einav, Finkelstein, and Cullen (2010), QJE](https://academic.oup.com/qje/article/125/3/877/1903679)
+- [Weitzman (2009), ReStat](https://scholar.harvard.edu/weitzman/publications/modeling-and-interpreting-economics-catastrophic-climate-change)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -229,6 +247,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

@@ -4,6 +4,7 @@
     <title>3rd Year Workshop</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ian McCarthy, Emory University" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
@@ -13,10 +14,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # 3rd Year Workshop
+]
+.subtitle[
 ## Start writing
+]
+.author[
 ### Ian McCarthy, Emory University
+]
+.date[
 ### Economics PhD Professionalism Workshop
+]
 
 ---
 
@@ -86,6 +95,7 @@ This should become your guide to the paper
 - Some strategies to consider:
   - Block at least one hour in the mornings to write
   - Set specific goals (write the data section, add robustness check, etc.)
+  - Organize writing sessions or retreats
 
 
 --
@@ -146,6 +156,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
