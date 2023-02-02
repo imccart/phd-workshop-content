@@ -1,0 +1,138 @@
+---
+title: "2nd Year Workshop"
+subtitle: "Tips for generating research ideas"
+author: Ian McCarthy, Emory University
+date: Economics PhD Professionalism Workshop #"`r format(Sys.time(), '%d %B %Y')`"
+header-includes: 
+  - \usepackage{graphicx}
+  - \usepackage{amsmath}
+  - \usepackage{includepdf}  
+output:
+#  html_document: default (toggle on for "simplified" view)
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, custom.css] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: ["macros.js","https://platform.twitter.com/widgets.js"]
+---
+class: inverse, center, middle
+name: ideas
+
+# Where to get ideas?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=1055px></html>
+
+
+<!-- Adjust some CSS code for font size, maintain R code font size -->
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em 1em 2em;    
+}
+.remark-code, .remark-inline-code { 
+    font-size: 20px;
+}
+</style>
+
+
+<!-- Set R options for how code chunks are displayed and load packages -->
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(dplyr.summarise.inform = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=3, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if(options$fig.callout) {
+    options$echo = FALSE
+  }
+  options
+})
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2, dplyr, lubridate, xaringanExtra, webshot)
+```
+
+```{r xaringan-scribble, echo=FALSE}
+xaringanExtra::use_scribble(rgb(0.9, 0.5, 0.5))
+```
+
+---
+# Where to get ideas?
+
+1. Read non-academic policy papers/briefs
+    - Commonwealth Fund
+    - Petersen-KFF
+    - Health Affairs or NEJM Opinion Pieces
+    - Newspapers
+
+
+---
+count: false
+
+# Where to get ideas?
+
+2. Academic papers and survey articles
+    - Read the abstract and skim the rest
+    - JEP and JEL are good for survey articles
+    - Get TOC notifications from relevant journals
+    - NBER working papers
+
+
+---
+count: false
+
+# Where to get ideas?
+
+3. Seminars
+    - Attend and read papers in advance
+    - Meet with speakers and ask questions
+
+
+
+---
+count: false
+
+# Where to get ideas?
+
+4. Faculty
+    - Be engaged in classes...think about potential research ideas
+    - Schedule meetings and come with some questions
+
+
+
+---
+count: false
+
+# Where to get ideas?
+
+5. Peers
+    - Ask questions and throw out some ideas
+    - Learn from each other
+
+
+
+
+---
+class: inverse, center, middle
+name: ideas2
+
+# What to do with your ideas
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=1055px></html>
+
+
+---
+# What to do with ideas?
+
+1. Keep track of them!
