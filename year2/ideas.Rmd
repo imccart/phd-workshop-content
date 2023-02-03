@@ -17,7 +17,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-      beforeInit: ["macros.js","https://platform.twitter.com/widgets.js"]
+      beforeInit: ["macros.js"]
 ---
 class: inverse, center, middle
 name: ideas
@@ -87,6 +87,7 @@ count: false
     - JEP and JEL are good for survey articles
     - Get TOC notifications from relevant journals
     - NBER working papers
+    - Listen with audemic.io
 
 
 ---
@@ -133,6 +134,12 @@ name: ideas2
 
 
 ---
-# What to do with ideas?
+# Keep track of your ideas
 
-1. Keep track of them!
+- Google Keep
+- Notion
+- Zotero
+- Research Rabbit
+- XMind
+- Trello
+- Paper journal
