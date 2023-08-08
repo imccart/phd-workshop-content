@@ -64,15 +64,6 @@ pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 
 
 ---
-# Your cohort
-
-- 10 of you, out of 311 applicants
-- 4 with Masters, 6 with Bachelors
-- 7 women, 3 men
-- Representation from US, China, Ecuador, Hong Kong, and Nicaragua
-
-
----
 # Our goal
 
 What a great, diverse group! We want **EVERYONE** to leave here with a PhD in Economics and on their way to the job that **THEY WANT**
