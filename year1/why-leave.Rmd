@@ -64,6 +64,14 @@ pacman::p_load(tidyverse, ggplot2, dplyr, lubridate)
 
 
 ---
+# Who are you?
+
+- 11 selected out of **407** applicants!
+- 6 Masters degrees
+- 8 different countries, 5 different continents
+
+
+---
 # Our goal
 
 What a great, diverse group! We want **EVERYONE** to leave here with a PhD in Economics and on their way to the job that **THEY WANT**
@@ -72,7 +80,7 @@ What a great, diverse group! We want **EVERYONE** to leave here with a PhD in Ec
 # Our reality
 
 - But inevitably, not everyone finishes the program:
-    - Awarded 89 Economics PhD degrees since 1993 and 31 Economics MA degrees
+    - Awarded 91 Economics PhD degrees since 1993 and 31 Economics MA degrees
     - Cumulatively 61 people lost at various stages
     - 17% probability of failing the 1st-year core exams
     - 54% probability of leaving the program for any reason, at any time
