@@ -1,0 +1,102 @@
+---
+title: "2nd Year Workshop:<br> Tips for generating research ideas"
+author: "Ian McCarthy, Emory University and NBER"
+institute: "Economics PhD Professionalism Workshop"
+format: 
+  revealjs:
+    theme: [simple, ../quarto-styles.scss]
+    preview-links: auto
+#    chalkboard:
+#      boardmarker-width: 5
+    slide-number: true
+    width: 1600
+    height: 900
+#    embed-resources: true
+from: markdown+emoji
+execute: 
+  echo: false
+---
+
+```{r}
+#| include: false
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2)
+```
+
+
+# Where to get ideas?
+
+---
+
+1. Read non-academic policy papers/briefs
+   - Commonwealth Fund
+   - Petersen-KFF
+   - Health Affairs or NEJM Opinion Pieces
+   - Newspapers
+
+---
+
+2. Academic papers and survey articles
+   - Read the abstract and skim the rest
+   - JEP and JEL are good for survey articles
+   - Get TOC notifications from relevant journals
+   - NBER working papers
+   - Listen with audemic.io
+
+
+---
+
+3. Seminars
+   - Attend and read papers in advance
+   - Meet with speakers and ask questions
+
+---
+
+
+4. Talk to faculty
+   - Be engaged in classes...think about potential research ideas
+   - Schedule meetings and come with some questions
+
+---
+
+
+5. Talk to classmates
+   - Ask questions and throw out some ideas
+   - Learn from each other
+
+
+---
+
+6. Diversify
+   - Read and take classes outside of your narrow subfield
+   - You are an **economist** first
+   - Be curious and engaged
+
+
+
+# Keep track of your ideas
+
+---
+
+- Google Keep
+- Notion
+- Zotero
+- Research Rabbit
+- XMind
+- Trello
+- Paper journal
+
+---
+
+**Three general categories:**
+
+1. Brainstorming (no idea is too crazy)
+   - Talk about these with peers
+   - Look into the literature and potential data
+   - Craft an actual question
+2. Research proposals (more developed)
+   - Slightly more formalized and developed
+   - Talk about these with classmates and faculty
+3. Research plan (ready to go)
+   - Vetted by peers and faculty
+   - Ready to start the actual research process

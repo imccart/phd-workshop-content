@@ -1,0 +1,114 @@
+---
+title: "2nd Year Workshop: From idea to paper"
+author: "Ian McCarthy, Emory University and NBER"
+institute: "Economics PhD Professionalism Workshop"
+format: 
+  revealjs:
+    theme: [simple, ../quarto-styles.scss]
+    preview-links: auto
+#    chalkboard:
+#      boardmarker-width: 5
+    slide-number: true
+    width: 1600
+    height: 900
+#    embed-resources: true
+from: markdown+emoji
+execute: 
+  echo: false
+---
+
+```{r}
+#| include: false
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, ggplot2)
+```
+
+# From idea to "proposal"
+
+---
+
+## Key steps
+
+1. What is the research *question*?
+2. What is the hook?
+3. What is your economic model or framework?
+4. What is your data and identification strategy?
+
+---
+
+## 1. The question
+
+From Jesse Shapiro's [Four Steps to an Applied Micro Paper](https://scholar.harvard.edu/files/shapiro/files/foursteps.pdf):
+
+- The question has an answer
+- The answer is not obvious
+- The answer is actionable/relevant
+
+
+---
+
+## 2. The hook
+
+Why is your question important and relevant? This should be aimed at a general audience, not someone specific to your field and perhaps not even to an economist.
+
+
+---
+
+## 3. The model
+
+
+- Question should be specific enough so that you are able to write down a model, an equation, or a series of equations that would facilitate answering this question
+- **Not** simply a mathematical representation of your research question...it should help inform the empirical methods and variation you will be using
+
+
+---
+
+## 4. Data and identification strategy
+
+- What data do you plan to use?
+- Where is the variation in the data that will identify the effect of interest? How does such variation lend a credible identification strategy?
+- How does your data and identification address your original question?
+- Need to know that the data exists and how to access it (within a reasonable time period/cost)
+
+
+---
+
+## Repeat
+
+- Repeat this process a handful of times
+- Discuss the ideas with classmates and faculty
+- Identify your best proposals and move to the next stage
+
+# The research plan
+
+- Plan consists of the proposal plus...
+- The "value-added"
+
+
+---
+
+## The value-added
+
+- What do we know in the literature about this problem? 
+- What are the relevant papers when it comes to the topic, methods, and data? 
+- How exactly do you contribute to the literature, above and beyond what was already done? 
+
+::: {.fragment}
+Doing the same thing for a different population or using different methods or different data is not exciting unless the hook is related to the specific population, data, method, etc.
+:::
+
+# Starting the plan
+
+---
+
+- Data management
+- Preliminary analysis
+- Aspirational introduction
+- Draft paper
+- See 3rd year workshop materials
+
+---
+
+## Final plea
+
+Please, please, please start thinking of research early and often. Brainstorm topics, read papers, talk to classmates and faculty. Iterate on ideas until you find something you can do. And **DO NOT** shy away from a challenge.
