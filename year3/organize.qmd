@@ -1,0 +1,165 @@
+---
+title: "3rd Year Workshop"
+subtitle: "Organizing your projects"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Workflow {background-color="#23373B"}
+
+
+---
+
+# Workflow
+
+- Workflow is a system to make it easier on your brain to do your work
+- Don't waste time finding things or trying to remember that great idea you had
+- We'll work toward an organized and systematic workflow that ensures replicability and minimizes mistakes
+- **Keystone habit**: a way to organize all other good habits
+
+---
+
+# Getting organized
+
+In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Here, we'll cover strategies to organize...
+
+1. notes for your research project
+2. your project folders
+3. notes on papers you've read
+4. papers you're citing
+
+---
+
+# Organizing Your Research {background-color="#23373B"}
+
+
+---
+
+# Project notebooks
+
+- Organize your projects into notebooks (or folders) of some kind
+- Digital options: OneNote, Evernote, Notion, Google Keep, just text files in a folder
+- Other options: Bullet journals (pen and paper, gasp!)
+
+---
+
+# Project notebooks
+
+Here's my system:
+
+- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
+- **Pending research** is for ideas
+    - Google Keep note
+    - After some thought, transition to individual notebook/folder (ReMarkable)
+    - After more thought, transition to **ongoing research** (if viable)
+
+---
+
+# Project notebooks
+
+Here's my system:
+
+- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
+- **Pending research** is for ideas
+- **Ongoing research** is for actual working projects
+    - Section for each project
+    - Subsections for "meeting notes" (if co-authored) and "ideas/thoughts"
+
+---
+
+# Project notebooks
+
+Here's my system:
+
+- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
+- **Pending research** is for ideas
+- **Ongoing research** is for actual working projects
+- **Completed research** is for, you guessed it, completed projects
+    - After paper is officially accepted and all supporting documentation finalized
+
+
+---
+
+# Organizing One Project {background-color="#23373B"}
+
+
+---
+
+# Project folders
+
+Key is to have a system where files are named appropriately and everything is easily accessible. Basically it's a closet for your research.
+
+---
+
+# Project folders
+
+::: {.pre}
+```
+project
+|   README.md
+|   paper.qmd (or .tex)
+|   abstract.qmd
+|   presentation.qmd
+|   BibTeX.bib (symbolic link)
+|
+|---analysis
+|   |   _analysis.R
+|   |   1_sumstats.R
+|   |   2_awesome-stuff.R
+|
+|---data-code
+|   |   _build-data.R
+|   |   1_data1.R
+|   |   2_data2.R
+|   |   final_dat1.csv
+|   |   final_dat2.csv
+|
+|---data
+|   |   input (symbolic links)
+|   |   output (analytic data sets)
+|
+|---results
+|   |   table1.tex
+|   |   figure1.png
+```
+:::
+
+---
+
+# Project folders
+
+- Project need not start out perfectly organized
+- Think of the folder/file structure as your kitchen
+    - It will get dirty
+    - Don't let it get so dirty that you forget stuff
+    - Clean up regularly!
+
+---
+
+# Organizing Others' Research {background-color="#23373B"}
+
+
+---
+
+# Reading papers
+
+- We read lots of papers. That's part of the job and critical to doing good work.
+- Want to avoid losing our notes on papers we've already read
+- Lots of ways to store PDFs and handwritten notes
+    - OneNote "learning" notebook
+    - Several Mac/iPad options
+    - Research Rabbit
+    - ReMarkable tablets (my strategy)
+- AI tools can help you digest papers faster (Elicit, Semantic Scholar, Scholarcy)
+
+
+---
+
+# Citation managers
+
+- Lots of software options: Zotero, Mendeley, EndNote Web
+- My system: Zotero
+  - Cloud backup with papers linked to citations
+  - Export to "BibTeX_Library.bib" folder updated on desktop
+  - Sync with cloud storage
+  - Pull down with Overleaf, Quarto, or R Markdown

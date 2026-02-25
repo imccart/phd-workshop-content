@@ -1,0 +1,105 @@
+---
+title: "4th Year Workshop"
+subtitle: "Simple summaries of your work"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Quick summaries
+
+- Writing a paper is great.
+- Presenting papers in conferences can be really fun.
+- But this is all "academic facing" work for your field/subfield.
+- How can you get other people to read it?
+
+
+
+---
+
+# Quick summaries
+
+So how do we do this?
+
+- **Not** op-eds. I mean an accurate summary of your work but easy and quick to consume.
+- Visual abstracts
+- Short videos
+- Social media threads
+
+---
+
+# Visual abstracts
+
+- Really just a slide to summarize your work
+- Concise but fair to your main point
+
+
+---
+
+# Visual abstracts
+
+![](../pics/visual-abstract.jpg){fig-align="center"}
+
+
+---
+
+# Short videos
+
+- Everybody's doing it!
+- Great way to make your work accessible to a broader audience
+
+
+---
+
+# Social media
+
+- Bluesky has become the primary platform for academic economics
+- Share your papers, visual abstracts, and short summaries
+- Follow journals, NBER, and researchers in and out of your field
+- Relatively inclusive community with lots of shared papers and info
+
+
+---
+
+# Social media etiquette
+
+Some basic guidelines...
+
+1. **Tone**: Be kind. This is not the setting for criticism.
+
+. . .
+
+Jokes also don't tend to land well in short posts.
+
+
+---
+
+# Social media etiquette
+
+Some basic guidelines...
+
+1. **Tone**: Be kind.
+2. **Blocking/muting**: Feel free to block or mute people that are rude. Protect your mental health.
+
+---
+
+# Social media etiquette
+
+Some basic guidelines...
+
+1. **Tone**: Be kind.
+2. **Blocking/muting**: Feel free to block or mute people that are rude.
+3. **Identity**: Start professional and add personality over time. When first getting started, focus on where you can add value.
+
+---
+
+# Timing
+
+A natural question regarding how to promote your paper on social media...when should I do it?
+
+- Not until you're confident of the results!
+- Need not wait for official publication
+- R&R is OK, depending on the reviewer comments
+
+. . .
+
+- Talk to your adviser (and co-authors) before promoting your papers

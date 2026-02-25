@@ -1,0 +1,161 @@
+---
+title: "3rd Year Workshop"
+subtitle: "Write better"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# How to write?
+
+I wish I knew!
+
+. . .
+
+But there are some basic rules that might help.
+
+---
+
+# Introduction
+
+The introduction is critical. It is the most important thing you'll write for any paper. Make it awesome!
+
+
+---
+
+# Introduction [formula](https://www.albany.edu/spatial/training/5-The%20Introduction%20Formula.pdf)
+
+1. **The Hook!** Why should anyone care about this at all? What big issue are you dealing with?
+2. **Question.** What are you actually going to do? What is your actual research question? Doesn't need context.
+3. **Context.** What are the key things that other people have done? What literature should a reader know in order to understand your contribution?
+4. **Contribution.** What are you doing differently? Should be in context of the existing literature.
+5. **Expand.** I've added this. Modern applied papers (for better or worse) need to talk about some key additional findings in the intro (mechanisms, robustness, and policy implications, etc.).
+
+
+---
+
+# Paper structure
+
+We've all seen the "standard" applied econ paper structure:
+
+1. Introduction
+2. Theoretical motivation or institutional details
+3. Data
+4. Estimation
+5. Results
+6. Conclusion
+
+---
+
+# Paper structure
+
+:::: {.columns}
+::: {.column width="50%"}
+1. Introduction
+2. Theoretical motivation or institutional details
+3. Data
+4. Estimation
+5. Results
+6. Conclusion
+:::
+::: {.column width="50%"}
+I **do not** like this formula...
+
+- Fine as outline
+- Too rigid and boring
+- Need better **story**
+:::
+::::
+
+---
+
+# Paper structure
+
+- Take a look at (almost) any top applied paper in the last several years
+- Most will start similarly (intro, theory/policy details, maybe data)
+- Deviate based on relevant analyses and estimation strategies
+
+---
+
+# Writing steps
+
+Following Jesse Shapiro's [four steps to an applied paper](https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf)...
+
+1. **Aspirational** introduction (we've already done this)
+2. Research (not part of this workshop)
+3. Be a **robot**
+
+
+. . .
+
+This means you are **linear**, **clear**, **plain**, and **formal**. Return to (2) as you identify gaps.
+
+
+---
+
+# Writing steps
+
+Following Jesse Shapiro's [four steps to an applied paper](https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf)...
+
+1. **Aspirational** introduction (we've already done this)
+2. Research (not part of this workshop)
+3. Be a **robot**
+4. **Contractual** introduction
+
+
+. . .
+
+Now re-write the intro with your new knowledge. This should be a contract that spells out what you will and won't do in the paper. Return to (2) and (3) as needed.
+
+
+---
+
+# Storytelling
+
+- Like it or not, you have to **sell** your work
+- Can be hard and can feel antithetical to the "objective" scientific process
+- But we're humans and we need to be entertained!
+
+![](https://media.giphy.com/media/hrnYspWWhsIyA/source.gif){fig-align="center"}
+
+---
+
+# Storytelling
+
+So how do we write something compelling? Try [paper writing gone hollywood](https://science.sciencemag.org/content/355/6320/102)...
+
+- A general outline isn't enough
+- Need to "storyboard" each section or subsection
+- Rely heavily on outlines rather than getting bogged down in verbiage
+
+---
+
+# Some rules
+
+Finally, let's close things out with some simple [rules](http://home.bi.no/charlotte.ostergaard/students/tenruleswriting.pdf), courtesy of Claudia Goldin and Lawrence Katz.
+
+---
+
+# Some rules
+
+I'll add a few to these...
+
+1. Be careful with self-plagiarism (also with normal plagiarism)
+2. Write the damn abstract! **Do not** copy and paste from the intro, or vice versa.
+3. Use "I" if you're the only author. Use "we" otherwise.
+4. Define the acronym the first time only, then just use it.
+
+
+. . .
+
+Seriously, don't copy and paste your own words from another paper. Be more creative than that. And definitely don't copy someone else's words.
+
+---
+
+# Some examples
+
+Below are a few links to papers that are generally thought to be extremely well-written:
+
+- [Chay and Greenstone (2005), JPE](https://www.jstor.org/stable/10.1086/427462)
+- [Gentzkow and Shapiro (2008), QJE](https://web.stanford.edu/~gentzkow/research/TV_QJE_2008.pdf)
+- [Einav, Finkelstein, and Cullen (2010), QJE](https://academic.oup.com/qje/article/125/3/877/1903679)
+- [Weitzman (2009), ReStat](https://scholar.harvard.edu/weitzman/publications/modeling-and-interpreting-economics-catastrophic-climate-change)

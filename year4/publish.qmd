@@ -1,0 +1,64 @@
+---
+title: "4th Year Workshop"
+subtitle: "Publishing"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Publishing
+
+The publication process, particularly in economics, is crazy. We'll go over some basics in these slides.
+
+---
+
+# The Steps
+
+A successful publication journey looks something like...
+
+1. Do all the work.
+2. Submit
+3. Editor review
+4. Referee review
+5. Comments to author for revise and resubmit
+6. Review again
+7. Conditionally accept (minor typos etc.)
+8. Accept
+
+
+. . .
+
+If only life were this simple!
+
+---
+
+# Step 2: Submit
+
+- Formatting: Look at the journal's formatting guidelines
+- Adopt where it is easy to do so
+- Pay attention to page/word limits
+- Don't worry about very specific formatting (save it for publication)
+- Include all required elements (disclosure statements, etc.)
+
+---
+
+# Step 3: Editor review
+
+- After quick review for basics, paper goes to an editor
+- May sit at editor's desk for several weeks
+- Be patient and vow to **not** do that once you are an editor!
+- Editor can reject unilaterally without reviews (desk rejection)
+
+---
+
+# Step 4: Referee review
+
+If you "made it past the desk", then it goes to peer review
+
+- May sit at reviewers' desks for many months
+- Remember this feeling and vow to **not** do that once you are a reviewer!
+- **Do not** check the status of your paper constantly
+
+
+. . .
+
+Nothing good can come from this.

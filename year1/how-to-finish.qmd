@@ -1,0 +1,98 @@
+---
+title: "1st Year Workshop"
+subtitle: "Tips for sticking around"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# How to stay? {background-color="#23373B"}
+
+---
+
+# How to stay?
+
+Conditional on a match, there are some definite dos and don'ts for succeeding in a PhD program.
+
+---
+
+# The Do's {background-color="#23373B"}
+
+
+---
+
+# 1. Do...commit to the program
+
+- This is your full time job
+- Very different than life as an undergraduate or masters student
+
+. . .
+
+![](https://media.giphy.com/media/xTiTnooneW4SYfch8Y/giphy.gif){fig-align="center"}
+
+---
+
+# 2. Do...take care of yourself
+
+- (full time job, but...) need not be your entire life
+- Self care is not selfish
+- Counseling resources available from the university
+- Potential for medical leave if necessary
+- Come talk to me!
+
+---
+
+# 3. Do...work together
+
+- You are not here to compete with one another. We want **EVERYONE** to succeed! Help each other.
+- Celebrate each others' successes
+- Think and talk about research ideas together
+
+---
+
+# 4. Do...stay organized
+
+- Develop a study system and schedule
+- Respond to emails
+- Show up on time and be present
+
+---
+
+# 5. Do...focus on inputs, not outputs
+
+![](https://media.giphy.com/media/9ZvFhDkaAfyLe/giphy.gif){fig-align="center"}
+
+---
+
+# The Don't's {background-color="#23373B"}
+
+---
+
+# 1. Don't...isolate yourself
+
+- Get to know your students and faculty
+- Social interactions, group study, etc. can be complementary to your classroom success
+
+
+---
+
+# 2. Don't...think academia is zero-sum
+
+> "It's not enough that I should succeed.
+> Other's must fail"
+>
+> --- Ghengis Khan
+
+
+---
+
+# 3. Don't...lose confidence
+
+- The first year is challenging and imposter syndrome is real
+- You absolutely, 100%, **DESERVE TO BE HERE**
+
+
+---
+
+# A pep talk
+
+{{< video https://www.youtube.com/embed/l-gQLqv9f4o width="800" height="500" start="0" end="147" >}}

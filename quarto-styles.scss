@@ -2,6 +2,25 @@
 
 /*-- scss:rules --*/
 
+.plot-callout {
+  height: 225px;
+  width: 450px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+  padding: 5px;
+}
+
+.plot-callout img {
+  width: 100%;
+  border: 4px solid #23373B;
+}
+
+.pre {
+  height: 20pc;
+  overflow-y: scroll;
+}
+
 #title-slide {
   text-align: left;
   

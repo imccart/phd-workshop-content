@@ -1,0 +1,102 @@
+---
+title: "3rd Year Workshop"
+subtitle: "Backing up your work and data"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Backing up
+
+How do you back up your work? Lots of ways:
+
+1. External hard drives
+
+2. Cloud services
+
+3. Automatic back up services
+
+---
+
+# External hard drives
+
+:::: {.columns}
+::: {.column width="50%"}
+Pros:
+
+- Affordable and fully in your control
+- Data remain private
+:::
+::: {.column width="50%"}
+Cons:
+
+- Only backed up at certain intervals
+- Can be slow
+- Data are all in the same physical place
+:::
+::::
+
+. . .
+
+Crashes will inevitably happen between backups
+
+---
+
+# Cloud services
+
+Lots of cloud services like DropBox, Google Drive, OneDrive
+
+:::: {.columns}
+::: {.column width="50%"}
+Pros:
+
+- Works really well and painlessly
+- Easy to share when needed
+:::
+::: {.column width="50%"}
+Cons:
+
+- Can get expensive over time
+- Can't backup private or restricted data
+:::
+::::
+
+---
+
+# Offsite hard drives
+
+Just build your own network!
+
+:::: {.columns}
+::: {.column width="50%"}
+Pros:
+
+- Data stays with you
+- Backup in real-time
+- Redundancies built-in to network configuration
+:::
+::: {.column width="50%"}
+Cons:
+
+- Expensive to buy
+- Harder to setup
+:::
+::::
+
+
+---
+
+# My backup system
+
+- Synology 4-bay NAS DiskStation
+- "Synology Drive" to sync files across locations
+- Synology Hybrid RAID (because I'm not a network engineer)
+- Sync with Google Drive for some individual files or folders (bibtex library)
+
+---
+
+# My attempted system
+
+- Cloud-based system with AWS
+- PostgreSQL on attached cloud drive
+- Elastic IP
+- Access from anywhere on almost any device

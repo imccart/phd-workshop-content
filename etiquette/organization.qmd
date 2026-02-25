@@ -1,0 +1,53 @@
+---
+title: "Professional Etiquette"
+subtitle: "Tips for Staying Organized"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Have a system
+
+- **Must** have some way to keep track of your projects and your many obligations
+- Increasingly important as an assistant professor (teaching, service, research, life)
+- No single system works for all people
+
+---
+
+# Old school or digital
+
+- Writing things down helps, so good 'ole pen and paper is hard to beat if you can keep it organized. Try a journaling method (e.g., bullet journals) if this is your jam.
+- I prefer always having my lists and "journals" available at all times, which just isn't feasible for me on paper.
+
+---
+
+# Main considerations
+
+- Project management/tracking
+- Calendar
+- To-do list
+
+---
+
+# My system
+
+- Project organization with digital notebooks (OneNote)
+- Calendar management with different calendar types (Google Calendar synced with Outlook Calendar)
+- Student sign-ups with "youcanbook.me", which syncs with my calendars
+- Simple to-do list that I can quickly edit and organize (Google Keep)
+- Use email inbox as to-do list (only move or delete after I've acted on it)
+
+. . .
+
+It is very rare that I drop the ball without knowing it.
+
+---
+
+# Other considerations
+
+- Block out time for yourself (manually in the calendar, forced time in extensions like [freedom](https://freedom.to/))
+- If you are easily drawn to social media, I've heard good things about [freedom](https://freedom.to/)
+- Detailed project management software, like [OmniFocus](https://www.omnigroup.com/omnifocus/web/)
+
+. . .
+
+My take: I'm not a huge fan of detailed project management software because it becomes a lot of trouble to update.

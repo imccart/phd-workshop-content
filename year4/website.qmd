@@ -1,0 +1,102 @@
+---
+title: "4th Year Workshop"
+subtitle: "Preparing your website"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Academic Website
+
+You've got to make your materials easily accessible, and a website is the easiest way to do that. This is a necessity for job market candidates at this point.
+
+
+---
+
+# Basic pointers
+
+- Simple, easy-to-navigate design
+- Professional with personal flair
+
+![](https://media.giphy.com/media/ZMvG5L7Di4AgM/giphy.gif){fig-align="center"}
+
+
+---
+
+# Basic pointers
+
+- Simple, easy-to-navigate design
+- Professional with personal flair
+- Keep documents accessible
+    - GitHub
+    - Built-in server space (SquareSpace, etc.)
+    - **Not** Google Drive, Dropbox, etc.
+
+
+---
+
+# Getting started
+
+Lots of options to get a decent website up and running
+
+- Google Sites
+- SquareSpace
+- [Quarto](https://quarto.org/) websites (my recommendation)
+- Hugo with selected theme
+
+
+---
+
+# What is Quarto?
+
+Quarto is an open-source scientific and technical publishing system.
+
+- Takes your content (text, markdown, code) and template info as input
+- Creates final static website
+- Same tool you may already use for papers and presentations
+
+
+---
+
+# Using Quarto for websites
+
+- Write content in `.qmd` files (same as your papers/slides)
+- `quarto render` builds the site
+- Host on GitHub Pages for free
+- Very easy to get started with minimal configuration
+
+
+---
+
+# Using GitHub Pages
+
+- It's free!
+- Push your rendered site to a `docs/` folder or `gh-pages` branch
+- GitHub deploys automatically
+- Allows custom domain names
+
+
+---
+
+# Other options
+
+- Hugo is still a solid choice (but steeper learning curve)
+- SquareSpace and Google Sites work if you want zero coding
+- WordPress is fine too
+
+
+---
+
+# Managing content
+
+- No web developer, html, or css expertise required for Quarto
+- Can include Jupyter Notebooks and R code
+- Easy to keep papers, CV, and teaching materials all in one place
+
+
+---
+
+# Caveat
+
+- Getting started with any website tool takes some initial effort
+- But once set up, maintenance is minimal
+- Your website is your professional storefront, so it's worth the investment
