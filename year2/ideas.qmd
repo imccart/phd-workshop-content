@@ -7,16 +7,23 @@ institute: "Economics PhD Professionalism Workshop"
 
 # Where to get ideas?
 
+If you're feeling lost right now, that's completely normal. You just spent a year or two learning tools. Now you're supposed to use them, and nobody gave you a manual for that part.
+
+. . .
+
+The good news: ideas are everywhere. The hard part is learning to see them.
+
+---
+
 1. Read non-academic policy papers/briefs
-   - Commonwealth Fund
-   - Petersen-KFF
-   - Health Affairs or NEJM Opinion Pieces
-   - Newspapers
+   - Examples from health econ: Commonwealth Fund, Petersen-KFF, Health Affairs or NEJM opinion pieces
+   - Every field has equivalents — find the policy outlets and trade publications in your area
+   - Newspapers and podcasts count too
 
 ---
 
 2. Academic papers and survey articles
-   - Read the abstract and skim the rest
+   - Read the abstract and skim the rest (you'll read more carefully later)
    - JEP and JEL are good for survey articles
    - Get TOC notifications from relevant journals
    - NBER working papers
@@ -27,21 +34,20 @@ institute: "Economics PhD Professionalism Workshop"
 3. Seminars
    - Attend and read papers in advance
    - Meet with speakers and ask questions
+   - Pay attention to what the audience asks — that's where the gaps are
 
 ---
-
 
 4. Talk to faculty
-   - Be engaged in classes...think about potential research ideas
-   - Schedule meetings and come with some questions
+   - You don't need a polished idea to schedule a meeting
+   - Bring 2-3 half-baked topics and say "I've been thinking about X, does this seem like there's something here?"
+   - The goal is to leave with a sharper version of what you came in with, not to impress anyone
 
 ---
 
-
 5. Talk to classmates
-   - Ask questions and throw out some ideas
-   - Learn from each other
-
+   - Your cohort sees the world differently than you do — that's an asset
+   - Throw out ideas over coffee. Most will be bad. That's the point.
 
 ---
 
@@ -50,17 +56,37 @@ institute: "Economics PhD Professionalism Workshop"
    - You are an **economist** first
    - Be curious and engaged
 
+# From topic to idea
+
+---
+
+A topic is not an idea. An idea has a question with an answer you can find in data.
+
+. . .
+
+| Topic | Research question |
+|-------|------------------|
+| "I'm interested in hospitals" | "Do hospitals change their service mix when a nearby competitor closes?" |
+| "Education policy seems important" | "Does reducing class size in early grades affect long-run earnings?" |
+| "I want to study trade" | "How do firms adjust employment when tariffs are unexpectedly reversed?" |
+
+---
+
+Most of your early ideas will be topics, not questions. That's fine. The work is in narrowing.
+
+. . .
+
+**Kill bad ideas quickly.** If you can't find data, or the answer is obvious, or nobody would care about the answer — move on. Don't spend a semester on something you could have ruled out in a week.
 
 
 # Keep track of your ideas
 
-- Notion
-- Zotero
-- Research Rabbit
-- Google Keep
-- XMind
-- Trello
-- Paper journal
+---
+
+Find a system and stick with it. It barely matters which one — what matters is that you write things down *when you think of them*, not later.
+
+- Notion, Google Keep, a paper journal, a text file on your desktop
+- Zotero or Research Rabbit for tracking papers alongside your notes
 
 ---
 

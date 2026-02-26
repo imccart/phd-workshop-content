@@ -23,18 +23,41 @@ From Jesse Shapiro's [Four Steps to an Applied Micro Paper](https://scholar.harv
 - The answer is not obvious
 - The answer is actionable/relevant
 
+---
+
+## 1. The question
+
+A quick test: can you state the question in one sentence that a non-economist would understand?
+
+. . .
+
+- **Vague**: "What is the effect of insurance on health?"
+- **Better**: "Does gaining Medicaid coverage reduce emergency department visits?"
+
+. . .
+
+If you can't write the sentence, you don't have a question yet. That's OK — keep narrowing.
 
 ---
 
 ## 2. The hook
 
-Why is your question important and relevant? This should be aimed at a general audience, not someone specific to your field and perhaps not even to an economist.
+Why should anyone care? This should be aimed at a general audience, not someone specific to your field and perhaps not even to an economist.
 
+. . .
+
+Same question, two pitches:
+
+- **Without a hook**: "I study the effect of Medicaid on ED visits."
+- **With a hook**: "Emergency departments are the most expensive way to deliver basic care, and 30 million people just gained insurance. Did that change how they use the ER?"
+
+. . .
+
+The hook is the reason your question matters to someone who doesn't already study your topic.
 
 ---
 
 ## 3. The model
-
 
 - Question should be specific enough so that you are able to write down a model, an equation, or a series of equations that would facilitate answering this question
 - **Not** simply a mathematical representation of your research question...it should help inform the empirical methods and variation you will be using
@@ -78,11 +101,29 @@ Doing the same thing for a different population or using different methods or di
 
 # Starting the plan
 
+---
+
+## The aspirational introduction
+
+Write the introduction to the paper you *want* to write, before you've done the analysis. This forces you to:
+
+- State the question clearly
+- Articulate why it matters
+- Describe what you plan to do and what you expect to find
+
+. . .
+
+It will be wrong. That's the point. It gives you something concrete to work toward and revise as you learn more.
+
+---
+
+## Then what?
+
 - Data management
 - Preliminary analysis
-- Aspirational introduction
+- Revise that aspirational introduction as results come in
 - Draft paper
-- See 3rd year workshop materials
+- See 3rd year workshop materials for workflow details
 
 ---
 
