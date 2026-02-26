@@ -17,9 +17,6 @@ These slides are all about transparency and reproducibility (for your future sel
 
 # Why Bother with Workflow? {background-color="#23373B"}
 
-
----
-
 # Reproducibility
 
 - You'll need to come back to this one day!
@@ -47,9 +44,6 @@ One benefit of good tracking and workflow is that you partially automate your pr
 ---
 
 # Some Basic Tips {background-color="#23373B"}
-
-
----
 
 # Naming files
 
@@ -148,9 +142,6 @@ Some quick thoughts on workflow...
 
 # Version Control {background-color="#23373B"}
 
-
----
-
 # Why bother with version control?
 
 
@@ -207,9 +198,6 @@ Lots of ways to do this in practice:
 ---
 
 # My Workflow {background-color="#23373B"}
-
-
----
 
 # My basic workflow
 

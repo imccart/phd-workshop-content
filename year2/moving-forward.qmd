@@ -6,8 +6,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 # From idea to "proposal"
 
----
-
 ## Key steps
 
 1. What is the research *question*?
@@ -79,8 +77,6 @@ Doing the same thing for a different population or using different methods or di
 :::
 
 # Starting the plan
-
----
 
 - Data management
 - Preliminary analysis

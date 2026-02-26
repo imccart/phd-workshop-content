@@ -7,9 +7,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 # What comes next? {background-color="#23373B"}
 
-
----
-
 # The transition
 
 - You've defended. Congratulations!
@@ -48,8 +45,6 @@ Key differences between a chapter and a paper:
 ---
 
 # Preparing for your new role {background-color="#23373B"}
-
----
 
 # Starting a faculty position
 

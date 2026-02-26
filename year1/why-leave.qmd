@@ -7,9 +7,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 # What a great group! {background-color="#23373B"}
 
-
----
-
 # Who are you?
 
 - 11 selected out of **407** applicants!
@@ -38,9 +35,6 @@ What a great, diverse group! We want **EVERYONE** to leave here with a PhD in Ec
 ---
 
 # Who doesn't finish? {background-color="#23373B"}
-
-
----
 
 # Who doesn't finish?
 

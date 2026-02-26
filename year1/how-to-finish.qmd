@@ -7,8 +7,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 # How to stay? {background-color="#23373B"}
 
----
-
 # How to stay?
 
 Conditional on a match, there are some definite dos and don'ts for succeeding in a PhD program.
@@ -16,9 +14,6 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 ---
 
 # The Do's {background-color="#23373B"}
-
-
----
 
 # 1. Do...commit to the program
 
@@ -64,8 +59,6 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 ---
 
 # The Don't's {background-color="#23373B"}
-
----
 
 # 1. Don't...isolate yourself
 

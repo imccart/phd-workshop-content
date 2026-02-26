@@ -7,9 +7,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 # Workflow {background-color="#23373B"}
 
-
----
-
 # Workflow
 
 - Workflow is a system to make it easier on your brain to do your work
@@ -31,9 +28,6 @@ In the etiquette section, we talked about some very general tips for staying org
 ---
 
 # Organizing Your Research {background-color="#23373B"}
-
-
----
 
 # Project notebooks
 
@@ -81,9 +75,6 @@ Here's my system:
 ---
 
 # Organizing One Project {background-color="#23373B"}
-
-
----
 
 # Project folders
 
@@ -137,9 +128,6 @@ project
 ---
 
 # Organizing Others' Research {background-color="#23373B"}
-
-
----
 
 # Reading papers
 

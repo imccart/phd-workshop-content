@@ -7,9 +7,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 # The Defense {background-color="#23373B"}
 
-
----
-
 # What is the defense?
 
 - A formal presentation of your dissertation to your committee
