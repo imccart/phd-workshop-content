@@ -1240,17 +1240,30 @@ display:block!important;
 </div>
 </section>
 
-<section id="my-solo-author-analysis-and-writing-workflow" class="title-slide slide level1 center">
-<h1>My solo-author analysis and writing workflow</h1>
+<section id="writing-the-paper" class="title-slide slide level1 center">
+<h1>Writing the paper</h1>
+<p>Same folders either way. The only difference is the paper file and who else can write to it.</p>
+<div class="cards two">
+<div class="card">
+<p><strong>✍️ Solo</strong></p>
 <ul>
-<li>The paper is one Quarto file (<code>.qmd</code>)</li>
-<li>Tables and figures come in from <code>results/</code>, numbers included, never typed in</li>
+<li><code>paper/paper.qmd</code></li>
+<li>Tables, figures, and numbers come in from <code>results/</code></li>
 <li>One render builds the PDF</li>
 </ul>
+</div>
+<div class="card">
+<p><strong>👥 Co-authored</strong></p>
+<ul>
+<li><code>paper/paper.tex</code>, synced with Overleaf through GitHub</li>
+<li>Overleaf gets <code>paper/</code> and <code>presentations/</code>, nothing else (next slide)</li>
+</ul>
+</div>
+</div>
 </section>
 
-<section id="my-co-authored-analysis-and-writing-workflow" class="title-slide slide level1 center">
-<h1>My co-authored analysis and writing workflow</h1>
+<section id="what-overleaf-can-touch" class="title-slide slide level1 center">
+<h1>What Overleaf can touch</h1>
 <div class="tree">
 <pre><code>📁 project
 ├── 📄 .gitignore        ← the first filter
