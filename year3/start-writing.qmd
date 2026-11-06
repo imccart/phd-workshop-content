@@ -144,30 +144,12 @@ Writing sessions or retreats with classmates
 Staring at the screen for 15 minutes without writing? Take a break and come back to it.
 
 
-# Stuck?
+# When nothing is coming
 
-:::: {.cards .two}
-::: {.card}
-**✏️ Write a rough version first**
-
-A bad sentence on the page can be fixed tomorrow
-:::
-::: {.card}
-**🖼️ Start from the figure**
-
-Write the caption, then the paragraph that explains it
-:::
-::: {.card}
-**🗣️ Say it out loud**
-
-Explain the result to a classmate, then write down what you said
-:::
-::: {.card}
-**✂️ Make the task smaller**
-
-One paragraph, then the next
-:::
-::::
+- Write a rough version now and fix it tomorrow
+- Start with a figure: write the caption, then the paragraph that explains it
+- Explain the result to a classmate, then write down what you said
+- Write one paragraph, then the next
 
 
 # Main point
