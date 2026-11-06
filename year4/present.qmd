@@ -326,3 +326,10 @@ Now for some things that you absolutely should not do in a presentation...
 2. "Sorry this table is so small"
 3. "I'm not sure why this is so blurry"
 4. ...let me continue to argue with you over this while the rest of the audience checks their phones
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

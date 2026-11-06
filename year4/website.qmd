@@ -82,3 +82,10 @@ Quarto is an open-source scientific and technical publishing system.
 - Getting started with any website tool takes some initial effort
 - But once set up, maintenance is minimal
 - Your website is your professional storefront, so it's worth the investment
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

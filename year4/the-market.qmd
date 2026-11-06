@@ -74,3 +74,10 @@ Some things to keep in mind...
 - There exists (for worse) a trickle down component of the academic market
 - You **will** leave the PhD with a job (0.9% unemployment rate among doctoral programs)
 - You **can** be happy in any job you choose
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

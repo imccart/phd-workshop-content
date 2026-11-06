@@ -130,3 +130,10 @@ It will be wrong. That's the point. It gives you something concrete to work towa
 ## Final plea
 
 Please, please, please start thinking of research early and often. Brainstorm topics, read papers, talk to classmates and faculty. Iterate on ideas until you find something you can do. And **DO NOT** shy away from a challenge.
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

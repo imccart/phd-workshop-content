@@ -24,3 +24,10 @@ Once you're in a meeting, try to keep a few things in mind:
 2. Speak up but only if relevant (the only thing worse than a meeting is a long meeting)
 3. Speak respectfully and read the room
 4. Listen and participate (stay off your phones, etc.)
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

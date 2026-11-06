@@ -73,3 +73,10 @@ Keep track of everything you do...some may not end up on CV, but it's good pract
 
 - Should already have list of letter writers approved
 - Keep letter writers apprised of job market and research progress
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

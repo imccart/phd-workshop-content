@@ -77,3 +77,10 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 # A pep talk
 
 {{< video https://www.youtube.com/embed/l-gQLqv9f4o width="800" height="500" start="0" end="147" >}}
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::
