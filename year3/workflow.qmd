@@ -1,0 +1,603 @@
+---
+title: "3rd Year Workshop"
+subtitle: "Workflow"
+author: "Ian McCarthy, Emory University"
+institute: "Economics PhD Professionalism Workshop"
+---
+
+# Workflow
+
+Workflow is a system to make it easier on your brain to do your work. Don't waste time finding things or trying to remember that great idea you had.
+
+. . .
+
+::: {.big}
+A **keystone habit**: the one habit that organizes all the other good habits
+:::
+
+
+# Today
+
+::: {.roadmap .lead}
+[Organize](#organize) [Keep track](#keep-track) [Version control](#version-control) [My workflow](#my-workflow) [Back up](#back-up)
+:::
+
+
+# Organize {#organize .divider background-color="#23373B"}
+
+::: {.roadmap}
+[Organize](#organize){.current} [Keep track](#keep-track) [Version control](#version-control) [My workflow](#my-workflow) [Back up](#back-up)
+:::
+
+
+# Getting organized
+
+In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Four things to organize:
+
+:::: {.cards .two}
+::: {.card}
+**[🗒️ Notes on your research project](#project-notebooks)**
+:::
+::: {.card}
+**[📁 Your project folders](#project-folders)**
+:::
+::: {.card}
+**[📚 Notes on papers you've read](#reading-papers)**
+:::
+::: {.card}
+**[🔗 Papers you're citing](#citation-managers)**
+:::
+::::
+
+
+# Project notebooks
+
+Organize your projects into notebooks or folders of some kind. Notion, OneNote, text files in a folder, or a paper journal all work.
+
+
+# Project notebooks: my system
+
+Three folders under `research-projects/`, and a project moves through them in order.
+
+::::: {.flow}
+:::: {.step}
+💡
+
+**Pending**
+
+`_future-ideas/`, one folder per idea. A conversation with Claude first, then a note to Google Drive
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+🔬
+
+**Ongoing**
+
+`research-projects/`, one folder per project, the skeleton on the next slide
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+✅
+
+**Completed**
+
+`_completed/` once the paper is accepted, `_stalled/` if it never gets there
+::::
+:::::
+
+::: {.notes}
+Ask the room before revealing the flow: where do your half-formed ideas live right now? Phone notes, a notebook, nowhere?
+:::
+
+
+# Project folders
+
+Key is to have a system where files are named appropriately and everything is easily accessible. Basically it's a closet for your research.
+
+
+# Project folders
+
+Every one of my projects starts from the same skeleton. One command builds it, so no two projects are organized differently.
+
+::: {.tree}
+```
+📁 project
+├── 📄 README.md
+├── 📁 paper/            paper.tex or paper.qmd, plus the bibliography
+├── 📁 presentations/
+├── 📁 data/
+│   ├── 📁 input/        raw, never modified by code
+│   └── 📁 output/       cleaned, analysis-ready
+├── 📁 code/
+│   ├── 📁 data-build/   input → output
+│   └── 📁 analysis/     output → results
+├── 📁 results/
+│   ├── 📁 tables/
+│   └── 📁 figures/
+├── 📁 background/       literature, PDFs
+├── 📁 notes/            planning, decisions
+└── 📁 scratch/          throwaway
+```
+:::
+
+::: {.popup .fragment}
+**`data/input/` is all symbolic links**
+
+- Raw data lives once, in `research-data/`, one folder per dataset
+- Cleaned panels live in data-only repos, `research-data-repo/`
+- A project `ln -s`'s what it needs. No copies, nothing modified
+:::
+
+
+# Project folders
+
+- Project need not start out perfectly organized
+- Think of the folder/file structure as your kitchen
+    - It will get dirty
+    - Don't let it get so dirty that you forget stuff
+    - Clean up regularly!
+
+
+# Reading papers
+
+We read lots of papers. That's part of the job and critical to doing good work, and the notes you take on them are worth keeping. Mine live in two places:
+
+:::: {.cards .two}
+::: {.card}
+**📚 Zotero**
+
+The library. Every PDF with its citation, plus the notes on it
+:::
+::: {.card}
+**✍️ ReMarkable**
+
+Where the reading and the handwritten notes happen
+:::
+::::
+
+
+# Citation managers
+
+Zotero, Mendeley, and EndNote Web all work. Mine is Zotero:
+
+::::: {.flow}
+:::: {.step}
+📚
+
+**Zotero**
+
+Cloud backup, every PDF linked to its citation
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+📄
+
+**BibTeX_Library.bib**
+
+One exported file, kept up to date on the desktop
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+☁️
+
+**Cloud sync**
+
+The same file on every machine
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+✍️
+
+**Overleaf / Quarto**
+
+Pulled into every paper, never edited by hand
+::::
+:::::
+
+
+# Keep track {#keep-track .divider background-color="#23373B"}
+
+::: {.roadmap}
+[Organize](#organize) [Keep track](#keep-track){.current} [Version control](#version-control) [My workflow](#my-workflow) [Back up](#back-up)
+:::
+
+
+# Why bother?
+
+This part is all about transparency and reproducibility (for your future self and for others). Some other resources...
+
+- [Berkeley Initiative for Transparency in the Social Sciences](https://www.bitss.org/)
+- [Julian Reif's Guide for Replication with Stata](https://reifjulian.github.io/guide/)
+
+
+# Reproducibility
+
+- You'll need to come back to this one day!
+- Others will (hopefully) ask you about this
+
+. . .
+
+::: {.big}
+"I lost my hard drive" is unacceptable
+:::
+
+
+# Automation
+
+One benefit of good tracking and workflow is that you partially automate your projects...
+
+- No repeating commands in the command line
+- No copying and pasting values into tables
+- No copying and pasting values into the text (harder to do)
+
+
+. . .
+
+My version: one driver script per pipeline (`_build-all.R`, `_analyze-all.R`) that sources the numbered steps in order. One command reruns everything.
+
+
+# Naming files {.center}
+
+Avoid spaces in file names. Avoid them at all costs. *DO NOT PUT SPACES IN YOUR FILE NAMES.*
+
+. . .
+
+::: {.big}
+"A space in a file name is a space in your soul."
+:::
+
+
+# Naming files
+
+Avoid things like this...
+
+::: {.tree}
+```
+📁 great-research-idea
+├── 📁 analysis
+│   ├── 📄 final_analysis.R
+│   ├── 📄 final_final_analysis.R     ❌
+│   └── 📄 last_analysis.R            ❌
+├── 📁 data
+│   ├── 📄 clean_data.csv
+│   └── 📄 extra_clean_data.csv       ❌
+└── 📁 paper
+    ├── 📄 draft1.tex
+    ├── 📄 final_draft.tex
+    └── 📄 final_final_draft.tex      ❌
+```
+:::
+
+::: {.notes}
+Show of hands: who has a file called final_final or v7 somewhere right now?
+:::
+
+
+# Naming files
+
+- Use dates in your filenames if necessary (YYYYMMDD format)
+- Minimize the use of filename dates and instead try official version control
+- Dates useful in log files and similar output (not under version control)
+
+
+. . .
+
+Related point...use common sense (but short) variable names without spaces
+
+
+# Data workflow
+
+Some quick thoughts on workflow...
+
+::: {.steps .incremental}
+1. Avoid absolute path names.
+2. If you use the same data across projects, link to it (`ln -s`) rather than copying it
+3. Separate your analysis and your markdown (not practical otherwise)
+4. **NEVER** delete or directly change raw data files
+:::
+
+
+# Version control {#version-control .divider background-color="#23373B"}
+
+::: {.roadmap}
+[Organize](#organize) [Keep track](#keep-track) [Version control](#version-control){.current} [My workflow](#my-workflow) [Back up](#back-up)
+:::
+
+
+# Why bother with version control?
+
+
+1. Internal validity (replicability for your future self)
+2. External validity (replicability for others)
+
+
+. . .
+
+**note**: particularly important on the modern job market
+
+
+# Version control
+
+How do you track your versions? Don't keep two versions of the same thing.
+
+::::: {.flow}
+:::: {.step}
+📂
+
+**Dropbox, Google Drive**
+
+Some form of version history, but incomplete
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+✍️
+
+**Overleaf**
+
+Built-in version history, for the paper only
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+🐙
+
+**Git / GitHub**
+
+Every file, every change, and shareable, so you get external validity too
+::::
+:::::
+
+
+# Virtual environments
+
+Let's assume your code works on your system. You (should) also want it to work on other computers. How do you get other computers to look like your own?
+
+. . .
+
+:::: {.cards .three}
+::: {.card}
+**🐳 Docker**
+
+Basically mimic your entire machine
+:::
+::: {.card}
+**📦 renv**
+
+Record the version of every R package in a `.lock` file
+:::
+::: {.card}
+**🐍 renv + Python**
+
+`renv::use_python()` does the same for a virtual Python environment
+:::
+::::
+
+
+# My workflow {#my-workflow .divider background-color="#23373B"}
+
+::: {.roadmap}
+[Organize](#organize) [Keep track](#keep-track) [Version control](#version-control) [My workflow](#my-workflow){.current} [Back up](#back-up)
+:::
+
+
+# Kicking off a project
+
+::::: {.flow}
+:::: {.step}
+💡
+
+**An idea worth a folder**
+
+Sitting in `_future-ideas/`
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+🤖
+
+**One command**
+
+`/kickoff-research`, a Claude Code skill I wrote. Everything that follows is automatic
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+📁
+
+**A full skeleton**
+
+`git init`, the folders, `.gitignore`, `renv`, a numbers ledger
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+✍️
+
+**The paper workflow**
+
+Solo: Quarto. Co-authored: LaTeX synced with Overleaf (next slides)
+::::
+:::::
+
+. . .
+
+I used to do this by hand from a GitHub template, still there if you want it: [R research template](https://github.com/imccart/research-template).
+
+
+# Where the to-dos live
+
+:::: {.cards .three}
+::: {.card}
+**🐙 GitHub**
+
+The repo itself, and sometimes issues
+:::
+::: {.card}
+**🗒️ `notes/`**
+
+Working notes and to-do lists, gitignored
+:::
+::: {.card}
+**💬 In the paper**
+
+Comments in the `.tex` or `.qmd`, right where the change goes
+:::
+::::
+
+
+# Writing the paper
+
+Same folders either way. The only difference is the paper file and who else can write to it.
+
+:::: {.cards .two}
+::: {.card}
+**✍️ Solo**
+
+- `paper/paper.qmd`
+- Tables, figures, and numbers come in from `results/`
+- One render builds the PDF
+:::
+::: {.card}
+**👥 Co-authored**
+
+- `paper/paper.tex`, synced with Overleaf through GitHub
+- Overleaf syncs `paper/` and `presentations/` only (next slide)
+:::
+::::
+
+
+# Which folders Overleaf can change
+
+::: {.tree}
+```
+📁 project
+├── 📄 .gitignore        ← the first filter
+├── 📁 paper/             ✅ tracked, Overleaf syncs here
+├── 📁 presentations/     ✅ tracked, Overleaf syncs here
+├── 📁 code/              🚫 tracked, but guarded — Overleaf can't touch it
+├── 📁 results/           🚫 tracked, but guarded
+├── 📁 data/              ⛔ gitignored — never even reaches GitHub
+├── 📁 notes/             ⛔ gitignored
+├── 📁 background/        ⛔ gitignored
+└── 📁 scratch/           ⛔ gitignored
+```
+:::
+
+. . .
+
+Two filters. `.gitignore` keeps data, notes, background, and scratch off GitHub, so Overleaf never sees them. A GitHub Action then blocks any Overleaf commit that touches `code/` or `results/`.
+
+
+# Back up {#back-up .divider background-color="#23373B"}
+
+::: {.roadmap}
+[Organize](#organize) [Keep track](#keep-track) [Version control](#version-control) [My workflow](#my-workflow) [Back up](#back-up){.current}
+:::
+
+
+# If your laptop died tonight, what would you lose? {.center}
+
+. . .
+
+Three ways to make the answer "nothing."
+
+::: {.notes}
+Show of hands before moving on: who has a backup that would actually survive this? Then: when did it last run?
+:::
+
+
+# Three options {.smaller}
+
+:::: {.cards .three}
+::: {.card}
+**💽 External hard drive**
+
+- ✅ Affordable and fully in your control
+- ✅ Data remain private
+- ❌ Only backed up when you remember
+- ❌ Can be slow
+- ❌ Same physical place as the laptop
+:::
+::: {.card}
+**☁️ Cloud service**
+
+Dropbox, Google Drive, OneDrive
+
+- ✅ Works painlessly in the background
+- ✅ Easy to share when needed
+- ✅ Emory's OneDrive: free, 5 TB, and certified for sensitive data (HIPAA)
+- ❌ Personal accounts get expensive, and can't hold restricted data
+:::
+::: {.card}
+**🗄️ Your own NAS**
+
+Just build your own network!
+
+- ✅ Data stay with you, backed up in real time
+- ✅ Redundancy built in
+- ❌ Expensive to buy
+- ❌ Harder to set up
+:::
+::::
+
+. . .
+
+Crashes will inevitably happen between backups.
+
+
+# My backup system
+
+::::: {.flow}
+:::: {.step}
+💻
+
+**Workstation**
+
+Where the work happens
+::::
+:::: {.arrow}
+⇄
+::::
+:::: {.step}
+🗄️
+
+**Synology NAS**
+
+4-bay DiskStation, Synology Hybrid RAID (because I'm not a network engineer)
+::::
+:::: {.arrow}
+⇄
+::::
+:::: {.step}
+🖥️
+
+**Always-on server**
+
+Long jobs and scheduled tasks, on the same files
+::::
+:::::
+
+. . .
+
+Synology Drive keeps every machine on the same files. Paper PDFs also go to Google Drive with `rclone`.
+
+
+::: {.home}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::

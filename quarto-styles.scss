@@ -275,3 +275,87 @@ $tint: #f1f5f6;
   padding: 0;
   max-height: none;
 }
+
+/* ---- Roadmap strip, section dividers, section footer ---- */
+
+.reveal .roadmap p {
+  display: flex;
+  justify-content: center;
+  gap: 0.6em;
+  margin: 1em auto 0 auto;
+  counter-reset: road;
+}
+
+.reveal .roadmap a {
+  counter-increment: road;
+  flex: 1 1 0;
+  display: block;
+  padding: 0.5em 0.4em 0.55em 0.4em;
+  border-radius: 8px;
+  background: $tint;
+  color: $accent;
+  font-size: 0.62em;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.reveal .roadmap a::before {
+  content: counter(road);
+  display: block;
+  font-size: 1.3em;
+  font-weight: 700;
+  opacity: 0.55;
+  margin-bottom: 0.15em;
+}
+
+.reveal .roadmap a:hover {
+  color: $accent2;
+}
+
+.reveal .roadmap a.current {
+  background: $accent2;
+  color: #fff;
+}
+
+.reveal .roadmap a.current::before {
+  opacity: 0.85;
+}
+
+.reveal .roadmap.lead a {
+  font-size: 0.8em;
+  padding: 0.7em 0.5em 0.75em 0.5em;
+}
+
+.reveal .has-dark-background .roadmap a {
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.reveal .has-dark-background .roadmap a:hover {
+  color: #fff;
+}
+
+.reveal .has-dark-background .roadmap a.current {
+  background: $accent2;
+  color: #fff;
+}
+
+.reveal .divider h1 {
+  margin-bottom: 0.2em;
+}
+
+.section-footer {
+  position: fixed;
+  left: 48px;
+  bottom: 12px;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #7f7f7f;
+  z-index: 31;
+}
+
+html.print-pdf .section-footer {
+  display: none;
+}

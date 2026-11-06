@@ -1,0 +1,25 @@
+<div class="section-footer" id="section-footer"></div>
+<script>
+(function () {
+  function sectionName(slide) {
+    if (!slide || slide.classList.contains('divider')) return '';
+    var all = Array.prototype.slice.call(document.querySelectorAll('.reveal .slides > section'));
+    for (var i = all.indexOf(slide); i >= 0; i--) {
+      if (all[i].classList.contains('divider')) {
+        var h = all[i].querySelector('h1, h2');
+        return h ? h.textContent : '';
+      }
+    }
+    return '';
+  }
+  function update() {
+    var el = document.getElementById('section-footer');
+    if (el) el.textContent = sectionName(Reveal.getCurrentSlide());
+  }
+  window.addEventListener('load', function () {
+    if (typeof Reveal === 'undefined') return;
+    Reveal.on('slidechanged', update);
+    if (Reveal.isReady()) update(); else Reveal.on('ready', update);
+  });
+})();
+</script>
