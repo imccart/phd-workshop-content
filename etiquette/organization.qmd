@@ -27,10 +27,10 @@ institute: "Economics PhD Professionalism Workshop"
 
 # My system
 
-- Project organization with digital notebooks (OneNote)
+- Project organization with folders, one per project, and a `notes/` folder inside each
 - Calendar management with different calendar types (Google Calendar synced with Outlook Calendar)
 - Student sign-ups with "youcanbook.me", which syncs with my calendars
-- Simple to-do list that I can quickly edit and organize (Google Keep)
+- To-dos live next to the work: GitHub issues, the project's `notes/` folder, or comments in the paper itself
 - Use email inbox as to-do list (only move or delete after I've acted on it)
 
 . . .
