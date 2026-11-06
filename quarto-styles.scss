@@ -78,3 +78,138 @@
 .reveal .slides .footer {
   text-align: left;
 }
+
+/* ---- Visual components (flows, cards, steps, big statements, trees) ---- */
+
+$accent: #23373B;
+$accent2: #da7901;
+$tint: #f1f5f6;
+
+.reveal .flow {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 0.7em 0;
+}
+
+.reveal .flow .step {
+  flex: 1 1 0;
+  background: $tint;
+  border-top: 6px solid $accent;
+  border-radius: 10px;
+  padding: 0.6em 0.7em 0.7em 0.7em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.reveal .flow .step p {
+  margin: 0.15em 0;
+}
+
+.reveal .flow .step p:first-child {
+  font-size: 2.4em;
+  line-height: 1.1;
+  margin-bottom: 0.05em;
+}
+
+.reveal .flow .arrow {
+  align-self: center;
+  flex: 0 0 auto;
+  font-size: 2em;
+  color: #9aa5a8;
+}
+
+.reveal .cards {
+  display: grid;
+  gap: 0.8em;
+  margin: 0.7em 0;
+}
+
+.reveal .cards.two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.reveal .cards.three {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reveal .card {
+  background: $tint;
+  border-left: 6px solid $accent;
+  border-radius: 8px;
+  padding: 0.6em 0.9em 0.7em 0.9em;
+  font-size: 0.9em;
+}
+
+.reveal .card > p:first-child {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0 0 0.3em 0;
+}
+
+.reveal .card p {
+  margin: 0.2em 0;
+}
+
+.reveal .card ul {
+  margin: 0.2em 0 0 0.9em;
+}
+
+.reveal .card li {
+  margin: 0.05em 0;
+}
+
+.reveal .steps ol {
+  list-style: none;
+  counter-reset: step;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.reveal .steps ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.1em;
+  margin-bottom: 0.4em;
+}
+
+.reveal .steps ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: $accent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .big {
+  font-size: 1.7em;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  margin: 0.6em auto;
+  max-width: 90%;
+}
+
+.reveal .tree pre {
+  margin: 0.3em 0;
+  box-shadow: none;
+}
+
+.reveal .tree pre code {
+  font-size: 1.35em;
+  line-height: 1.35;
+  background: transparent;
+  border: none;
+  padding: 0;
+  max-height: none;
+}

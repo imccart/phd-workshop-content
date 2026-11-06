@@ -4,3 +4,5 @@ libs/
 .quarto/
 
 /.quarto/
+
+**/*.quarto_ipynb

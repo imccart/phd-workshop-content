@@ -9,29 +9,36 @@ institute: "Economics PhD Professionalism Workshop"
 
 When should you start writing?
 
+::: {.steps}
 1. You have an idea and given it some real thought
 2. Your "scaffolding" is built
 3. Your data are organized and nearly ready
-
+:::
 
 . . .
 
-**Write your introduction!**
+::: {.big}
+Write your introduction.
+:::
+
+::: {.notes}
+Ask who has already written an introduction for their third-year paper, and who has written anything at all yet.
+:::
 
 ---
 
 # First draft intro
 
-:::: {.columns}
-::: {.column width="50%"}
-This introduction is NOT:
+:::: {.cards .two}
+::: {.card}
+**❌ This introduction is NOT**
 
 - Final
 - Particularly well-informed
 - Accurate
 :::
-::: {.column width="50%"}
-This introduction IS:
+::: {.card}
+**✅ This introduction IS**
 
 - What you **want** to do
 - What you **think** is the contribution
@@ -39,10 +46,9 @@ This introduction IS:
 :::
 ::::
 
-
 . . .
 
-What would your paper look like if everything works out perfectly? This is the "aspirational introduction" as per Shapiro's [four steps to writing an applied paper](https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf)
+What would your paper look like if everything works out perfectly? This is the "aspirational introduction" as per Shapiro's [four steps to writing an applied paper](https://shapiro.scholars.harvard.edu/sites/g/files/omnuum7731/files/2026-02/foursteps.pdf)
 
 ---
 

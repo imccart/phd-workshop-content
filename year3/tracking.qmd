@@ -21,7 +21,12 @@ These slides are all about transparency and reproducibility (for your future sel
 
 - You'll need to come back to this one day!
 - Others will (hopefully) ask you about this
-- "I lost my hard drive" is unacceptable!
+
+. . .
+
+::: {.big}
+"I lost my hard drive" is unacceptable
+:::
 
 
 
@@ -45,11 +50,15 @@ One benefit of good tracking and workflow is that you partially automate your pr
 
 # Some Basic Tips {background-color="#23373B"}
 
-# Naming files
+# Naming files {.center}
 
 Avoid spaces in file names. Avoid them at all costs. *DO NOT PUT SPACES IN YOUR FILE NAMES.*
 
->*"A space in a file name is a space in your soul."*
+. . .
+
+::: {.big}
+"A space in a file name is a space in your soul."
+:::
 
 ---
 
@@ -57,24 +66,25 @@ Avoid spaces in file names. Avoid them at all costs. *DO NOT PUT SPACES IN YOUR 
 
 Avoid things like this...
 
-::: {.pre}
+::: {.tree}
 ```
-great-research-idea
-|
-|---analysis
-|   |   final_analysis.R
-|   |   final_final_analysis.R
-|   |   last_analysis.R
-|
-|---data
-|   |   clean_data.csv
-|   |   extra_clean_data.csv
-|
-|---paper
-|   |   draft1.tex
-|   |   final_draft.tex
-|   |   final_final_draft.tex
+📁 great-research-idea
+├── 📁 analysis
+│   ├── 📄 final_analysis.R
+│   ├── 📄 final_final_analysis.R     ❌
+│   └── 📄 last_analysis.R            ❌
+├── 📁 data
+│   ├── 📄 clean_data.csv
+│   └── 📄 extra_clean_data.csv       ❌
+└── 📁 paper
+    ├── 📄 draft1.tex
+    ├── 📄 final_draft.tex
+    └── 📄 final_final_draft.tex      ❌
 ```
+:::
+
+::: {.notes}
+Show of hands: who has a file called final_final or v7 somewhere right now?
 :::
 
 ---
@@ -98,45 +108,12 @@ Related point...use common sense (but short) variable names without spaces
 
 Some quick thoughts on workflow...
 
-1. Avoid absolute path names!
-
-![](https://media.giphy.com/media/3oz8xt6aO8l4UjcnXa/giphy.gif){fig-align="center"}
-
----
-
-# Data workflow
-
-Some quick thoughts on workflow...
-
-1. Avoid absolute path names!
-
-2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links `ln -s ~/base_location ~/new_location_with_link`
-
----
-
-# Data workflow
-
-Some quick thoughts on workflow...
-
-1. Avoid absolute path names!
-
-2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links
-
+::: {.steps .incremental}
+1. Avoid absolute path names.
+2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links (`ln -s ~/base_location ~/new_location_with_link`)
 3. Separate your analysis and your markdown (not practical otherwise)
-
----
-
-# Data workflow
-
-Some quick thoughts on workflow...
-
-1. Avoid absolute path names!
-
-2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links
-
-3. Separate your analysis and your markdown (not practical otherwise)
-
 4. **NEVER** delete or directly change raw data files
+:::
 
 ---
 
@@ -158,65 +135,111 @@ Some quick thoughts on workflow...
 
 # Version control
 
-How do you track your versions?
+How do you track your versions? Don't keep two versions of the same thing.
 
-- Don't keep two versions of the same thing
-- Dropbox, Google Drive, etc. offer some form of version history (but incomplete)
-- Overleaf has built-in version history
-- Commit fully to Git/GitHub
+::::: {.flow}
+:::: {.step}
+📂
 
+**Dropbox, Google Drive**
 
-. . .
+Some form of version history, but incomplete
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+✍️
 
-Git is ideal since it is easily shareable, so you get external validity too
+**Overleaf**
+
+Built-in version history, for the paper only
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+🐙
+
+**Git / GitHub**
+
+Commit fully. Every file, every change, and easily shareable, so you get external validity too
+::::
+:::::
 
 ---
 
 # Virtual environments
 
-- Let's assume your code works on your system
-- You (should) also want it to work on other computers
-- How do you get other computers to look like your own?
-
+Let's assume your code works on your system. You (should) also want it to work on other computers. How do you get other computers to look like your own?
 
 . . .
 
-**Virtual Environments!**
+:::: {.cards .three}
+::: {.card}
+**🐳 Docker**
 
----
+Basically mimic your entire machine
+:::
+::: {.card}
+**📦 renv**
 
-# Virtual environments
+Record the version of every R package in a `.lock` file
+:::
+::: {.card}
+**🐍 renv + Python**
 
-Lots of ways to do this in practice:
-
-1. Use `Docker` to basically mimic your entire machine
-
-2. Use `renv` to make sure you note versions of all packages (in a .lock file)
-
-3. `renv` also works with virtual Python environments `renv::use_python()`
+`renv::use_python()` does the same for a virtual Python environment
+:::
+::::
 
 ---
 
 # My Workflow {background-color="#23373B"}
 
-# My basic workflow
+# Kicking off a project
 
-  1. Create "empty" GitHub repo online
+::::: {.flow}
+:::: {.step}
+💡
 
-  2. Clone to my system as a new project with version control
+**An idea worth a folder**
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+🤖
 
-  3. Initialize my `R` environment with `renv` (more details [here](https://rstudio.github.io/renv/articles/renv.html)), if using Stata...change ado paths to call specific packages folder
+**One command**
 
-  4. Create project "scaffolding" with initial directories
+`/kickoff-research`, a Claude Code skill. The first thing it asks: solo or co-authored?
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+📁
 
+**A full skeleton**
 
----
+`git init`, the folders, `.gitignore`, `renv`, a ledger tying every number in the paper to the script that made it
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+✍️
 
-# My basic workflow
+**The paper workflow**
 
-- Consider [cookiecutter](https://github.com/cookiecutter/cookiecutter) to create project from template
-- I have a template on GitHub if you want to use it: [R research template](https://github.com/imccart/research-template)
-- AI coding assistants (GitHub Copilot, Claude Code) can help with boilerplate and debugging
+Solo: Quarto. Co-authored: LaTeX + Overleaf
+::::
+:::::
+
+. . .
+
+I used to do this by hand from a GitHub template (still there if you want it: [R research template](https://github.com/imccart/research-template)). Now the AI builds it the same way every time.
 
 
 ---
@@ -242,7 +265,21 @@ Lots of ways to do this in practice:
 
 # My co-authored analysis and writing workflow
 
-- Write in LaTeX with Overleaf
-- Compile with Overleaf using output folders (tables and figures)
-- Sync bibliography via cloud storage
-- Template on Overleaf: [Overleaf template](https://www.overleaf.com/read/tfnkdhnndxck)
+::: {.tree}
+```
+📁 project
+├── 📄 .gitignore        ← the first filter
+├── 📁 paper/             ✅ tracked, Overleaf syncs here
+├── 📁 presentations/     ✅ tracked, Overleaf syncs here
+├── 📁 code/              🚫 tracked, but guarded — Overleaf can't touch it
+├── 📁 results/           🚫 tracked, but guarded
+├── 📁 data/              ⛔ gitignored — never even reaches GitHub
+├── 📁 notes/             ⛔ gitignored
+├── 📁 background/        ⛔ gitignored
+└── 📁 scratch/           ⛔ gitignored
+```
+:::
+
+. . .
+
+Two filters, in order. `.gitignore` keeps data, notes, background, and scratch out of the repo entirely, so Overleaf (which only sees what's on GitHub) never sees them. Of what's left, a GitHub Action fails any Overleaf-tagged commit that touches `code/` or `results/`. Overleaf ends up with exactly `paper/` and `presentations/`, which is all it should ever write to.

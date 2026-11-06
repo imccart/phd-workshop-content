@@ -9,21 +9,34 @@ institute: "Economics PhD Professionalism Workshop"
 
 # Workflow
 
-- Workflow is a system to make it easier on your brain to do your work
-- Don't waste time finding things or trying to remember that great idea you had
-- We'll work toward an organized and systematic workflow that ensures replicability and minimizes mistakes
-- **Keystone habit**: a way to organize all other good habits
+Workflow is a system to make it easier on your brain to do your work. Don't waste time finding things or trying to remember that great idea you had. We'll work toward something organized and systematic that ensures replicability and minimizes mistakes.
+
+. . .
+
+::: {.big}
+A **keystone habit**: the one habit that organizes all the other good habits
+:::
 
 ---
 
 # Getting organized
 
-In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Here, we'll cover strategies to organize...
+In the etiquette section, we talked about some very general tips for staying organized. This will be specific to research. Four things to organize:
 
-1. notes for your research project
-2. your project folders
-3. notes on papers you've read
-4. papers you're citing
+:::: {.cards .two}
+::: {.card}
+**🗒️ Notes on your research project**
+:::
+::: {.card}
+**📁 Your project folders**
+:::
+::: {.card}
+**📚 Notes on papers you've read**
+:::
+::: {.card}
+**🔗 Papers you're citing**
+:::
+::::
 
 ---
 
@@ -31,46 +44,47 @@ In the etiquette section, we talked about some very general tips for staying org
 
 # Project notebooks
 
-- Organize your projects into notebooks (or folders) of some kind
-- Digital options: OneNote, Evernote, Notion, Google Keep, just text files in a folder
-- Other options: Bullet journals (pen and paper, gasp!)
+Organize your projects into notebooks (or folders) of some kind. Digital options include OneNote, Evernote, Notion, Google Keep, or just text files in a folder. Bullet journals (pen and paper) work too.
 
 ---
 
-# Project notebooks
+# Project notebooks: my system
 
-Here's my system:
+Three categories, and a project moves through them in order.
 
-- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
-- **Pending research** is for ideas
-    - Google Keep note
-    - After some thought, transition to individual notebook/folder (ReMarkable)
-    - After more thought, transition to **ongoing research** (if viable)
+::::: {.flow}
+:::: {.step}
+💡
 
----
+**Pending**
 
-# Project notebooks
+Ideas. A Google Keep note at first, then its own notebook or folder (on an e-ink tablet) once it has had some thought
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+🔬
 
-Here's my system:
+**Ongoing**
 
-- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
-- **Pending research** is for ideas
-- **Ongoing research** is for actual working projects
-    - Section for each project
-    - Subsections for "meeting notes" (if co-authored) and "ideas/thoughts"
+Actual working projects. One section per project, with "meeting notes" (if co-authored) and "ideas/thoughts"
+::::
+:::: {.arrow .fragment}
+→
+::::
+:::: {.step .fragment}
+✅
 
----
+**Completed**
 
-# Project notebooks
+Once the paper is officially accepted and all the supporting documentation is finalized
+::::
+:::::
 
-Here's my system:
-
-- Three main research categories: 1) pending research; 2) ongoing research; and 3) completed research
-- **Pending research** is for ideas
-- **Ongoing research** is for actual working projects
-- **Completed research** is for, you guessed it, completed projects
-    - After paper is officially accepted and all supporting documentation finalized
-
+::: {.notes}
+Ask the room before revealing the flow: where do your half-formed ideas live right now? Phone notes, a notebook, nowhere?
+:::
 
 ---
 
@@ -84,34 +98,26 @@ Key is to have a system where files are named appropriately and everything is ea
 
 # Project folders
 
-::: {.pre}
+Every one of my projects starts from the same skeleton. A single command (`/kickoff-research`, a Claude Code skill) builds it, so no two projects are organized differently.
+
+::: {.tree}
 ```
-project
-|   README.md
-|   paper.qmd (or .tex)
-|   abstract.qmd
-|   presentation.qmd
-|   BibTeX.bib (symbolic link)
-|
-|---analysis
-|   |   _analysis.R
-|   |   1_sumstats.R
-|   |   2_awesome-stuff.R
-|
-|---data-code
-|   |   _build-data.R
-|   |   1_data1.R
-|   |   2_data2.R
-|   |   final_dat1.csv
-|   |   final_dat2.csv
-|
-|---data
-|   |   input (symbolic links)
-|   |   output (analytic data sets)
-|
-|---results
-|   |   table1.tex
-|   |   figure1.png
+📁 project
+├── 📄 README.md
+├── 📁 paper/            paper.tex or paper.qmd, plus the bibliography
+├── 📁 presentations/
+├── 📁 data/
+│   ├── 📁 input/        raw, never modified by code
+│   └── 📁 output/       cleaned, analysis-ready
+├── 📁 code/
+│   ├── 📁 data-build/   input → output
+│   └── 📁 analysis/     output → results
+├── 📁 results/
+│   ├── 📁 tables/
+│   └── 📁 figures/
+├── 📁 background/       literature, PDFs
+├── 📁 notes/            planning, decisions
+└── 📁 scratch/          throwaway
 ```
 :::
 
@@ -131,23 +137,69 @@ project
 
 # Reading papers
 
-- We read lots of papers. That's part of the job and critical to doing good work.
-- Want to avoid losing our notes on papers we've already read
-- Lots of ways to store PDFs and handwritten notes
-    - OneNote "learning" notebook
-    - Several Mac/iPad options
-    - Research Rabbit
-    - ReMarkable tablets (my strategy)
-- AI tools can help you digest papers faster (Elicit, Semantic Scholar, Scholarcy)
+We read lots of papers. That's part of the job and critical to doing good work, and the notes you take on them are worth keeping.
+
+:::: {.cards .two}
+::: {.card}
+**📝 Where the PDFs and notes live**
+
+- OneNote "learning" notebook
+- Several Mac/iPad options
+- Research Rabbit
+- ReMarkable tablet (my strategy)
+:::
+::: {.card}
+**⚡ Digesting papers faster**
+
+- Elicit
+- Semantic Scholar
+- Scholarcy
+:::
+::::
 
 
 ---
 
 # Citation managers
 
-- Lots of software options: Zotero, Mendeley, EndNote Web
-- My system: Zotero
-  - Cloud backup with papers linked to citations
-  - Export to "BibTeX_Library.bib" folder updated on desktop
-  - Sync with cloud storage
-  - Pull down with Overleaf, Quarto, or R Markdown
+Zotero, Mendeley, and EndNote Web all work. Mine is Zotero, and the bibliography flows one way:
+
+::::: {.flow}
+:::: {.step}
+📚
+
+**Zotero**
+
+Cloud backup, every PDF linked to its citation
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+📄
+
+**BibTeX_Library.bib**
+
+One exported file, kept up to date on the desktop
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+☁️
+
+**Cloud sync**
+
+The same file on every machine
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+✍️
+
+**Overleaf / Quarto**
+
+Pulled into every paper, never edited by hand
+::::
+:::::
