@@ -42,7 +42,7 @@ In the etiquette section, we talked about some very general tips for staying org
 
 # Project notebooks
 
-Organize your projects into notebooks (or folders) of some kind. Digital options include OneNote, Evernote, Notion, Google Keep, or just text files in a folder. Bullet journals (pen and paper) work too.
+Organize your projects into notebooks or folders of some kind. Notion, OneNote, text files in a folder, or a paper journal all work.
 
 
 # Project notebooks: my system

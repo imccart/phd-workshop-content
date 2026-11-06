@@ -93,7 +93,7 @@ Long jobs and scheduled tasks, on the same files
 
 . . .
 
-Synology Drive keeps every machine on the same files. A few things (the bibliography, paper PDFs) also go to Google Drive with `rclone`.
+Synology Drive keeps every machine on the same files. Paper PDFs also go to Google Drive with `rclone`.
 
 
 ::: {.home}

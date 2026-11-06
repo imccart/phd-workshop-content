@@ -1038,7 +1038,7 @@ Ian McCarthy, Emory University
 <li>No copying and pasting values into the text (harder to do)</li>
 </ul>
 <div class="fragment">
-<p><strong>hint: consider <a href="https://econ-project-templates.readthedocs.io/en/stable/index.html">pytask</a> for efficient automation</strong></p>
+<p>My version: one driver script per pipeline (<code>_build-all.R</code>, <code>_analyze-all.R</code>) that sources the numbered steps in order. One command reruns everything.</p>
 </div>
 </section>
 
@@ -1107,7 +1107,7 @@ display:block!important;
 <div class="steps">
 <ol type="1">
 <li class="fragment">Avoid absolute path names.</li>
-<li class="fragment">If you use the same data across projects, try a “path” script that you add to your <code>.gitignore</code> file, or use symbolic links (<code>ln -s ~/base_location ~/new_location_with_link</code>)</li>
+<li class="fragment">If you use the same data across projects, link to it (<code>ln -s</code>) rather than copying it</li>
 <li class="fragment">Separate your analysis and your markdown (not practical otherwise)</li>
 <li class="fragment"><strong>NEVER</strong> delete or directly change raw data files</li>
 </ol>
@@ -1243,9 +1243,9 @@ display:block!important;
 <section id="my-solo-author-analysis-and-writing-workflow" class="title-slide slide level1 center">
 <h1>My solo-author analysis and writing workflow</h1>
 <ul>
-<li>I write everything in Quarto (<code>.qmd</code>), including paper and presentations</li>
-<li>Tables and figures in output folders (automate results)</li>
-<li>Compile with Quarto (Pandoc under the hood)</li>
+<li>The paper is one Quarto file (<code>.qmd</code>)</li>
+<li>Tables and figures come in from <code>results/</code>, numbers included, never typed in</li>
+<li>One render builds the PDF</li>
 </ul>
 </section>
 

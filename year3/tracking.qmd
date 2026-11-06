@@ -38,7 +38,7 @@ One benefit of good tracking and workflow is that you partially automate your pr
 
 . . .
 
-**hint: consider [pytask](https://econ-project-templates.readthedocs.io/en/stable/index.html) for efficient automation**
+My version: one driver script per pipeline (`_build-all.R`, `_analyze-all.R`) that sources the numbered steps in order. One command reruns everything.
 
 
 # Some Basic Tips {background-color="#23373B"}
@@ -98,7 +98,7 @@ Some quick thoughts on workflow...
 
 ::: {.steps .incremental}
 1. Avoid absolute path names.
-2. If you use the same data across projects, try a "path" script that you add to your `.gitignore` file, or use symbolic links (`ln -s ~/base_location ~/new_location_with_link`)
+2. If you use the same data across projects, link to it (`ln -s`) rather than copying it
 3. Separate your analysis and your markdown (not practical otherwise)
 4. **NEVER** delete or directly change raw data files
 :::
@@ -250,9 +250,9 @@ Comments in the `.tex` or `.qmd`, right where the change goes
 
 # My solo-author analysis and writing workflow
 
-- I write everything in Quarto (`.qmd`), including paper and presentations
-- Tables and figures in output folders (automate results)
-- Compile with Quarto (Pandoc under the hood)
+- The paper is one Quarto file (`.qmd`)
+- Tables and figures come in from `results/`, numbers included, never typed in
+- One render builds the PDF
 
 
 # My co-authored analysis and writing workflow
