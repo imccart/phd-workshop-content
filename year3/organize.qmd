@@ -24,16 +24,16 @@ In the etiquette section, we talked about some very general tips for staying org
 
 :::: {.cards .two}
 ::: {.card}
-**[🗒️ Notes on your research project](#/project-notebooks)**
+**[🗒️ Notes on your research project](#project-notebooks)**
 :::
 ::: {.card}
-**[📁 Your project folders](#/project-folders)**
+**[📁 Your project folders](#project-folders)**
 :::
 ::: {.card}
-**[📚 Notes on papers you've read](#/reading-papers)**
+**[📚 Notes on papers you've read](#reading-papers)**
 :::
 ::: {.card}
-**[🔗 Papers you're citing](#/citation-managers)**
+**[🔗 Papers you're citing](#citation-managers)**
 :::
 ::::
 
