@@ -65,7 +65,7 @@ Three folders under `research-projects/`, and a project moves through them in or
 
 **Ongoing**
 
-`/kickoff-promote` moves the idea folder up to a project of its own, builds the standard skeleton, and adds it to the active list
+`research-projects/`, one folder per project with the standard skeleton (next slide). Where the actual work happens
 ::::
 :::: {.arrow .fragment}
 →
