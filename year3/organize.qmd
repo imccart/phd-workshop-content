@@ -55,7 +55,7 @@ Three categories, and a project moves through them in order.
 
 **Pending**
 
-Ideas. A Google Keep note at first, then its own notebook or folder (on an e-ink tablet) once it has had some thought
+Ideas. Brainstormed in a conversation with Claude first, then saved as a note to Google Drive, and moved to its own folder once it has had some real thought
 ::::
 :::: {.arrow .fragment}
 →
