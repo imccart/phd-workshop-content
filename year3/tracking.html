@@ -1153,7 +1153,7 @@ display:block!important;
 <div class="step fragment">
 <p>🐙</p>
 <p><strong>Git / GitHub</strong></p>
-<p>Commit fully. Every file, every change, and easily shareable, so you get external validity too</p>
+<p>Every file, every change, and shareable, so you get external validity too</p>
 </div>
 </div>
 </section>
@@ -1206,7 +1206,7 @@ display:block!important;
 <div class="step">
 <p>📁</p>
 <p><strong>A full skeleton</strong></p>
-<p><code>git init</code>, the folders, <code>.gitignore</code>, <code>renv</code>, a ledger tying every number in the paper to the script that made it</p>
+<p><code>git init</code>, the folders, <code>.gitignore</code>, <code>renv</code>, a numbers ledger</p>
 </div>
 <div class="arrow">
 <p>→</p>
@@ -1218,18 +1218,26 @@ display:block!important;
 </div>
 </div>
 <div class="fragment">
-<p>I used to do this by hand from a GitHub template (still there if you want it: <a href="https://github.com/imccart/research-template">R research template</a>). Now the AI builds it the same way every time.</p>
+<p>I used to do this by hand from a GitHub template, still there if you want it: <a href="https://github.com/imccart/research-template">R research template</a>.</p>
 </div>
 </section>
 
-<section id="analysis-workflow" class="title-slide slide level1 center">
-<h1>Analysis workflow</h1>
-<ul>
-<li>Shared Google Doc with co-authors</li>
-<li>Acts as a shared scratch notebook</li>
-<li>Basic headers and lists…but minimal formatting (no one else will ever see this)</li>
-<li>To-do lists and other goals go here, removed after completing</li>
-</ul>
+<section id="where-the-to-dos-live" class="title-slide slide level1 center">
+<h1>Where the to-dos live</h1>
+<div class="cards three">
+<div class="card">
+<p><strong>🐙 GitHub</strong></p>
+<p>The repo itself, and sometimes issues</p>
+</div>
+<div class="card">
+<p><strong>🗒️ <code>notes/</code></strong></p>
+<p>Working notes and to-do lists, gitignored</p>
+</div>
+<div class="card">
+<p><strong>💬 In the paper</strong></p>
+<p>Comments in the <code>.tex</code> or <code>.qmd</code>, right where the change goes</p>
+</div>
+</div>
 </section>
 
 <section id="my-solo-author-analysis-and-writing-workflow" class="title-slide slide level1 center">
@@ -1256,7 +1264,7 @@ display:block!important;
 └── 📁 scratch/           ⛔ gitignored</code></pre>
 </div>
 <div class="fragment">
-<p>Two filters, in order. <code>.gitignore</code> keeps data, notes, background, and scratch out of the repo entirely, so Overleaf (which only sees what’s on GitHub) never sees them. Of what’s left, a GitHub Action fails any Overleaf-tagged commit that touches <code>code/</code> or <code>results/</code>. Overleaf ends up with exactly <code>paper/</code> and <code>presentations/</code>, which is all it should ever write to.</p>
+<p>Two filters. <code>.gitignore</code> keeps data, notes, background, and scratch off GitHub, so Overleaf never sees them. A GitHub Action then blocks any Overleaf commit that touches <code>code/</code> or <code>results/</code>.</p>
 <div class="home">
 <p><a href="https://phd-workshop.classes.ianmccarthyecon.com/" data-preview-link="false">↩︎ back to the workshop page</a></p>
 </div>

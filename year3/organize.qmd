@@ -9,7 +9,7 @@ institute: "Economics PhD Professionalism Workshop"
 
 # Workflow
 
-Workflow is a system to make it easier on your brain to do your work. Don't waste time finding things or trying to remember that great idea you had. We'll work toward something organized and systematic that ensures replicability and minimizes mistakes.
+Workflow is a system to make it easier on your brain to do your work. Don't waste time finding things or trying to remember that great idea you had.
 
 . . .
 
@@ -55,7 +55,7 @@ Three folders under `research-projects/`, and a project moves through them in or
 
 **Pending**
 
-`_future-ideas/`, one folder per idea. Starts as a conversation with Claude, then a note saved to Google Drive
+`_future-ideas/`, one folder per idea. A conversation with Claude first, then a note to Google Drive
 ::::
 :::: {.arrow .fragment}
 →
@@ -65,7 +65,7 @@ Three folders under `research-projects/`, and a project moves through them in or
 
 **Ongoing**
 
-`research-projects/`, one folder per project with the standard skeleton (next slide). Where the actual work happens
+`research-projects/`, one folder per project, the skeleton on the next slide
 ::::
 :::: {.arrow .fragment}
 →
@@ -75,7 +75,7 @@ Three folders under `research-projects/`, and a project moves through them in or
 
 **Completed**
 
-Moved to `_completed/` once the paper is accepted and the supporting documentation is finalized, or to `_stalled/` if it never gets there
+`_completed/` once the paper is accepted, `_stalled/` if it never gets there
 ::::
 :::::
 
@@ -119,9 +119,9 @@ Every one of my projects starts from the same skeleton. One command builds it, s
 ::: {.popup .fragment}
 **`data/input/` is all symbolic links**
 
-- Raw data lives in one place outside every project, `research-data/`, one folder per dataset
-- Cleaned panels live in data-only repos under `research-data-repo/`, each with its own `data/output/`
-- A project links to what it needs (`ln -s`) instead of copying it, so one file serves every project and no project ever modifies it
+- Raw data lives once, in `research-data/`, one folder per dataset
+- Cleaned panels live in data-only repos, `research-data-repo/`
+- A project `ln -s`'s what it needs. No copies, nothing modified
 :::
 
 

@@ -1009,7 +1009,7 @@ Ian McCarthy, Emory University
 
 <section id="workflow-1" class="title-slide slide level1 center">
 <h1>Workflow</h1>
-<p>Workflow is a system to make it easier on your brain to do your work. Don’t waste time finding things or trying to remember that great idea you had. We’ll work toward something organized and systematic that ensures replicability and minimizes mistakes.</p>
+<p>Workflow is a system to make it easier on your brain to do your work. Don’t waste time finding things or trying to remember that great idea you had.</p>
 <div class="fragment">
 <div class="big">
 <p>A <strong>keystone habit</strong>: the one habit that organizes all the other good habits</p>
@@ -1053,7 +1053,7 @@ Ian McCarthy, Emory University
 <div class="step">
 <p>💡</p>
 <p><strong>Pending</strong></p>
-<p><code>_future-ideas/</code>, one folder per idea. Starts as a conversation with Claude, then a note saved to Google Drive</p>
+<p><code>_future-ideas/</code>, one folder per idea. A conversation with Claude first, then a note to Google Drive</p>
 </div>
 <div class="arrow fragment">
 <p>→</p>
@@ -1061,7 +1061,7 @@ Ian McCarthy, Emory University
 <div class="step fragment">
 <p>🔬</p>
 <p><strong>Ongoing</strong></p>
-<p><code>research-projects/</code>, one folder per project with the standard skeleton (next slide). Where the actual work happens</p>
+<p><code>research-projects/</code>, one folder per project, the skeleton on the next slide</p>
 </div>
 <div class="arrow fragment">
 <p>→</p>
@@ -1069,7 +1069,7 @@ Ian McCarthy, Emory University
 <div class="step fragment">
 <p>✅</p>
 <p><strong>Completed</strong></p>
-<p>Moved to <code>_completed/</code> once the paper is accepted and the supporting documentation is finalized, or to <code>_stalled/</code> if it never gets there</p>
+<p><code>_completed/</code> once the paper is accepted, <code>_stalled/</code> if it never gets there</p>
 </div>
 </div>
 <aside class="notes">
@@ -1121,9 +1121,9 @@ display:block!important;
 <div class="popup fragment">
 <p><strong><code>data/input/</code> is all symbolic links</strong></p>
 <ul>
-<li>Raw data lives in one place outside every project, <code>research-data/</code>, one folder per dataset</li>
-<li>Cleaned panels live in data-only repos under <code>research-data-repo/</code>, each with its own <code>data/output/</code></li>
-<li>A project links to what it needs (<code>ln -s</code>) instead of copying it, so one file serves every project and no project ever modifies it</li>
+<li>Raw data lives once, in <code>research-data/</code>, one folder per dataset</li>
+<li>Cleaned panels live in data-only repos, <code>research-data-repo/</code></li>
+<li>A project <code>ln -s</code>’s what it needs. No copies, nothing modified</li>
 </ul>
 </div>
 </section>

@@ -148,7 +148,7 @@ Built-in version history, for the paper only
 
 **Git / GitHub**
 
-Commit fully. Every file, every change, and easily shareable, so you get external validity too
+Every file, every change, and shareable, so you get external validity too
 ::::
 :::::
 
@@ -208,7 +208,7 @@ Sitting in `_future-ideas/`
 
 **A full skeleton**
 
-`git init`, the folders, `.gitignore`, `renv`, a ledger tying every number in the paper to the script that made it
+`git init`, the folders, `.gitignore`, `renv`, a numbers ledger
 ::::
 :::: {.arrow}
 →
@@ -224,15 +224,28 @@ Solo: Quarto. Co-authored: LaTeX synced with Overleaf (next slides)
 
 . . .
 
-I used to do this by hand from a GitHub template (still there if you want it: [R research template](https://github.com/imccart/research-template)). Now the AI builds it the same way every time.
+I used to do this by hand from a GitHub template, still there if you want it: [R research template](https://github.com/imccart/research-template).
 
 
-# Analysis workflow
+# Where the to-dos live
 
-- Shared Google Doc with co-authors
-- Acts as a shared scratch notebook
-- Basic headers and lists...but minimal formatting (no one else will ever see this)
-- To-do lists and other goals go here, removed after completing
+:::: {.cards .three}
+::: {.card}
+**🐙 GitHub**
+
+The repo itself, and sometimes issues
+:::
+::: {.card}
+**🗒️ `notes/`**
+
+Working notes and to-do lists, gitignored
+:::
+::: {.card}
+**💬 In the paper**
+
+Comments in the `.tex` or `.qmd`, right where the change goes
+:::
+::::
 
 
 # My solo-author analysis and writing workflow
@@ -261,7 +274,7 @@ I used to do this by hand from a GitHub template (still there if you want it: [R
 
 . . .
 
-Two filters, in order. `.gitignore` keeps data, notes, background, and scratch out of the repo entirely, so Overleaf (which only sees what's on GitHub) never sees them. Of what's left, a GitHub Action fails any Overleaf-tagged commit that touches `code/` or `results/`. Overleaf ends up with exactly `paper/` and `presentations/`, which is all it should ever write to.
+Two filters. `.gitignore` keeps data, notes, background, and scratch off GitHub, so Overleaf never sees them. A GitHub Action then blocks any Overleaf commit that touches `code/` or `results/`.
 
 
 ::: {.home}
