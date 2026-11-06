@@ -119,25 +119,11 @@ Last, once you know what you found
 
 # Make time
 
-You have to make time to do it. Some strategies:
-
-:::: {.cards .three}
-::: {.card}
-**⏰ Block the time**
-
-At least one hour in the mornings
-:::
-::: {.card}
-**🎯 Name the goal**
-
-"Write the data section," "add the robustness check," not "work on the paper"
-:::
-::: {.card}
-**🏕️ Write with others**
-
-Writing sessions or retreats with classmates
-:::
-::::
+- You have to make time to do it!
+- Some strategies to consider:
+  - Block at least one hour in the mornings to write
+  - Set specific goals (write the data section, add robustness check, etc.)
+  - Organize writing sessions or retreats
 
 . . .
 
