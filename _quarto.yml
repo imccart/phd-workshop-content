@@ -10,7 +10,7 @@ format:
     preview-links: auto
     embed-resources: true
     transition: fade
-    include-after-body: section-footer.html
+    include-after-body: roadmap.html
     title-slide-attributes:
       data-background-color: "#23373B"
 

@@ -1,0 +1,36 @@
+<div class="roadmap-nav" id="roadmap-nav"></div>
+<script>
+(function () {
+  function build() {
+    var nav = document.getElementById('roadmap-nav');
+    var dividers = Array.prototype.slice.call(document.querySelectorAll('.reveal .slides > section.divider'));
+    if (!nav || !dividers.length) return;
+    nav.innerHTML = dividers.map(function (d) {
+      var h = d.querySelector('h1, h2');
+      return '<a href="#/' + d.id + '" data-id="' + d.id + '">' + (h ? h.textContent : d.id) + '</a>';
+    }).join('');
+  }
+  function update() {
+    var nav = document.getElementById('roadmap-nav');
+    if (!nav) return;
+    var slide = Reveal.getCurrentSlide();
+    var all = Array.prototype.slice.call(document.querySelectorAll('.reveal .slides > section'));
+    var current = '';
+    if (slide && !slide.classList.contains('divider')) {
+      for (var i = all.indexOf(slide); i >= 0; i--) {
+        if (all[i].classList.contains('divider')) { current = all[i].id; break; }
+      }
+    }
+    nav.style.display = current ? 'block' : 'none';
+    Array.prototype.forEach.call(nav.querySelectorAll('a'), function (a) {
+      a.classList.toggle('current', a.getAttribute('data-id') === current);
+    });
+  }
+  window.addEventListener('load', function () {
+    if (typeof Reveal === 'undefined') return;
+    build();
+    Reveal.on('slidechanged', update);
+    if (Reveal.isReady()) update(); else Reveal.on('ready', update);
+  });
+})();
+</script>
