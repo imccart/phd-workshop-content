@@ -502,7 +502,7 @@ Two filters. `.gitignore` keeps data, notes, background, and scratch off GitHub,
 
 # Using AI {.smaller}
 
-Most of my code starts as a conversation with Claude, and so do most of my notes. The time goes to checking what comes back.
+Most of my code and a lot of my notes now start as a conversation with Claude.
 
 :::: {.cards .three}
 ::: {.card}
@@ -530,7 +530,7 @@ Most of my code starts as a conversation with Claude, and so do most of my notes
 
 . . .
 
-It will make things up when it doesn't know: a citation, a result, a reason the estimates moved. Treat what it hands you like work from a new RA, useful and fast and checked before it goes anywhere.
+It will make things up when it doesn't know the answer: a citation, a result, a reason the estimates moved. Check its work the way you'd check a new RA's.
 
 ::: {.notes}
 Ask who has already used it for code, and who has had it invent a citation.
