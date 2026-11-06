@@ -500,6 +500,43 @@ Same folders either way. The only difference is the paper file and who else can 
 Two filters. `.gitignore` keeps data, notes, background, and scratch off GitHub, so Overleaf never sees them. A GitHub Action then blocks any Overleaf commit that touches `code/` or `results/`.
 
 
+# Using AI {.smaller}
+
+Most of my code starts as a conversation with Claude, and so do most of my notes. The time goes to checking what comes back.
+
+:::: {.cards .three}
+::: {.card}
+**🤖 What it does**
+
+- Writes the code from a plain description of the step
+- Builds the project skeleton and the driver scripts
+- Summarizes papers and drafts the notes
+:::
+::: {.card}
+**🔍 What I check**
+
+- Every number in the paper comes from a script, not a chat window
+- Every citation is a paper I've opened
+- Row counts after a merge, and whether the estimates make sense
+:::
+::: {.card}
+**✍️ What stays mine**
+
+- The question and the identification
+- The writing. Journals ask now, and it reads differently
+- The call on when it's wrong
+:::
+::::
+
+. . .
+
+It will make things up when it doesn't know: a citation, a result, a reason the estimates moved. Treat what it hands you like work from a new RA, useful and fast and checked before it goes anywhere.
+
+::: {.notes}
+Ask who has already used it for code, and who has had it invent a citation.
+:::
+
+
 # Back up {#back-up .divider background-color="#23373B"}
 
 ::: {.roadmap}
