@@ -52,7 +52,7 @@ What would your paper look like if everything works out perfectly? This is the "
 
 # What it looks like
 
-Four sentences. You are allowed to make up the results, within reason (Shapiro's phrase).
+Four sentences. Shapiro's advice is that you can make up the results, within reason.
 
 ::: {.steps}
 1. **The issue.** [The issue] matters because [who it affects, and how].
@@ -82,7 +82,7 @@ The introduction tells you what the paper needs. One order that works:
 
 **Data and setting**
 
-The part you already know
+You already know these
 ::::
 :::: {.arrow}
 →
