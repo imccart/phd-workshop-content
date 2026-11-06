@@ -39,8 +39,6 @@ Please create an email signature
 Try **not** to include inspirational quotes, pictures, extra clutter
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

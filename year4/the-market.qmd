@@ -76,8 +76,6 @@ Some things to keep in mind...
 - You **can** be happy in any job you choose
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

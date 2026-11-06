@@ -264,8 +264,6 @@ I used to do this by hand from a GitHub template (still there if you want it: [R
 Two filters, in order. `.gitignore` keeps data, notes, background, and scratch out of the repo entirely, so Overleaf (which only sees what's on GitHub) never sees them. Of what's left, a GitHub Action fails any Overleaf-tagged commit that touches `code/` or `results/`. Overleaf ends up with exactly `paper/` and `presentations/`, which is all it should ever write to.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

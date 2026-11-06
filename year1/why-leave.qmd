@@ -72,8 +72,6 @@ These are clear failures, but they are failures on our part!
 Very personal issues. Everyone works and handles stress differently. But we are here to help however we can.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

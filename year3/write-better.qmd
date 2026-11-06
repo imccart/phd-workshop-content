@@ -163,8 +163,6 @@ Below are a few links to papers that are generally thought to be extremely well-
 - [Weitzman (2009), ReStat](https://scholar.harvard.edu/weitzman/publications/modeling-and-interpreting-economics-catastrophic-climate-change)
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

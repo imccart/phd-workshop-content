@@ -89,8 +89,6 @@ The tenure clock starts immediately. Have a plan.
 You've accomplished something remarkable. Now go make the most of it.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

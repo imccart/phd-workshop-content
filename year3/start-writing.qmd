@@ -81,8 +81,6 @@ Staring at the screen for 15 minutes without writing? Take a break and come back
 - Think of writing very early drafts as a more informed and organized brainstorming session
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

@@ -26,8 +26,6 @@ Once you're in a meeting, try to keep a few things in mind:
 4. Listen and participate (stay off your phones, etc.)
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

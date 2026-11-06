@@ -89,8 +89,6 @@ A natural question regarding how to promote your paper on social media...when sh
 - Talk to your adviser (and co-authors) before promoting your papers
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

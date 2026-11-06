@@ -328,8 +328,6 @@ Now for some things that you absolutely should not do in a presentation...
 4. ...let me continue to argue with you over this while the rest of the audience checks their phones
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

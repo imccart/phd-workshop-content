@@ -49,8 +49,6 @@ It is very rare that I drop the ball without knowing it.
 My take: I'm not a huge fan of detailed project management software because it becomes a lot of trouble to update.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

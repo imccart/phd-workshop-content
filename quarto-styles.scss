@@ -242,6 +242,25 @@ $tint: #f1f5f6;
   margin: 0 0 0 1em;
 }
 
+.reveal .home {
+  text-align: right;
+  margin-top: 1em;
+  font-size: 0.5em;
+}
+
+.reveal .home a {
+  color: #7f7f7f;
+  text-decoration: none;
+  border: 1px solid #c9d1d4;
+  border-radius: 6px;
+  padding: 0.25em 0.7em;
+}
+
+.reveal .home a:hover {
+  color: $accent2;
+  border-color: $accent2;
+}
+
 .reveal .tree pre {
   margin: 0.3em 0;
   box-shadow: none;

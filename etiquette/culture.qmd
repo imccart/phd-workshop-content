@@ -41,8 +41,6 @@ This is harder to do for introverts, but...
 Try to be part of your workplace. It's much more rewarding.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

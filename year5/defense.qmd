@@ -90,8 +90,6 @@ It's OK to say "That's a great question, and I think..." or even "I'm not sure, 
 Then celebrate. You earned it.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

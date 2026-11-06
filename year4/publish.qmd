@@ -60,8 +60,6 @@ If you "made it past the desk", then it goes to peer review
 Nothing good can come from this.
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

@@ -104,8 +104,6 @@ Find a system and stick with it. It barely matters which one — what matters is
    - Ready to start the actual research process
 
 
-# Done {.center}
-
-::: {.big}
+::: {.home}
 [↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::
