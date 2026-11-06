@@ -35,8 +35,8 @@ Dropbox, Google Drive, OneDrive
 
 - ✅ Works painlessly in the background
 - ✅ Easy to share when needed
-- ❌ Can get expensive over time
-- ❌ Can't hold private or restricted data
+- ✅ Emory's OneDrive: free, 5 TB, and certified for sensitive data (HIPAA)
+- ❌ Personal accounts get expensive, and can't hold restricted data
 :::
 ::: {.card}
 **🗄️ Your own NAS**
