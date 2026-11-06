@@ -50,6 +50,31 @@ Ask who has already written an introduction for their third-year paper, and who 
 What would your paper look like if everything works out perfectly? This is the "aspirational introduction" as per Shapiro's [four steps to writing an applied paper](https://shapiro.scholars.harvard.edu/sites/g/files/omnuum7731/files/2026-02/foursteps.pdf)
 
 
+# What it looks like
+
+Four sentences. You are allowed to make up the results, within reason (Shapiro's words, not mine).
+
+::: {.steps}
+1. **The issue.** [Big thing] matters because [stakes].
+2. **The question.** This paper asks whether [specific question].
+3. **The approach.** We use [data] and [design] to [what you will do].
+4. **The answer.** We find [the result you hope for], which means [why anyone should care].
+:::
+
+
+# Try it
+
+Five minutes. Write those four sentences for your paper, in that order.
+
+. . .
+
+Then trade with the person next to you. Can they say, in one sentence, what your paper finds?
+
+::: {.notes}
+Give them the full five minutes in silence. The trade is the point: if the neighbor cannot restate the finding, the question is not sharp yet.
+:::
+
+
 # Using the first draft intro
 
 This should become your guide to the paper
@@ -60,18 +85,102 @@ This should become your guide to the paper
 - What are the weakest parts of your project/analysis?
 
 
+# What to write next
+
+The introduction tells you what the paper needs. One order that works:
+
+::::: {.flow}
+:::: {.step}
+📊
+
+**Data and setting**
+
+What you know cold
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+🧮
+
+**Empirical approach**
+
+What the intro promised
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+📈
+
+**Results**
+
+As they come in
+::::
+:::: {.arrow}
+→
+::::
+:::: {.step}
+🏁
+
+**Conclusion, then abstract**
+
+Last, once you know what you found
+::::
+:::::
+
+
 # Make time
 
-- You have to make time to do it!
-- Some strategies to consider:
-  - Block at least one hour in the mornings to write
-  - Set specific goals (write the data section, add robustness check, etc.)
-  - Organize writing sessions or retreats
+You have to make time to do it. Some strategies:
 
+:::: {.cards .three}
+::: {.card}
+**⏰ Block it**
+
+At least one hour in the mornings, before anything else gets in
+:::
+::: {.card}
+**🎯 Name the goal**
+
+"Write the data section," "add the robustness check," not "work on the paper"
+:::
+::: {.card}
+**🏕️ Do it with others**
+
+Writing sessions or retreats with classmates
+:::
+::::
 
 . . .
 
 Staring at the screen for 15 minutes without writing? Take a break and come back to it.
+
+
+# Stuck?
+
+:::: {.cards .two}
+::: {.card}
+**✏️ Write the ugly version**
+
+Bad sentences on the page beat good ones in your head. Fix them tomorrow
+:::
+::: {.card}
+**🖼️ Start from the figure**
+
+Write the caption, then the paragraph that explains it
+:::
+::: {.card}
+**🗣️ Say it out loud**
+
+Explain the result to a classmate, then write down what you said
+:::
+::: {.card}
+**✂️ Shrink the task**
+
+One paragraph. Then another
+:::
+::::
 
 
 # Main point
