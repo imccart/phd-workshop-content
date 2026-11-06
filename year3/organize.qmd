@@ -79,6 +79,10 @@ Three folders under `research-projects/`, and a project moves through them in or
 ::::
 :::::
 
+::: {.back}
+[↩ back to the list](#getting-organized)
+:::
+
 ::: {.notes}
 Ask the room before revealing the flow: where do your half-formed ideas live right now? Phone notes, a notebook, nowhere?
 :::
@@ -125,6 +129,10 @@ Every one of my projects starts from the same skeleton. A single command builds 
     - Don't let it get so dirty that you forget stuff
     - Clean up regularly!
 
+::: {.back}
+[↩ back to the list](#getting-organized)
+:::
+
 
 # Organizing Others' Research {background-color="#23373B"}
 
@@ -149,6 +157,10 @@ We read lots of papers. That's part of the job and critical to doing good work, 
 - Scholarcy
 :::
 ::::
+
+::: {.back}
+[↩ back to the list](#getting-organized)
+:::
 
 
 # Citation managers
@@ -194,3 +206,7 @@ The same file on every machine
 Pulled into every paper, never edited by hand
 ::::
 :::::
+
+::: {.back}
+[↩ back to the list](#getting-organized)
+:::

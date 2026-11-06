@@ -219,6 +219,21 @@ $tint: #f1f5f6;
   max-width: 90%;
 }
 
+.reveal .back {
+  text-align: right;
+  font-size: 0.55em;
+  margin-top: 0.6em;
+}
+
+.reveal .back a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+
+.reveal .back a:hover {
+  color: $accent2;
+}
+
 .reveal .tree pre {
   margin: 0.3em 0;
   box-shadow: none;
