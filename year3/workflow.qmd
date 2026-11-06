@@ -533,6 +533,28 @@ Most of my code and a lot of my notes now start as a conversation with Claude.
 AI can still make things up when it doesn't know the answer. It's better at citing real papers, but it can still miss the point of those papers or get the interpretation of a result/analysis way way off. Check its work the way you'd check a new RA's.
 
 
+# Reviewing the work {.smaller}
+
+Each of these is a Claude Code skill, a saved set of instructions, so the review runs the same way every time.
+
+:::: {.cards .two}
+::: {.card}
+**💻 Code: `/review-analysis`**
+
+- Reads every R script against my coding conventions
+- Lists every join, filter, and model fit in a ledger for me to confirm, and flags it again when the code changes
+- Traces every number in the paper back to the script output that produced it
+:::
+::: {.card}
+**✍️ Writing: `/review-writing`**
+
+- Six separate passes over a draft: grammar, voice, citations, consistency, framing, and argument
+- Advisory only. It lists the problems and I decide what changes
+- A separate pass finds the paragraphs that are still AI-drafted, so I rewrite them myself
+:::
+::::
+
+
 # Back up {#back-up .divider background-color="#23373B"}
 
 ::: {.roadmap}
