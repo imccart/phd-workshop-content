@@ -25,7 +25,6 @@ Write your introduction.
 Ask who has already written an introduction for their third-year paper, and who has written anything at all yet.
 :::
 
----
 
 # First draft intro
 
@@ -50,7 +49,6 @@ Ask who has already written an introduction for their third-year paper, and who 
 
 What would your paper look like if everything works out perfectly? This is the "aspirational introduction" as per Shapiro's [four steps to writing an applied paper](https://shapiro.scholars.harvard.edu/sites/g/files/omnuum7731/files/2026-02/foursteps.pdf)
 
----
 
 # Using the first draft intro
 
@@ -61,7 +59,6 @@ This should become your guide to the paper
 - What other work has already been done?
 - What are the weakest parts of your project/analysis?
 
----
 
 # Make time
 
@@ -76,7 +73,6 @@ This should become your guide to the paper
 
 Staring at the screen for 15 minutes without writing? Take a break and come back to it.
 
----
 
 # Main point
 

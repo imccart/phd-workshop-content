@@ -17,7 +17,6 @@ Workflow is a system to make it easier on your brain to do your work. Don't wast
 A **keystone habit**: the one habit that organizes all the other good habits
 :::
 
----
 
 # Getting organized
 
@@ -25,20 +24,19 @@ In the etiquette section, we talked about some very general tips for staying org
 
 :::: {.cards .two}
 ::: {.card}
-**🗒️ Notes on your research project**
+**[🗒️ Notes on your research project](#/project-notebooks)**
 :::
 ::: {.card}
-**📁 Your project folders**
+**[📁 Your project folders](#/project-folders)**
 :::
 ::: {.card}
-**📚 Notes on papers you've read**
+**[📚 Notes on papers you've read](#/reading-papers)**
 :::
 ::: {.card}
-**🔗 Papers you're citing**
+**[🔗 Papers you're citing](#/citation-managers)**
 :::
 ::::
 
----
 
 # Organizing Your Research {background-color="#23373B"}
 
@@ -46,7 +44,6 @@ In the etiquette section, we talked about some very general tips for staying org
 
 Organize your projects into notebooks (or folders) of some kind. Digital options include OneNote, Evernote, Notion, Google Keep, or just text files in a folder. Bullet journals (pen and paper) work too.
 
----
 
 # Project notebooks: my system
 
@@ -86,7 +83,6 @@ Once the paper is officially accepted and all the supporting documentation is fi
 Ask the room before revealing the flow: where do your half-formed ideas live right now? Phone notes, a notebook, nowhere?
 :::
 
----
 
 # Organizing One Project {background-color="#23373B"}
 
@@ -94,7 +90,6 @@ Ask the room before revealing the flow: where do your half-formed ideas live rig
 
 Key is to have a system where files are named appropriately and everything is easily accessible. Basically it's a closet for your research.
 
----
 
 # Project folders
 
@@ -121,7 +116,6 @@ Every one of my projects starts from the same skeleton. A single command (`/kick
 ```
 :::
 
----
 
 # Project folders
 
@@ -131,7 +125,6 @@ Every one of my projects starts from the same skeleton. A single command (`/kick
     - Don't let it get so dirty that you forget stuff
     - Clean up regularly!
 
----
 
 # Organizing Others' Research {background-color="#23373B"}
 
@@ -157,8 +150,6 @@ We read lots of papers. That's part of the job and critical to doing good work, 
 :::
 ::::
 
-
----
 
 # Citation managers
 

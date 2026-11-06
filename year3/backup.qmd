@@ -19,7 +19,6 @@ Three ways to make the answer "nothing."
 Show of hands before moving on: who has a backup that would actually survive this? Then: when did it last run?
 :::
 
----
 
 # Three options
 
@@ -59,7 +58,6 @@ Just build your own network!
 
 Crashes will inevitably happen between backups.
 
----
 
 # My backup system
 

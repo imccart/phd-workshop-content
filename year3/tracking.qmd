@@ -13,8 +13,6 @@ These slides are all about transparency and reproducibility (for your future sel
 - [Julian Reif's Guide for Replication with Stata](https://reifjulian.github.io/guide/)
 
 
----
-
 # Why Bother with Workflow? {background-color="#23373B"}
 
 # Reproducibility
@@ -28,9 +26,6 @@ These slides are all about transparency and reproducibility (for your future sel
 "I lost my hard drive" is unacceptable
 :::
 
-
-
----
 
 # Automation
 
@@ -46,8 +41,6 @@ One benefit of good tracking and workflow is that you partially automate your pr
 **hint: consider [pytask](https://econ-project-templates.readthedocs.io/en/stable/index.html) for efficient automation**
 
 
----
-
 # Some Basic Tips {background-color="#23373B"}
 
 # Naming files {.center}
@@ -60,7 +53,6 @@ Avoid spaces in file names. Avoid them at all costs. *DO NOT PUT SPACES IN YOUR 
 "A space in a file name is a space in your soul."
 :::
 
----
 
 # Naming files
 
@@ -87,7 +79,6 @@ Avoid things like this...
 Show of hands: who has a file called final_final or v7 somewhere right now?
 :::
 
----
 
 # Naming files
 
@@ -101,9 +92,6 @@ Show of hands: who has a file called final_final or v7 somewhere right now?
 Related point...use common sense (but short) variable names without spaces
 
 
-
----
-
 # Data workflow
 
 Some quick thoughts on workflow...
@@ -115,7 +103,6 @@ Some quick thoughts on workflow...
 4. **NEVER** delete or directly change raw data files
 :::
 
----
 
 # Version Control {background-color="#23373B"}
 
@@ -130,8 +117,6 @@ Some quick thoughts on workflow...
 
 **note**: particularly important on the modern job market
 
-
----
 
 # Version control
 
@@ -167,7 +152,6 @@ Commit fully. Every file, every change, and easily shareable, so you get externa
 ::::
 :::::
 
----
 
 # Virtual environments
 
@@ -193,7 +177,6 @@ Record the version of every R package in a `.lock` file
 :::
 ::::
 
----
 
 # My Workflow {background-color="#23373B"}
 
@@ -242,8 +225,6 @@ Solo: Quarto. Co-authored: LaTeX + Overleaf
 I used to do this by hand from a GitHub template (still there if you want it: [R research template](https://github.com/imccart/research-template)). Now the AI builds it the same way every time.
 
 
----
-
 # Analysis workflow
 
 - Shared Google Doc with co-authors
@@ -252,16 +233,12 @@ I used to do this by hand from a GitHub template (still there if you want it: [R
 - To-do lists and other goals go here, removed after completing
 
 
-
----
-
 # My solo-author analysis and writing workflow
 
 - I write everything in Quarto (`.qmd`), including paper and presentations
 - Tables and figures in output folders (automate results)
 - Compile with Quarto (Pandoc under the hood)
 
----
 
 # My co-authored analysis and writing workflow
 

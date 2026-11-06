@@ -13,7 +13,6 @@ I wish I knew!
 
 But there are some basic rules that might help.
 
----
 
 # Introduction {.center}
 
@@ -26,8 +25,6 @@ The introduction is the most important thing you'll write for any paper.
 Make it awesome!
 
 
----
-
 # Introduction [formula](https://www.albany.edu/spatial/training/5-The%20Introduction%20Formula.pdf)
 
 ::: {.steps .incremental}
@@ -38,8 +35,6 @@ Make it awesome!
 5. **Expand.** I've added this. Modern applied papers (for better or worse) need to talk about some key additional findings in the intro (mechanisms, robustness, and policy implications, etc.).
 :::
 
-
----
 
 # Paper structure
 
@@ -65,7 +60,6 @@ I **do not** like this formula...
 ::::
 :::::
 
----
 
 # Paper structure
 
@@ -73,7 +67,6 @@ I **do not** like this formula...
 - Most will start similarly (intro, theory/policy details, maybe data)
 - Deviate based on relevant analyses and estimation strategies
 
----
 
 # Writing steps
 
@@ -120,8 +113,6 @@ Rewrite the intro as a contract for what the paper will and won't do. Back to (2
 :::::
 
 
----
-
 # Storytelling
 
 - Like it or not, you have to **sell** your work
@@ -130,7 +121,6 @@ Rewrite the intro as a contract for what the paper will and won't do. Back to (2
 
 ![](https://media.giphy.com/media/hrnYspWWhsIyA/source.gif){fig-align="center"}
 
----
 
 # Storytelling
 
@@ -140,13 +130,11 @@ So how do we write something compelling? Try [paper writing gone hollywood](http
 - Need to "storyboard" each section or subsection
 - Rely heavily on outlines rather than getting bogged down in verbiage
 
----
 
 # Some rules
 
 Finally, let's close things out with some simple [rules](https://www.economics.harvard.edu/resource/tenruleswritingpdf), courtesy of Claudia Goldin and Lawrence Katz.
 
----
 
 # Some rules
 
@@ -164,7 +152,6 @@ I'll add a few to these...
 
 Seriously, don't copy and paste your own words from another paper. Be more creative than that. And definitely don't copy someone else's words.
 
----
 
 # Some examples
 
