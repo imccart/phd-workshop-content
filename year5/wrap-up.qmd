@@ -14,15 +14,12 @@ institute: "Economics PhD Professionalism Workshop"
 - This is a unique window of time. Use it wisely.
 
 
----
-
 # Converting chapters to papers
 
 - Your dissertation chapters are not journal articles (yet)
 - Each chapter likely needs significant revision for submission
 - Prioritize your JMP, then work outward
 
----
 
 # Converting chapters to papers
 
@@ -33,7 +30,6 @@ Key differences between a chapter and a paper:
 - **Framing**: Reframe contributions for the target journal's audience
 - **Literature**: Update the lit review (the field didn't stop while you were writing)
 
----
 
 # Submitting papers
 
@@ -42,7 +38,6 @@ Key differences between a chapter and a paper:
 - Having papers "under review" or "R&R" matters for tenure clocks
 - Keep a pipeline: while one paper is under review, work on the next
 
----
 
 # Preparing for your new role {background-color="#23373B"}
 
@@ -57,7 +52,6 @@ Key differences between a chapter and a paper:
 
 The tenure clock starts immediately. Have a plan.
 
----
 
 # Starting a postdoc or research position
 
@@ -66,7 +60,6 @@ The tenure clock starts immediately. Have a plan.
 - Use the postdoc to build publications and expand your network
 - Treat it as a job, not an extension of grad school
 
----
 
 # Starting in industry or policy
 
@@ -75,7 +68,6 @@ The tenure clock starts immediately. Have a plan.
 - Be open to learning new tools, languages, and workflows
 - Build relationships across teams early
 
----
 
 # Staying connected
 
@@ -84,7 +76,6 @@ The tenure clock starts immediately. Have a plan.
 - Stay in touch with your cohort (they are your lifelong professional network)
 - Continue engaging on social media and sharing your work
 
----
 
 # Final advice
 

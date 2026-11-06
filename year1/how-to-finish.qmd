@@ -11,7 +11,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 Conditional on a match, there are some definite dos and don'ts for succeeding in a PhD program.
 
----
 
 # The Do's {background-color="#23373B"}
 
@@ -24,7 +23,6 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 
 ![](https://media.giphy.com/media/xTiTnooneW4SYfch8Y/giphy.gif){fig-align="center"}
 
----
 
 # 2. Do...take care of yourself
 
@@ -34,7 +32,6 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 - Potential for medical leave if necessary
 - Come talk to me!
 
----
 
 # 3. Do...work together
 
@@ -42,7 +39,6 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 - Celebrate each others' successes
 - Think and talk about research ideas together
 
----
 
 # 4. Do...stay organized
 
@@ -50,13 +46,11 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 - Respond to emails
 - Show up on time and be present
 
----
 
 # 5. Do...focus on inputs, not outputs
 
 ![](https://media.giphy.com/media/9ZvFhDkaAfyLe/giphy.gif){fig-align="center"}
 
----
 
 # The Don't's {background-color="#23373B"}
 
@@ -66,8 +60,6 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 - Social interactions, group study, etc. can be complementary to your classroom success
 
 
----
-
 # 2. Don't...think academia is zero-sum
 
 > "It's not enough that I should succeed.
@@ -76,15 +68,11 @@ Conditional on a match, there are some definite dos and don'ts for succeeding in
 > --- Ghengis Khan
 
 
----
-
 # 3. Don't...lose confidence
 
 - The first year is challenging and imposter syndrome is real
 - You absolutely, 100%, **DESERVE TO BE HERE**
 
-
----
 
 # A pep talk
 

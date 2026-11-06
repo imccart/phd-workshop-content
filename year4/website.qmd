@@ -10,8 +10,6 @@ institute: "Economics PhD Professionalism Workshop"
 You've got to make your materials easily accessible, and a website is the easiest way to do that. This is a necessity for job market candidates at this point.
 
 
----
-
 # Basic pointers
 
 - Simple, easy-to-navigate design
@@ -19,8 +17,6 @@ You've got to make your materials easily accessible, and a website is the easies
 
 ![](https://media.giphy.com/media/ZMvG5L7Di4AgM/giphy.gif){fig-align="center"}
 
-
----
 
 # Basic pointers
 
@@ -32,8 +28,6 @@ You've got to make your materials easily accessible, and a website is the easies
     - **Not** Google Drive, Dropbox, etc.
 
 
----
-
 # Getting started
 
 Lots of options to get a decent website up and running
@@ -44,8 +38,6 @@ Lots of options to get a decent website up and running
 - Hugo with selected theme
 
 
----
-
 # What is Quarto?
 
 Quarto is an open-source scientific and technical publishing system.
@@ -55,8 +47,6 @@ Quarto is an open-source scientific and technical publishing system.
 - Same tool you may already use for papers and presentations
 
 
----
-
 # Using Quarto for websites
 
 - Write content in `.qmd` files (same as your papers/slides)
@@ -64,8 +54,6 @@ Quarto is an open-source scientific and technical publishing system.
 - Host on GitHub Pages for free
 - Very easy to get started with minimal configuration
 
-
----
 
 # Using GitHub Pages
 
@@ -75,8 +63,6 @@ Quarto is an open-source scientific and technical publishing system.
 - Allows custom domain names
 
 
----
-
 # Other options
 
 - Hugo is still a solid choice (but steeper learning curve)
@@ -84,16 +70,12 @@ Quarto is an open-source scientific and technical publishing system.
 - WordPress is fine too
 
 
----
-
 # Managing content
 
 - No web developer, html, or css expertise required for Quarto
 - Can include Jupyter Notebooks and R code
 - Easy to keep papers, CV, and teaching materials all in one place
 
-
----
 
 # Caveat
 

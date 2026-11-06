@@ -13,9 +13,6 @@ institute: "Economics PhD Professionalism Workshop"
 - How can you get other people to read it?
 
 
-
----
-
 # Quick summaries
 
 So how do we do this?
@@ -25,7 +22,6 @@ So how do we do this?
 - Short videos
 - Social media threads
 
----
 
 # Visual abstracts
 
@@ -33,22 +29,16 @@ So how do we do this?
 - Concise but fair to your main point
 
 
----
-
 # Visual abstracts
 
 ![](../pics/visual-abstract.jpg){fig-align="center"}
 
-
----
 
 # Short videos
 
 - Everybody's doing it!
 - Great way to make your work accessible to a broader audience
 
-
----
 
 # Social media
 
@@ -57,8 +47,6 @@ So how do we do this?
 - Follow journals, NBER, and researchers in and out of your field
 - Relatively inclusive community with lots of shared papers and info
 
-
----
 
 # Social media etiquette
 
@@ -71,8 +59,6 @@ Some basic guidelines...
 Jokes also don't tend to land well in short posts.
 
 
----
-
 # Social media etiquette
 
 Some basic guidelines...
@@ -80,7 +66,6 @@ Some basic guidelines...
 1. **Tone**: Be kind.
 2. **Blocking/muting**: Feel free to block or mute people that are rude. Protect your mental health.
 
----
 
 # Social media etiquette
 
@@ -90,7 +75,6 @@ Some basic guidelines...
 2. **Blocking/muting**: Feel free to block or mute people that are rude.
 3. **Identity**: Start professional and add personality over time. When first getting started, focus on where you can add value.
 
----
 
 # Timing
 

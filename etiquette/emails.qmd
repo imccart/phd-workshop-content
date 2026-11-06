@@ -10,8 +10,6 @@ institute: "Economics PhD Professionalism Workshop"
 ![](https://media.giphy.com/media/zfPBG2S8acnss/giphy.gif){fig-align="center"}
 
 
----
-
 # Respond
 
 - Use your professional email account!
@@ -23,14 +21,10 @@ institute: "Economics PhD Professionalism Workshop"
 - Be **very careful** with reply all
 
 
----
-
 # Difficult conversations via email
 
 Once you hit send, the email is available for anyone to read for as long as anyone wants. It's all up to the recipient.
 
-
----
 
 # Have a signature
 

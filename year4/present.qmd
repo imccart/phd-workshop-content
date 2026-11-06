@@ -9,7 +9,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 Discussing and presenting your work at conferences (and just with other people) is very different than writing the paper. In these slides, we'll talk about how conferences work, and we'll talk about some best practices for presenting.
 
----
 
 # Conferences
 
@@ -18,7 +17,6 @@ So how do conferences work?
 - Different submission rules/norms for different conferences
 - Split into "smaller" and "larger" conferences
 
----
 
 # Smaller conferences
 
@@ -32,7 +30,6 @@ So how do conferences work?
 
 **great** way to meet new people and network
 
----
 
 # Larger conferences
 
@@ -48,8 +45,6 @@ So how do conferences work?
 good opportunity to strengthen existing relationships
 
 
----
-
 # The "conference circuit"
 
 - Critical to building your network
@@ -60,7 +55,6 @@ good opportunity to strengthen existing relationships
   - potential letter writers
   - potential co-authors
 
----
 
 # Seminars
 
@@ -69,7 +63,6 @@ good opportunity to strengthen existing relationships
 - If you have a reason to go somewhere, consider initiating the invite yourself
 - Great place for comments on your work and networking
 
----
 
 # Submitting to a conference
 
@@ -92,15 +85,12 @@ good opportunity to strengthen existing relationships
 ::::
 
 
----
-
 # Presenting
 
 OK - so you've made it into a conference or seminar of some kind. Now you need to present your paper. This can be a little scary...
 
 ![](https://media.giphy.com/media/4hg2NN9Nj4CTqAA3xn/giphy.gif){fig-align="center"}
 
----
 
 # Presenting: Introduction
 
@@ -113,8 +103,6 @@ Some [rules](https://www.brown.edu/Research/Shapiro/pdfs/applied_micro_slides.pd
 
 I mean really quickly...like 1-2 slides. Use fun anecdotes and stories. You **do** enjoy this, right!?
 
-
----
 
 # Presenting: Introduction
 
@@ -129,8 +117,6 @@ Some rules for starting your presentation:
 As Jesse Shapiro writes in his rules, "research questions are motivated by economics and not by the economics literature"
 
 
----
-
 # Presenting: Introduction
 
 Some rules for starting your presentation:
@@ -144,9 +130,6 @@ Some rules for starting your presentation:
 
 Again, be quick here.
 
-
-
----
 
 # Presenting: Introduction
 
@@ -163,9 +146,6 @@ Some rules for starting your presentation:
 Be specific but not too granular. Consider skipping this step for a short presentation format.
 
 
-
----
-
 # Presenting: Main Paper
 
 Let's assume you killed the first 5-10 minutes. Your audience is hooked. Now...
@@ -174,7 +154,6 @@ Let's assume you killed the first 5-10 minutes. Your audience is hooked. Now...
 
 How to you effectively deliver the main content of your paper?
 
----
 
 # Presenting: Main Paper
 
@@ -188,8 +167,6 @@ Please, please, please, please...
 - Need not be linear like a paper
 
 
----
-
 # Simple example
 
 $$\begin{align}
@@ -200,8 +177,6 @@ Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
                    & + \beta_{8} D_{it} + \beta_{9} HMO_{it} + \beta_{10} HHI_{it})
 \end{align}$$
 
-
----
 
 # Simple example
 
@@ -217,8 +192,6 @@ $$\begin{align}
 - Determined in Horwitz (2005), based on interviews, MedPAC and ProPAC reports, and literature
 
 
----
-
 # Simple example
 
 $$\begin{align}
@@ -231,8 +204,6 @@ Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} \color{red}{F_{it}} \\
 
 - Ownership type (for-profit, not-for-profit, government)
 
-
----
 
 # Simple example
 
@@ -252,8 +223,6 @@ Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
 $$w_{ij} = \frac{N_{j}}{\left(1+a \times d_{ij}^{2} \right)^{2}}$$
 
 
----
-
 # Simple example
 
 $$\begin{align}
@@ -266,7 +235,6 @@ Pr(\text{Service})_{it} = &\Phi(\beta_{0} + \beta_{1} F_{it} \\
 
 - Herfindahl-Hirschman Index (sum of square market shares)
 
----
 
 # Simple example
 
@@ -276,8 +244,6 @@ What does this example highlight:
 - Much clearer than an equation first then lots of slides of content, or vice versa
 
 
----
-
 # Presentation: Results
 
 - Show with figures whenever possible
@@ -285,8 +251,6 @@ What does this example highlight:
 - OK to discuss some of the biggest vulnerabilities and how you deal with them
 - Have a final takeaway to wrap up your story
 
-
----
 
 # Presentation: Other rules
 
@@ -298,7 +262,6 @@ What does this example highlight:
 - Figures and pictures much, much better than text
 - See Paul Goldsmith-Pinkham's [Beamer tips](https://github.com/paulgp/beamer-tips/blob/master/slides.pdf)
 
----
 
 # Presentation: Other rules
 
@@ -308,7 +271,6 @@ What does this example highlight:
 - They are complements, not substitutes
 - Slides **are not** a stand-alone, self-contained document
 
----
 
 # Presentation: Other rules
 
@@ -316,8 +278,6 @@ What does this example highlight:
 - Practice, practice, practice
 - You really shouldn't need the slides
 
-
----
 
 # Presentation: Major no-no's
 
@@ -330,8 +290,6 @@ Now for some things that you absolutely should not do in a presentation...
 
 Then I'll stop listening. Plan better and adjust with content, not with speed of your voice.
 
-
----
 
 # Presentation: Major no-no's
 
@@ -346,8 +304,6 @@ Now for some things that you absolutely should not do in a presentation...
 I'm sorry I no longer care about your paper.
 
 
----
-
 # Presentation: Major no-no's
 
 Now for some things that you absolutely should not do in a presentation...
@@ -361,9 +317,6 @@ Now for some things that you absolutely should not do in a presentation...
 
 It's blurry because you were lazy and just copied something from your paper into your presentation!
 
-
-
----
 
 # Presentation: Major no-no's
 

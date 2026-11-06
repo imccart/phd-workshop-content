@@ -11,14 +11,12 @@ institute: "Economics PhD Professionalism Workshop"
 - Increasingly important as an assistant professor (teaching, service, research, life)
 - No single system works for all people
 
----
 
 # Old school or digital
 
 - Writing things down helps, so good 'ole pen and paper is hard to beat if you can keep it organized. Try a journaling method (e.g., bullet journals) if this is your jam.
 - I prefer always having my lists and "journals" available at all times, which just isn't feasible for me on paper.
 
----
 
 # Main considerations
 
@@ -26,7 +24,6 @@ institute: "Economics PhD Professionalism Workshop"
 - Calendar
 - To-do list
 
----
 
 # My system
 
@@ -40,7 +37,6 @@ institute: "Economics PhD Professionalism Workshop"
 
 It is very rare that I drop the ball without knowing it.
 
----
 
 # Other considerations
 
