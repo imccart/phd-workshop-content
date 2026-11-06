@@ -5,11 +5,7 @@ author: "Ian McCarthy, Emory University"
 institute: "Economics PhD Professionalism Workshop"
 ---
 
-# Backing up {.center}
-
-::: {.big}
-If your laptop died tonight, what would you lose?
-:::
+# If your laptop died tonight, what would you lose? {.center}
 
 . . .
 

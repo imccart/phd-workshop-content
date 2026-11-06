@@ -264,12 +264,12 @@ Same folders either way. The only difference is the paper file and who else can 
 **👥 Co-authored**
 
 - `paper/paper.tex`, synced with Overleaf through GitHub
-- Overleaf gets `paper/` and `presentations/`, nothing else (next slide)
+- Overleaf syncs `paper/` and `presentations/` only (next slide)
 :::
 ::::
 
 
-# What Overleaf can touch
+# Which folders Overleaf can change
 
 ::: {.tree}
 ```
