@@ -75,7 +75,7 @@ Three folders under `research-projects/`, and a project moves through them in or
 
 **Completed**
 
-Moved to `_completed/` (or `_stalled/`) once the paper is accepted and the supporting documentation is finalized
+Moved to `_completed/` once the paper is accepted and the supporting documentation is finalized, or to `_stalled/` if it never gets there
 ::::
 :::::
 

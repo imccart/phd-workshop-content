@@ -198,7 +198,7 @@ Sitting in `_future-ideas/`
 
 **One command**
 
-`/kickoff-research`, a Claude Code skill I wrote. The first thing it asks: solo or co-authored?
+`/kickoff-research`, a Claude Code skill I wrote. Everything that follows is automatic
 ::::
 :::: {.arrow}
 →
@@ -218,7 +218,7 @@ Sitting in `_future-ideas/`
 
 **The paper workflow**
 
-Solo: Quarto. Co-authored: LaTeX + Overleaf
+Solo: Quarto. Co-authored: LaTeX synced with Overleaf (next slides)
 ::::
 :::::
 
