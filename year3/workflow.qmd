@@ -435,10 +435,6 @@ Solo: Quarto. Co-authored: LaTeX synced with Overleaf (next slides)
 ::::
 :::::
 
-. . .
-
-I used to do this by hand from a GitHub template, still there if you want it: [R research template](https://github.com/imccart/research-template).
-
 
 # Where the to-dos live
 
