@@ -508,33 +508,29 @@ Most of my code and a lot of my notes now start as a conversation with Claude.
 ::: {.card}
 **🤖 What it does**
 
-- Writes the code from a plain description of the step
+- Writes the code from my instructions (lots of safeguards and checks here)
 - Builds the project skeleton and the driver scripts
 - Summarizes papers and drafts the notes
 :::
 ::: {.card}
 **🔍 What I check**
 
-- Every number in the paper comes from a script, not a chat window
-- Every citation is a paper I've opened
-- Row counts after a merge, and whether the estimates make sense
+- Every number in the paper (tracked in a ledger)
+- Every citation is a paper I've reviewed
+- Many checks (some automated) on data cleanup/management steps and common analysis
 :::
 ::: {.card}
-**✍️ What stays mine**
+**✍️ What I do**
 
-- The question and the identification
-- The writing. Journals ask now, and it reads differently
-- The call on when it's wrong
+- Form the research question and the identification
+- Interpreting results along the way, updating analyses as needed
+- The writing. Journals ask now, and all AI tools still write poorly
 :::
 ::::
 
 . . .
 
-It will make things up when it doesn't know the answer: a citation, a result, a reason the estimates moved. Check its work the way you'd check a new RA's.
-
-::: {.notes}
-Ask who has already used it for code, and who has had it invent a citation.
-:::
+AI can still make things up when it doesn't know the answer. It's better at citing real papers, but it can still miss the point of those papers or get the interpretation of a result/analysis way way off. Check its work the way you'd check a new RA's.
 
 
 # Back up {#back-up .divider background-color="#23373B"}
