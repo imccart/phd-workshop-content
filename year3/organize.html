@@ -1048,12 +1048,12 @@ Ian McCarthy, Emory University
 
 <section id="project-notebooks-my-system" class="title-slide slide level1 center">
 <h1>Project notebooks: my system</h1>
-<p>Three categories, and a project moves through them in order.</p>
+<p>Three folders under <code>research-projects/</code>, and a project moves through them in order.</p>
 <div class="flow">
 <div class="step">
 <p>💡</p>
 <p><strong>Pending</strong></p>
-<p>Ideas. Brainstormed in a conversation with Claude first, then saved as a note to Google Drive, and moved to its own folder once it has had some real thought</p>
+<p><code>_future-ideas/</code>, one folder per idea. Starts as a conversation with Claude, then a note saved to Google Drive</p>
 </div>
 <div class="arrow fragment">
 <p>→</p>
@@ -1061,7 +1061,7 @@ Ian McCarthy, Emory University
 <div class="step fragment">
 <p>🔬</p>
 <p><strong>Ongoing</strong></p>
-<p>Actual working projects. One section per project, with “meeting notes” (if co-authored) and “ideas/thoughts”</p>
+<p><code>/kickoff-promote</code> moves the idea folder up to a project of its own, builds the standard skeleton, and adds it to the active list</p>
 </div>
 <div class="arrow fragment">
 <p>→</p>
@@ -1069,7 +1069,7 @@ Ian McCarthy, Emory University
 <div class="step fragment">
 <p>✅</p>
 <p><strong>Completed</strong></p>
-<p>Once the paper is officially accepted and all the supporting documentation is finalized</p>
+<p><code>/post-archive</code> moves it to <code>_completed/</code> (or <code>_stalled/</code>) once the paper is accepted and the supporting documentation is finalized</p>
 </div>
 </div>
 <aside class="notes">
@@ -1099,7 +1099,7 @@ display:block!important;
 
 <section id="project-folders-1" class="title-slide slide level1 center">
 <h1>Project folders</h1>
-<p>Every one of my projects starts from the same skeleton. A single command (<code>/kickoff-research</code>, a Claude Code skill) builds it, so no two projects are organized differently.</p>
+<p>Every one of my projects starts from the same skeleton. A single command builds it (<code>/kickoff-promote</code> for an idea coming out of <code>_future-ideas/</code>, <code>/kickoff-research</code> for a brand-new one), so no two projects are organized differently.</p>
 <div class="tree">
 <pre><code>📁 project
 ├── 📄 README.md

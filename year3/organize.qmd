@@ -47,7 +47,7 @@ Organize your projects into notebooks (or folders) of some kind. Digital options
 
 # Project notebooks: my system
 
-Three categories, and a project moves through them in order.
+Three folders under `research-projects/`, and a project moves through them in order.
 
 ::::: {.flow}
 :::: {.step}
@@ -55,7 +55,7 @@ Three categories, and a project moves through them in order.
 
 **Pending**
 
-Ideas. Brainstormed in a conversation with Claude first, then saved as a note to Google Drive, and moved to its own folder once it has had some real thought
+`_future-ideas/`, one folder per idea. Starts as a conversation with Claude, then a note saved to Google Drive
 ::::
 :::: {.arrow .fragment}
 →
@@ -65,7 +65,7 @@ Ideas. Brainstormed in a conversation with Claude first, then saved as a note to
 
 **Ongoing**
 
-Actual working projects. One section per project, with "meeting notes" (if co-authored) and "ideas/thoughts"
+`/kickoff-promote` moves the idea folder up to a project of its own, builds the standard skeleton, and adds it to the active list
 ::::
 :::: {.arrow .fragment}
 →
@@ -75,7 +75,7 @@ Actual working projects. One section per project, with "meeting notes" (if co-au
 
 **Completed**
 
-Once the paper is officially accepted and all the supporting documentation is finalized
+`/post-archive` moves it to `_completed/` (or `_stalled/`) once the paper is accepted and the supporting documentation is finalized
 ::::
 :::::
 
@@ -93,7 +93,7 @@ Key is to have a system where files are named appropriately and everything is ea
 
 # Project folders
 
-Every one of my projects starts from the same skeleton. A single command (`/kickoff-research`, a Claude Code skill) builds it, so no two projects are organized differently.
+Every one of my projects starts from the same skeleton. A single command builds it (`/kickoff-promote` for an idea coming out of `_future-ideas/`, `/kickoff-research` for a brand-new one), so no two projects are organized differently.
 
 ::: {.tree}
 ```

@@ -187,6 +187,8 @@ Record the version of every R package in a `.lock` file
 💡
 
 **An idea worth a folder**
+
+Sitting in `_future-ideas/`
 ::::
 :::: {.arrow}
 →
@@ -196,7 +198,7 @@ Record the version of every R package in a `.lock` file
 
 **One command**
 
-`/kickoff-research`, a Claude Code skill. The first thing it asks: solo or co-authored?
+`/kickoff-promote`, a Claude Code skill (`/kickoff-research` for a brand-new project). The first thing it asks: solo or co-authored?
 ::::
 :::: {.arrow}
 →
