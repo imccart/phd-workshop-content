@@ -52,26 +52,13 @@ What would your paper look like if everything works out perfectly? This is the "
 
 # What it looks like
 
-Four sentences. You are allowed to make up the results, within reason (Shapiro's words, not mine).
+Four sentences. You are allowed to make up the results, within reason (Shapiro's phrase).
 
 ::: {.steps}
-1. **The issue.** [Big thing] matters because [stakes].
+1. **The issue.** [The issue] matters because [who it affects, and how].
 2. **The question.** This paper asks whether [specific question].
 3. **The approach.** We use [data] and [design] to [what you will do].
 4. **The answer.** We find [the result you hope for], which means [why anyone should care].
-:::
-
-
-# Try it
-
-Five minutes. Write those four sentences for your paper, in that order.
-
-. . .
-
-Then trade with the person next to you. Can they say, in one sentence, what your paper finds?
-
-::: {.notes}
-Give them the full five minutes in silence. The trade is the point: if the neighbor cannot restate the finding, the question is not sharp yet.
 :::
 
 
@@ -95,7 +82,7 @@ The introduction tells you what the paper needs. One order that works:
 
 **Data and setting**
 
-What you know cold
+The part you already know
 ::::
 :::: {.arrow}
 →
@@ -105,7 +92,7 @@ What you know cold
 
 **Empirical approach**
 
-What the intro promised
+What the introduction said you would do
 ::::
 :::: {.arrow}
 →
@@ -115,7 +102,7 @@ What the intro promised
 
 **Results**
 
-As they come in
+As the estimates come in
 ::::
 :::: {.arrow}
 →
@@ -136,9 +123,9 @@ You have to make time to do it. Some strategies:
 
 :::: {.cards .three}
 ::: {.card}
-**⏰ Block it**
+**⏰ Block the time**
 
-At least one hour in the mornings, before anything else gets in
+At least one hour in the mornings
 :::
 ::: {.card}
 **🎯 Name the goal**
@@ -146,7 +133,7 @@ At least one hour in the mornings, before anything else gets in
 "Write the data section," "add the robustness check," not "work on the paper"
 :::
 ::: {.card}
-**🏕️ Do it with others**
+**🏕️ Write with others**
 
 Writing sessions or retreats with classmates
 :::
@@ -161,9 +148,9 @@ Staring at the screen for 15 minutes without writing? Take a break and come back
 
 :::: {.cards .two}
 ::: {.card}
-**✏️ Write the ugly version**
+**✏️ Write a rough version first**
 
-Bad sentences on the page beat good ones in your head. Fix them tomorrow
+A bad sentence on the page can be fixed tomorrow
 :::
 ::: {.card}
 **🖼️ Start from the figure**
@@ -176,9 +163,9 @@ Write the caption, then the paragraph that explains it
 Explain the result to a classmate, then write down what you said
 :::
 ::: {.card}
-**✂️ Shrink the task**
+**✂️ Make the task smaller**
 
-One paragraph. Then another
+One paragraph, then the next
 :::
 ::::
 
