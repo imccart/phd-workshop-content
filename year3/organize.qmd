@@ -75,13 +75,9 @@ Three folders under `research-projects/`, and a project moves through them in or
 
 **Completed**
 
-`/post-archive` moves it to `_completed/` (or `_stalled/`) once the paper is accepted and the supporting documentation is finalized
+Moved to `_completed/` (or `_stalled/`) once the paper is accepted and the supporting documentation is finalized
 ::::
 :::::
-
-::: {.back}
-[↩ back to the list](#getting-organized)
-:::
 
 ::: {.notes}
 Ask the room before revealing the flow: where do your half-formed ideas live right now? Phone notes, a notebook, nowhere?
@@ -97,7 +93,7 @@ Key is to have a system where files are named appropriately and everything is ea
 
 # Project folders
 
-Every one of my projects starts from the same skeleton. A single command builds it (`/kickoff-promote` for an idea coming out of `_future-ideas/`, `/kickoff-research` for a brand-new one), so no two projects are organized differently.
+Every one of my projects starts from the same skeleton. One command builds it, so no two projects are organized differently.
 
 ::: {.tree}
 ```
@@ -120,6 +116,14 @@ Every one of my projects starts from the same skeleton. A single command builds 
 ```
 :::
 
+::: {.popup .fragment}
+**`data/input/` is all symbolic links**
+
+- Raw data lives in one place outside every project, `research-data/`, one folder per dataset
+- Cleaned panels live in data-only repos under `research-data-repo/`, each with its own `data/output/`
+- A project links to what it needs (`ln -s`) instead of copying it, so one file serves every project and no project ever modifies it
+:::
+
 
 # Project folders
 
@@ -129,43 +133,30 @@ Every one of my projects starts from the same skeleton. A single command builds 
     - Don't let it get so dirty that you forget stuff
     - Clean up regularly!
 
-::: {.back}
-[↩ back to the list](#getting-organized)
-:::
-
 
 # Organizing Others' Research {background-color="#23373B"}
 
 # Reading papers
 
-We read lots of papers. That's part of the job and critical to doing good work, and the notes you take on them are worth keeping.
+We read lots of papers. That's part of the job and critical to doing good work, and the notes you take on them are worth keeping. Mine live in two places:
 
 :::: {.cards .two}
 ::: {.card}
-**📝 Where the PDFs and notes live**
+**📚 Zotero**
 
-- OneNote "learning" notebook
-- Several Mac/iPad options
-- Research Rabbit
-- ReMarkable tablet (my strategy)
+The library. Every PDF with its citation, plus the notes on it
 :::
 ::: {.card}
-**⚡ Digesting papers faster**
+**✍️ ReMarkable**
 
-- Elicit
-- Semantic Scholar
-- Scholarcy
+Where the reading and the handwritten notes happen
 :::
 ::::
-
-::: {.back}
-[↩ back to the list](#getting-organized)
-:::
 
 
 # Citation managers
 
-Zotero, Mendeley, and EndNote Web all work. Mine is Zotero, and the bibliography flows one way:
+Zotero, Mendeley, and EndNote Web all work. Mine is Zotero:
 
 ::::: {.flow}
 :::: {.step}
@@ -207,6 +198,9 @@ Pulled into every paper, never edited by hand
 ::::
 :::::
 
-::: {.back}
-[↩ back to the list](#getting-organized)
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
 :::

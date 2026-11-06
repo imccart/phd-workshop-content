@@ -161,3 +161,10 @@ Below are a few links to papers that are generally thought to be extremely well-
 - [Gentzkow and Shapiro (2008), QJE](https://web.stanford.edu/~gentzkow/research/TV_QJE_2008.pdf)
 - [Einav, Finkelstein, and Cullen (2010), QJE](https://academic.oup.com/qje/article/125/3/877/1903679)
 - [Weitzman (2009), ReStat](https://scholar.harvard.edu/weitzman/publications/modeling-and-interpreting-economics-catastrophic-climate-change)
+
+
+# Done {.center}
+
+::: {.big}
+[↩ back to the workshop page](https://phd-workshop.classes.ianmccarthyecon.com/){preview-link="false"}
+:::
